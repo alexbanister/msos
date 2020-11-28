@@ -1,7327 +1,7327 @@
 local defaultPrio = {
-	19852={
+	["19852"] = {
 		itemId=19852,
 		name="Ancient Hakkari Manslayer",
 		mats=false,
 		special=false,
 		prio="1H Fury",
 	},
-	18832={
+	["18832"] = {
 		itemId=18832,
 		name="Brutality Blade",
 		mats=false,
 		special=false,
 		prio="1H Fury/Rogue",
 	},
-	17104={
+	["17104"] = {
 		itemId=17104,
 		name="Spinal Reaper",
 		mats=false,
 		special=false,
 		prio="2H Fury/ Ret Paladin",
 	},
-	19854={
+	["19854"] = {
 		itemId=19854,
 		name="Zin'rokh Destroyer of Worlds",
 		mats=false,
 		special=false,
 		prio="2H Fury/Ret pally",
 	},
-	19334={
+	["19334"] = {
 		itemId=19334,
 		name="The Untamed Blade",
 		mats=false,
 		special=false,
 		prio="2H Warrior dps & Ret pally",
 	},
-	19437={
+	["19437"] = {
 		itemId=19437,
 		name="Boots of Pure Thought",
 		mats=false,
 		special=false,
 		prio="All healers",
 	},
-	19399={
+	["19399"] = {
 		itemId=19399,
 		name="Black Ash Robe",
 		mats=false,
 		special=false,
 		prio="All healers (Druid tank should consider if fire resist upgrade)",
 	},
-	22721={
+	["22721"] = {
 		itemId=22721,
 		name="Band of Servitude",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	22716={
+	["22716"] = {
 		itemId=22716,
 		name="Belt of Untapped Power",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	20032={
+	["20032"] = {
 		itemId=20032,
 		name="Flowing Ritual Robes",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19929={
+	["19929"] = {
 		itemId=19929,
 		name="Bloodtinged Gloves",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19923={
+	["19923"] = {
 		itemId=19923,
 		name="Jeklik's Opaline Talisman",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19903={
+	["19903"] = {
 		itemId=19903,
 		name="Fang of Venoxis",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19897={
+	["19897"] = {
 		itemId=19897,
 		name="Betrayer's Boots",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19895={
+	["19895"] = {
 		itemId=19895,
 		name="Bloodtinged Kilt",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19891={
+	["19891"] = {
 		itemId=19891,
 		name="Jin'do's Bag of Whammies",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19884={
+	["19884"] = {
 		itemId=19884,
 		name="Jin'do's Judgement",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19864={
+	["19864"] = {
 		itemId=19864,
 		name="Bloodcaller",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19857={
+	["19857"] = {
 		itemId=19857,
 		name="Cloak of Consumption",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19400={
+	["19400"] = {
 		itemId=19400,
 		name="Firemaw's Clutch",
 		mats=false,
 		special=false,
 		prio="Caster dps",
 	},
-	19397={
+	["19397"] = {
 		itemId=19397,
 		name="Ring of Blackrock",
 		mats=false,
 		special=false,
 		prio="Caster dps",
 	},
-	19370={
+	["19370"] = {
 		itemId=19370,
 		name="Mantle of the Blackwing Cabal",
 		mats=false,
 		special=false,
 		prio="Caster dps",
 	},
-	19367={
+	["19367"] = {
 		itemId=19367,
 		name="Dragon's Touch",
 		mats=false,
 		special=false,
 		prio="Caster dps",
 	},
-	19147={
+	["19147"] = {
 		itemId=19147,
 		name="Ring of Spell Power",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19145={
+	["19145"] = {
 		itemId=19145,
 		name="Robe of Volatile Power",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19136={
+	["19136"] = {
 		itemId=19136,
 		name="Mana Igniting Cord",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	18878={
+	["18878"] = {
 		itemId=18878,
 		name="Sorcerous Dagger",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	18820={
+	["18820"] = {
 		itemId=18820,
 		name="Talisman of Ephemeral Power",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	18814={
+	["18814"] = {
 		itemId=18814,
 		name="Choker of the Fire Lord",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	17109={
+	["17109"] = {
 		itemId=17109,
 		name="Choker of Enlightenment",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	17103={
+	["17103"] = {
 		itemId=17103,
 		name="Azuresong Mageblade",
 		mats=false,
 		special=false,
 		prio="Caster DPS",
 	},
-	19375={
+	["19375"] = {
 		itemId=19375,
 		name="Mish'undare Circlet of the Mind Flayer",
 		mats=false,
 		special=false,
 		prio="Caster dps > holy pally > OS",
 	},
-	19355={
+	["19355"] = {
 		itemId=19355,
 		name="Shadow Wing Focus Staff",
 		mats=false,
 		special=false,
 		prio="Caster dps > resto druid",
 	},
-	17110={
+	["17110"] = {
 		itemId=17110,
 		name="Seal of the Archmagus",
 		mats=false,
 		special=false,
 		prio="Caster/ Healers",
 	},
-	19138={
+	["19138"] = {
 		itemId=19138,
 		name="Band of Sulfuras",
 		mats=false,
 		special=false,
 		prio="Casters",
 	},
-	18823={
+	["18823"] = {
 		itemId=18823,
 		name="Aged Core Leather Gloves",
 		mats=false,
 		special=false,
 		prio="Dagger Rogue > Feral/1H Fury",
 	},
-	19346={
+	["19346"] = {
 		itemId=19346,
 		name="Dragonfang Blade",
 		mats=false,
 		special=false,
 		prio="Dagger rogues (Warrior tank first if needed)",
 	},
-	19335={
+	["19335"] = {
 		itemId=19335,
 		name="Spineshatter",
 		mats=false,
 		special=false,
 		prio="DPS warrior",
 	},
-	19436={
+	["19436"] = {
 		itemId=19436,
 		name="Cloak of Draconic Might",
 		mats=false,
 		special=false,
 		prio="DPS warriors (including OT) then ret paladin and feral dps",
 	},
-	19396={
+	["19396"] = {
 		itemId=19396,
 		name="Taut Dragonhide Belt",
 		mats=false,
 		special=false,
 		prio="Druid tank",
 	},
-	19376={
+	["19376"] = {
 		itemId=19376,
 		name="Archimtiros' Ring of Reckoning",
 		mats=false,
 		special=false,
 		prio="Druid tank then paladin tank",
 	},
-	19386={
+	["19386"] = {
 		itemId=19386,
 		name="Elementium Threaded Cloak",
 		mats=false,
 		special=false,
 		prio="Druid tank then warrior MT then warrior OT",
 	},
-	19439={
+	["19439"] = {
 		itemId=19439,
 		name="Interlaced Shadow Jerkin",
 		mats=false,
 		special=false,
 		prio="Druid tanks for shadow resist",
 	},
-	19389={
+	["19389"] = {
 		itemId=19389,
 		name="Taut Dragonhide Shoulderpads",
 		mats=false,
 		special=false,
 		prio="Druid tanks then feral dps",
 	},
-	22718={
+	["22718"] = {
 		itemId=22718,
 		name="Blooddrenched Mask",
 		mats=false,
 		special=false,
 		prio="Feral",
 	},
-	19945={
+	["19945"] = {
 		itemId=19945,
 		name="Foror's Eyepatch",
 		mats=false,
 		special=false,
 		prio="Feral",
 	},
-	19944={
+	["19944"] = {
 		itemId=19944,
 		name="Nat Pagle's Fish Terminator",
 		mats=false,
 		special=false,
 		prio="Feral",
 	},
-	19906={
+	["19906"] = {
 		itemId=19906,
 		name="Blooddrenched Footpads",
 		mats=false,
 		special=false,
 		prio="Feral",
 	},
-	19889={
+	["19889"] = {
 		itemId=19889,
 		name="Blooddrenched Leggings",
 		mats=false,
 		special=false,
 		prio="Feral",
 	},
-	19358={
+	["19358"] = {
 		itemId=19358,
 		name="Draconic Maul",
 		mats=false,
 		special=false,
 		prio="Feral > PvP roll",
 	},
-	19340={
+	["19340"] = {
 		itemId=19340,
 		name="Rune of Metamorphosis",
 		mats=false,
 		special=false,
 		prio="Feral dps > druid offspec",
 	},
-	19381={
+	["19381"] = {
 		itemId=19381,
 		name="Boots of the Shadow Flame",
 		mats=false,
 		special=false,
 		prio="Feral tank > feral dps > then rogues",
 	},
-	19146={
+	["19146"] = {
 		itemId=19146,
 		name="Wristguards of Stability",
 		mats=false,
 		special=false,
 		prio="Feral/Fury Warrior",
 	},
-	19869={
+	["19869"] = {
 		itemId=19869,
 		name="Blooddrenched Grips",
 		mats=false,
 		special=false,
 		prio="Feral/Rogue",
 	},
-	18811={
+	["18811"] = {
 		itemId=18811,
 		name="Fireproof Cloak",
 		mats=false,
 		special=false,
 		prio="Fire Resist",
 	},
-	19856={
+	["19856"] = {
 		itemId=19856,
 		name="The Eye of Hakkar",
 		mats=false,
 		special=false,
 		prio="Fury Warrior / Feral Druid",
 	},
-	19137={
+	["19137"] = {
 		itemId=19137,
 		name="Onslaught Girdle",
 		mats=false,
 		special=false,
 		prio="Fury Warrior / Ret Pally",
 	},
-	19363={
+	["19363"] = {
 		itemId=19363,
 		name="Crul'shorukh Edge of Chaos",
 		mats=false,
 		special=false,
 		prio="Fury warriors > OT",
 	},
-	19352={
+	["19352"] = {
 		itemId=19352,
 		name="Chromatically Tempered Sword",
 		mats=false,
 		special=false,
 		prio="Fury warriors and sword rogues",
 	},
-	22714={
+	["22714"] = {
 		itemId=22714,
 		name="Sacrificial Gauntlets",
 		mats=false,
 		special=false,
 		prio="Fury/Ret Pally",
 	},
-	19874={
+	["19874"] = {
 		itemId=19874,
 		name="Halberd of Smiting",
 		mats=false,
 		special=false,
 		prio="Fury/Ret Pally",
 	},
-	18872={
+	["18872"] = {
 		itemId=18872,
 		name="Manastorm Leggings",
 		mats=false,
 		special=false,
 		prio="Healer",
 	},
-	22720={
+	["22720"] = {
 		itemId=22720,
 		name="Zulian Headdress",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	22713={
+	["22713"] = {
 		itemId=22713,
 		name="Zulian Scepter of Rites",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19920={
+	["19920"] = {
 		itemId=19920,
 		name="Primalist's Band",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19870={
+	["19870"] = {
 		itemId=19870,
 		name="Hakkari Loa Cloak",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19863={
+	["19863"] = {
 		itemId=19863,
 		name="Primalist's Seal",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19430={
+	["19430"] = {
 		itemId=19430,
 		name="Shroud of Pure Thought",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19395={
+	["19395"] = {
 		itemId=19395,
 		name="Rejuvenating Gem",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19391={
+	["19391"] = {
 		itemId=19391,
 		name="Shimmering Geta",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19385={
+	["19385"] = {
 		itemId=19385,
 		name="Empowered Leggings",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19382={
+	["19382"] = {
 		itemId=19382,
 		name="Pure Elementium Band",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19371={
+	["19371"] = {
 		itemId=19371,
 		name="Pendant of the Fallen Dragon",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19142={
+	["19142"] = {
 		itemId=19142,
 		name="Fire Runed Grimoire",
 		mats=false,
 		special=false,
 		prio="Healers",
 	},
-	19885={
+	["19885"] = {
 		itemId=19885,
 		name="Jin'do's Evil Eye",
 		mats=false,
 		special=false,
 		prio="Healers (BIS Holy Priests) + Others",
 	},
-	19909={
+	["19909"] = {
 		itemId=19909,
 		name="Will of Arlokk",
 		mats=false,
 		special=false,
 		prio="Healers (Weak Benediction)",
 	},
-	19369={
+	["19369"] = {
 		itemId=19369,
 		name="Gloves of Rapid Evolution",
 		mats=false,
 		special=false,
 		prio="Healers > Caster dps > Offspec",
 	},
-	17106={
+	["17106"] = {
 		itemId=17106,
 		name="Malistar's Defender",
 		mats=false,
 		special=false,
 		prio="Holly Pally",
 	},
-	19348={
+	["19348"] = {
 		itemId=19348,
 		name="Red Dragonscale Protector",
 		mats=false,
 		special=false,
 		prio="Holy paladins",
 	},
-	19390={
+	["19390"] = {
 		itemId=19390,
 		name="Taut Dragonhide Gloves",
 		mats=false,
 		special=false,
 		prio="Holy paladins then resto druids",
 	},
-	20266={
+	["20266"] = {
 		itemId=20266,
 		name="Peacekeeper Leggings",
 		mats=false,
 		special=false,
 		prio="Holy Pally",
 	},
-	20265={
+	["20265"] = {
 		itemId=20265,
 		name="Peacekeeper Boots",
 		mats=false,
 		special=false,
 		prio="Holy Pally",
 	},
-	18824={
+	["18824"] = {
 		itemId=18824,
 		name="Magma Tempered Boots",
 		mats=false,
 		special=false,
 		prio="Holy Pally",
 	},
-	20264={
+	["20264"] = {
 		itemId=20264,
 		name="Peacekeeper Gauntlets",
 		mats=false,
 		special=false,
 		prio="Holy Pally BIS Phase 4",
 	},
-	19922={
+	["19922"] = {
 		itemId=19922,
 		name="Arlokk's Hoodoo Stick",
 		mats=false,
 		special=false,
 		prio="Holy Pally/Resto Druid",
 	},
-	19890={
+	["19890"] = {
 		itemId=19890,
 		name="Jin'do's Hexxer",
 		mats=false,
 		special=false,
 		prio="Holy Pally/Resto Druid",
 	},
-	19967={
+	["19967"] = {
 		itemId=19967,
 		name="Thoughtblighter",
 		mats=false,
 		special=false,
 		prio="Holy Priests",
 	},
-	19435={
+	["19435"] = {
 		itemId=19435,
 		name="Essence Gatherer",
 		mats=false,
 		special=false,
 		prio="Holy priests",
 	},
-	19899={
+	["19899"] = {
 		itemId=19899,
 		name="Ritualistic Legguards",
 		mats=false,
 		special=false,
 		prio="Holy Priests/Healers",
 	},
-	22715={
+	["22715"] = {
 		itemId=22715,
 		name="Gloves of the Tormented",
 		mats=false,
 		special=false,
 		prio="Hunter",
 	},
-	20257={
+	["20257"] = {
 		itemId=20257,
 		name="Seafury Gauntlets",
 		mats=false,
 		special=false,
 		prio="Hunter",
 	},
-	19904={
+	["19904"] = {
 		itemId=19904,
 		name="Runed Bloodstained Hauberk",
 		mats=false,
 		special=false,
 		prio="Hunter",
 	},
-	19859={
+	["19859"] = {
 		itemId=19859,
 		name="Fang of the Faceless",
 		mats=false,
 		special=false,
 		prio="Hunter",
 	},
-	18812={
+	["18812"] = {
 		itemId=18812,
 		name="Wristguards of True Flight",
 		mats=false,
 		special=false,
 		prio="Hunter",
 	},
-	18817={
+	["18817"] = {
 		itemId=18817,
 		name="Crown of Destruction",
 		mats=false,
 		special=false,
 		prio="Hunter/ Fury Warrior/Ret Pally",
 	},
-	18821={
+	["18821"] = {
 		itemId=18821,
 		name="Quick Strike Ring",
 		mats=false,
 		special=false,
 		prio="Hunter/ Melee DPS",
 	},
-	19144={
+	["19144"] = {
 		itemId=19144,
 		name="Sabatons of the Flamewalker",
 		mats=false,
 		special=false,
 		prio="Hunter/Ret Pally",
 	},
-	17102={
+	["17102"] = {
 		itemId=17102,
 		name="Cloak of the Shrouded Mists",
 		mats=false,
 		special=false,
 		prio="Hunter/Rogue/Fury Warriors",
 	},
-	20038={
+	["20038"] = {
 		itemId=20038,
 		name="Mandokir's Sting",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	19900={
+	["19900"] = {
 		itemId=19900,
 		name="Zulian Stone Axe",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	19380={
+	["19380"] = {
 		itemId=19380,
 		name="Therazane's Link",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	19373={
+	["19373"] = {
 		itemId=19373,
 		name="Black Brood Pauldrons",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	19361={
+	["19361"] = {
 		itemId=19361,
 		name="Ashjre'thul Crossbow of Smiting",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	19336={
+	["19336"] = {
 		itemId=19336,
 		name="Arcane Infused Gem",
 		mats=false,
 		special=false,
 		prio="Hunters",
 	},
-	18703={
+	["18703"] = {
 		itemId=18703,
 		name="Ancient Petrified Leaf",
 		mats=false,
 		special=true,
 		prio="Hunters",
 	},
-	19377={
+	["19377"] = {
 		itemId=19377,
 		name="Prestor's Talisman of Connivery",
 		mats=false,
 		special=false,
 		prio="Hunters - rogues - feral dps",
 	},
-	19374={
+	["19374"] = {
 		itemId=19374,
 		name="Bracers of Arcane Accuracy",
 		mats=false,
 		special=false,
 		prio="Locks & Mages > shadow priest (shadow priests get 10% hit from talents)",
 	},
-	19379={
+	["19379"] = {
 		itemId=19379,
 		name="Neltharion's Tear",
 		mats=false,
 		special=false,
 		prio="Locks then mages then shadow priests (Locks need +hit the most)",
 	},
-	19434={
+	["19434"] = {
 		itemId=19434,
 		name="Band of Dark Dominion",
 		mats=false,
 		special=false,
 		prio="Locks then shadow priests",
 	},
-	19438={
+	["19438"] = {
 		itemId=19438,
 		name="Ringo's Blizzard Boots",
 		mats=false,
 		special=false,
 		prio="Mages",
 	},
-	19339={
+	["19339"] = {
 		itemId=19339,
 		name="Mind Quickening Gem",
 		mats=false,
 		special=false,
 		prio="Mages",
 	},
-	19403={
+	["19403"] = {
 		itemId=19403,
 		name="Band of Forced Concentration",
 		mats=false,
 		special=false,
 		prio="Mages & warlocks > shadow priests > OS",
 	},
-	19388={
+	["19388"] = {
 		itemId=19388,
 		name="Angelista's Grasp",
 		mats=false,
 		special=false,
 		prio="Mages and locks then shadow priests",
 	},
-	22722={
+	["22722"] = {
 		itemId=22722,
 		name="Seal of the Gurubashi Berserker",
 		mats=false,
 		special=false,
 		prio="Melee DPS/Hunter",
 	},
-	22712={
+	["22712"] = {
 		itemId=22712,
 		name="Might of the Tribe",
 		mats=false,
 		special=false,
 		prio="Melee DPS/Hunter",
 	},
-	19907={
+	["19907"] = {
 		itemId=19907,
 		name="Zulian Tigerhide Cloak",
 		mats=false,
 		special=false,
 		prio="Melee DPS/Hunter",
 	},
-	19406={
+	["19406"] = {
 		itemId=19406,
 		name="Drake Fang Talisman",
 		mats=false,
 		special=false,
 		prio="MT > Druid tank/rogue/warrior dps > feral dps/hunter/ret",
 	},
-	19351={
+	["19351"] = {
 		itemId=19351,
 		name="Maladath Runed Blade of the Black Flight",
 		mats=false,
 		special=false,
 		prio="MT > Fury Warriors & Sword Rogues",
 	},
-	19394={
+	["19394"] = {
 		itemId=19394,
 		name="Drake Talon Pauldrons",
 		mats=false,
 		special=false,
 		prio="MT > OT > Melee dps",
 	},
-	19341={
+	["19341"] = {
 		itemId=19341,
 		name="Lifegiving Gem",
 		mats=false,
 		special=false,
 		prio="MT > OT > Offspec",
 	},
-	19387={
+	["19387"] = {
 		itemId=19387,
 		name="Chromatic Boots",
 		mats=false,
 		special=false,
 		prio="MT > OT/Fury Warrior/Ret paladin",
 	},
-	19365={
+	["19365"] = {
 		itemId=19365,
 		name="Claw of the Black Drake",
 		mats=false,
 		special=false,
 		prio="No priority",
 	},
-	19354={
+	["19354"] = {
 		itemId=19354,
 		name="Draconic Avenger",
 		mats=false,
 		special=false,
 		prio="No priority burn a main roll if you want it",
 	},
-	19392={
+	["19392"] = {
 		itemId=19392,
 		name="Girdle of the Fallen Crusader",
 		mats=false,
 		special=false,
 		prio="Paladins",
 	},
-	19343={
+	["19343"] = {
 		itemId=19343,
 		name="Scrolls of Blinding Light",
 		mats=false,
 		special=false,
 		prio="Paladins",
 	},
-	19345={
+	["19345"] = {
 		itemId=19345,
 		name="Aegis of Preservation",
 		mats=false,
 		special=false,
 		prio="Priests",
 	},
-	18646={
+	["18646"] = {
 		itemId=18646,
 		name="The Eye of Divinity",
 		mats=false,
 		special=false,
 		prio="Priests",
 	},
-	19003={
+	["19003"] = {
 		itemId=19003,
 		name="Head of Nefarian",
 		mats=false,
 		special=true,
 		prio="Priority to melee DPS and hunters that do not have an epic ring (Quick Strike Ring Band of Accuria Circle of Applied Force) and any caster DPS that has a Mageblade or BWL 1 handed weapon. Also prot paladins.",
 	},
-	19002={
+	["19002"] = {
 		itemId=19002,
 		name="Head of Nefarian",
 		mats=false,
 		special=true,
 		prio="Priority to melee DPS and hunters that do not have an epic ring (Quick Strike Ring Band of Accuria Circle of Applied Force) and any caster DPS that has a Mageblade or BWL 1 handed weapon. Also prot paladins.",
 	},
-	19968={
+	["19968"] = {
 		itemId=19968,
 		name="Fiery Retributer",
 		mats=false,
 		special=false,
 		prio="Prot Pally",
 	},
-	19913={
+	["19913"] = {
 		itemId=19913,
 		name="Bloodsoaked Greaves",
 		mats=false,
 		special=false,
 		prio="Prot Pally",
 	},
-	19894={
+	["19894"] = {
 		itemId=19894,
 		name="Bloodsoaked Gauntlets",
 		mats=false,
 		special=false,
 		prio="Prot Pally",
 	},
-	19878={
+	["19878"] = {
 		itemId=19878,
 		name="Bloodsoaked Pauldrons",
 		mats=false,
 		special=false,
 		prio="Prot Pally",
 	},
-	19855={
+	["19855"] = {
 		itemId=19855,
 		name="Bloodsoaked Legplates",
 		mats=false,
 		special=false,
 		prio="Prot Pally",
 	},
-	19892={
+	["19892"] = {
 		itemId=19892,
 		name="Animist's Boots",
 		mats=false,
 		special=false,
 		prio="Resto Druid",
 	},
-	19877={
+	["19877"] = {
 		itemId=19877,
 		name="Animist's Leggings",
 		mats=false,
 		special=false,
 		prio="Resto Druid",
 	},
-	19347={
+	["19347"] = {
 		itemId=19347,
 		name="Claw of Chromaggus",
 		mats=false,
 		special=false,
 		prio="Resto druid & Caster dps",
 	},
-	19928={
+	["19928"] = {
 		itemId=19928,
 		name="Animist's Spaulders",
 		mats=false,
 		special=false,
 		prio="Resto Druid BIS Phase 4",
 	},
-	18875={
+	["18875"] = {
 		itemId=18875,
 		name="Salamander Scale Pants",
 		mats=false,
 		special=false,
 		prio="Resto Druid/ Holy Pally",
 	},
-	17105={
+	["17105"] = {
 		itemId=17105,
 		name="Aurastone Hammer",
 		mats=false,
 		special=false,
 		prio="Resto Druid/Holy Paladin",
 	},
-	18810={
+	["18810"] = {
 		itemId=18810,
 		name="Wild Growth Spaulders",
 		mats=false,
 		special=false,
 		prio="Resto Druid/Holy Pally",
 	},
-	19357={
+	["19357"] = {
 		itemId=19357,
 		name="Herald of Woe",
 		mats=false,
 		special=false,
 		prio="Ret paladin",
 	},
-	19402={
+	["19402"] = {
 		itemId=19402,
 		name="Legguards of the Fallen Crusader",
 		mats=false,
 		special=false,
 		prio="Ret Paladins/Warrior DPS",
 	},
-	18822={
+	["18822"] = {
 		itemId=18822,
 		name="Obsidian Edged Blade",
 		mats=false,
 		special=false,
 		prio="Ret Pally/ 2H Fury",
 	},
-	17076={
+	["17076"] = {
 		itemId=17076,
 		name="Bonereaver's Edge",
 		mats=false,
 		special=false,
 		prio="Ret Pally/ 2H Fury",
 	},
-	17073={
+	["17073"] = {
 		itemId=17073,
 		name="Earthshaker",
 		mats=false,
 		special=false,
 		prio="Ret Pally/ 2H Fury",
 	},
-	19143={
+	["19143"] = {
 		itemId=19143,
 		name="Flameguard Gauntlets",
 		mats=false,
 		special=false,
 		prio="Ret Pally/ Fury DPS",
 	},
-	18816={
+	["18816"] = {
 		itemId=18816,
 		name="Perdition's Blade",
 		mats=false,
 		special=false,
 		prio="Rogue",
 	},
-	18805={
+	["18805"] = {
 		itemId=18805,
 		name="Core Hound Tooth",
 		mats=false,
 		special=false,
 		prio="Rogue",
 	},
-	17071={
+	["17071"] = {
 		itemId=17071,
 		name="Gutgore Ripper",
 		mats=false,
 		special=false,
 		prio="Rogue",
 	},
-	19853={
+	["19853"] = {
 		itemId=19853,
 		name="Gurubashi Dwarf Destroyer",
 		mats=false,
 		special=false,
 		prio="Rogue and Warrior DPS",
 	},
-	17069={
+	["17069"] = {
 		itemId=17069,
 		name="Striker's Mark",
 		mats=false,
 		special=false,
 		prio="Rogue BIS/DPS Warrior/Tank",
 	},
-	19925={
+	["19925"] = {
 		itemId=19925,
 		name="Band of Jin",
 		mats=false,
 		special=false,
 		prio="Rogue/Warrior dps/Hunter",
 	},
-	19898={
+	["19898"] = {
 		itemId=19898,
 		name="Seal of Jin",
 		mats=false,
 		special=false,
 		prio="Rogue/Warrior dps/Hunter",
 	},
-	19398={
+	["19398"] = {
 		itemId=19398,
 		name="Cloak of Firemaw",
 		mats=false,
 		special=false,
 		prio="Rogues",
 	},
-	19342={
+	["19342"] = {
 		itemId=19342,
 		name="Venomous Totem",
 		mats=false,
 		special=false,
 		prio="Rogues",
 	},
-	19350={
+	["19350"] = {
 		itemId=19350,
 		name="Heartstriker",
 		mats=false,
 		special=false,
 		prio="Rogues and warrior dps",
 	},
-	19886={
+	["19886"] = {
 		itemId=19886,
 		name="The Hexxer's Cover",
 		mats=false,
 		special=false,
 		prio="Shadow Priests BIS",
 	},
-	19887={
+	["19887"] = {
 		itemId=19887,
 		name="Bloodstained Legplates",
 		mats=false,
 		special=false,
 		prio="Shaman/Hunter",
 	},
-	19875={
+	["19875"] = {
 		itemId=19875,
 		name="Bloodstained Coif",
 		mats=false,
 		special=false,
 		prio="Shaman/Hunter",
 	},
-	19901={
+	["19901"] = {
 		itemId=19901,
 		name="Zulian Slicer",
 		mats=false,
 		special=false,
 		prio="Skinners",
 	},
-	19362={
+	["19362"] = {
 		itemId=19362,
 		name="Doom's Edge",
 		mats=false,
 		special=false,
 		prio="Someone with Edgemasters that will use it",
 	},
-	18879={
+	["18879"] = {
 		itemId=18879,
 		name="Heavy Dark Iron Ring",
 		mats=false,
 		special=false,
 		prio="Tank",
 	},
-	17107={
+	["17107"] = {
 		itemId=17107,
 		name="Dragon's Blood Cape",
 		mats=false,
 		special=false,
 		prio="Tank",
 	},
-	17066={
+	["17066"] = {
 		itemId=17066,
 		name="Drillborer Disk",
 		mats=false,
 		special=false,
 		prio="Tank",
 	},
-	17065={
+	["17065"] = {
 		itemId=17065,
 		name="Medallion of Steadfast Might",
 		mats=false,
 		special=false,
 		prio="Tank",
 	},
-	19432={
+	["19432"] = {
 		itemId=19432,
 		name="Circle of Applied Force",
 		mats=false,
 		special=false,
 		prio="Tank > Melee dps",
 	},
-	17063={
+	["17063"] = {
 		itemId=17063,
 		name="Band of Accuria",
 		mats=false,
 		special=false,
 		prio="Tank then Melee DPS/Hunters",
 	},
-	18203={
+	["18203"] = {
 		itemId=18203,
 		name="Eskhandar's Right Claw",
 		mats=false,
 		special=false,
 		prio="Tank/1H Fury/Rogue",
 	},
-	19947={
+	["19947"] = {
 		itemId=19947,
 		name="Nat Pagle's Broken Reel",
 		mats=false,
 		special=false,
 		prio="Tanks",
 	},
-	19888={
+	["19888"] = {
 		itemId=19888,
 		name="Overlord's Embrace",
 		mats=false,
 		special=false,
 		prio="Tanks",
 	},
-	19871={
+	["19871"] = {
 		itemId=19871,
 		name="Talisman of Protection",
 		mats=false,
 		special=false,
 		prio="Tanks",
 	},
-	19431={
+	["19431"] = {
 		itemId=19431,
 		name="Styleen's Impeding Scarab",
 		mats=false,
 		special=false,
 		prio="Tanks",
 	},
-	17072={
+	["17072"] = {
 		itemId=17072,
 		name="Blastershot Launcher",
 		mats=false,
 		special=false,
 		prio="Tanks",
 	},
-	19433={
+	["19433"] = {
 		itemId=19433,
 		name="Emberweave Leggings",
 		mats=false,
 		special=false,
 		prio="Tanks for fire resist then hunters",
 	},
-	17077={
+	["17077"] = {
 		itemId=17077,
 		name="Crimson Shocker",
 		mats=false,
 		special=false,
 		prio="Wand Users",
 	},
-	18809={
+	["18809"] = {
 		itemId=18809,
 		name="Sash of Whispered Secrets",
 		mats=false,
 		special=false,
 		prio="Warlock/Shadow Priest",
 	},
-	19905={
+	["19905"] = {
 		itemId=19905,
 		name="Zanzil's Band",
 		mats=false,
 		special=false,
 		prio="Warlocks",
 	},
-	19407={
+	["19407"] = {
 		itemId=19407,
 		name="Ebony Flame Gloves",
 		mats=false,
 		special=false,
 		prio="Warlocks and shadow priests",
 	},
-	19893={
+	["19893"] = {
 		itemId=19893,
 		name="Zanzil's Seal",
 		mats=false,
 		special=false,
 		prio="Warlocks/Caster DPS",
 	},
-	19353={
+	["19353"] = {
 		itemId=19353,
 		name="Drake Talon Cleaver",
 		mats=false,
 		special=false,
 		prio="Warrior dps then ret paladin",
 	},
-	19364={
+	["19364"] = {
 		itemId=19364,
 		name="Ashkandi Greatsword of the Brotherhood",
 		mats=false,
 		special=false,
 		prio="Warrior dps/ret paladin > Hunters",
 	},
-	19912={
+	["19912"] = {
 		itemId=19912,
 		name="Overlord's Onyx Band",
 		mats=false,
 		special=false,
 		prio="Warrior OT (Main Tanks likey have better)",
 	},
-	19873={
+	["19873"] = {
 		itemId=19873,
 		name="Overlord's Crimson Band",
 		mats=false,
 		special=false,
 		prio="Warrior OT (MT likely have better)",
 	},
-	19349={
+	["19349"] = {
 		itemId=19349,
 		name="Elementium Reinforced Bulwark",
 		mats=false,
 		special=false,
 		prio="Warrior tank",
 	},
-	19368={
+	["19368"] = {
 		itemId=19368,
 		name="Dragonbreath Hand Cannon",
 		mats=false,
 		special=false,
 		prio="Warrior tank then warrior dps and rogues",
 	},
-	19867={
+	["19867"] = {
 		itemId=19867,
 		name="Bloodlord's Defender",
 		mats=false,
 		special=false,
 		prio="Warrior Tank/Prot Pally",
 	},
-	19862={
+	["19862"] = {
 		itemId=19862,
 		name="Aegis of the Blood God",
 		mats=false,
 		special=false,
 		prio="Warrior Tank/Prot Pally",
 	},
-	19372={
+	["19372"] = {
 		itemId=19372,
 		name="Helm of Endless Rage",
 		mats=false,
 		special=false,
 		prio="Warrior tanks > OS",
 	},
-	3228={
+	["3228"] = {
 		itemId=3228,
 		name="Jimmied Handcuffs",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	2942={
+	["2942"] = {
 		itemId=2942,
 		name="Iron Knuckles",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	2941={
+	["2941"] = {
 		itemId=2941,
 		name="Prison Shank",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	24102={
+	["24102"] = {
 		itemId=24102,
 		name="Manual of Eviscerate IX",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	24101={
+	["24101"] = {
 		itemId=24101,
 		name="Book of Ferocious Bite V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	23570={
+	["23570"] = {
 		itemId=23570,
 		name="Jom Gabbar",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23558={
+	["23558"] = {
 		itemId=23558,
 		name="The Burrower's Shell",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23557={
+	["23557"] = {
 		itemId=23557,
 		name="Larvae of the Great Worm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23548={
+	["23548"] = {
 		itemId=23548,
 		name="Might of the Scourge",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	23545={
+	["23545"] = {
 		itemId=23545,
 		name="Power of the Scourge",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	23320={
+	["23320"] = {
 		itemId=23320,
 		name="Tablet of Flame Shock VI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	23242={
+	["23242"] = {
 		itemId=23242,
 		name="Claw of the Frost Wyrm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23220={
+	["23220"] = {
 		itemId=23220,
 		name="Crystal Webbed Robe",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23219={
+	["23219"] = {
 		itemId=23219,
 		name="Girdle of the Mentor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23198={
+	["23198"] = {
 		itemId=23198,
 		name="Idol of Brutality",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23075={
+	["23075"] = {
 		itemId=23075,
 		name="Death's Bargain",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23073={
+	["23073"] = {
 		itemId=23073,
 		name="Boots of Displacement",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23070={
+	["23070"] = {
 		itemId=23070,
 		name="Leggings of Polarity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23068={
+	["23068"] = {
 		itemId=23068,
 		name="Legplates of Carnage",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23067={
+	["23067"] = {
 		itemId=23067,
 		name="Ring of the Cryptstalker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23066={
+	["23066"] = {
 		itemId=23066,
 		name="Ring of Redemption",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23065={
+	["23065"] = {
 		itemId=23065,
 		name="Ring of the Earthshatterer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23064={
+	["23064"] = {
 		itemId=23064,
 		name="Ring of the Dreamwalker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23063={
+	["23063"] = {
 		itemId=23063,
 		name="Plagueheart Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23062={
+	["23062"] = {
 		itemId=23062,
 		name="Frostfire Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23061={
+	["23061"] = {
 		itemId=23061,
 		name="Ring of Faith",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23060={
+	["23060"] = {
 		itemId=23060,
 		name="Bonescythe Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23059={
+	["23059"] = {
 		itemId=23059,
 		name="Ring of the Dreadnaught",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23057={
+	["23057"] = {
 		itemId=23057,
 		name="Gem of Trapped Innocents",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23056={
+	["23056"] = {
 		itemId=23056,
 		name="Hammer of the Twisting Nether",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23054={
+	["23054"] = {
 		itemId=23054,
 		name="Gressil Dawn of Ruin",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23053={
+	["23053"] = {
 		itemId=23053,
 		name="Stormrage's Talisman of Seething",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23050={
+	["23050"] = {
 		itemId=23050,
 		name="Cloak of the Necropolis",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23049={
+	["23049"] = {
 		itemId=23049,
 		name="Sapphiron's Left Eye",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23048={
+	["23048"] = {
 		itemId=23048,
 		name="Sapphiron's Right Eye",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23047={
+	["23047"] = {
 		itemId=23047,
 		name="Eye of the Dead",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23046={
+	["23046"] = {
 		itemId=23046,
 		name="The Restrained Essence of Sapphiron",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23045={
+	["23045"] = {
 		itemId=23045,
 		name="Shroud of Dominion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23043={
+	["23043"] = {
 		itemId=23043,
 		name="The Face of Death",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23042={
+	["23042"] = {
 		itemId=23042,
 		name="Loatheb's Reflection",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23041={
+	["23041"] = {
 		itemId=23041,
 		name="Slayer's Crest",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23040={
+	["23040"] = {
 		itemId=23040,
 		name="Glyph of Deflection",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23039={
+	["23039"] = {
 		itemId=23039,
 		name="The Eye of Nerub",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23038={
+	["23038"] = {
 		itemId=23038,
 		name="Band of Unnatural Forces",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23037={
+	["23037"] = {
 		itemId=23037,
 		name="Ring of Spiritual Fervor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23036={
+	["23036"] = {
 		itemId=23036,
 		name="Necklace of Necropsy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23035={
+	["23035"] = {
 		itemId=23035,
 		name="Preceptor's Hat",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23033={
+	["23033"] = {
 		itemId=23033,
 		name="Icy Scale Coif",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23032={
+	["23032"] = {
 		itemId=23032,
 		name="Glacial Headdress",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23031={
+	["23031"] = {
 		itemId=23031,
 		name="Band of the Inevitable",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23030={
+	["23030"] = {
 		itemId=23030,
 		name="Cloak of the Scourge",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23029={
+	["23029"] = {
 		itemId=23029,
 		name="Noth's Frigid Heart",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23028={
+	["23028"] = {
 		itemId=23028,
 		name="Hailstone Band",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23023={
+	["23023"] = {
 		itemId=23023,
 		name="Sadist's Collar",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23021={
+	["23021"] = {
 		itemId=23021,
 		name="The Soul Harvester's Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23020={
+	["23020"] = {
 		itemId=23020,
 		name="Polar Helmet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23019={
+	["23019"] = {
 		itemId=23019,
 		name="Icebane Helmet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23018={
+	["23018"] = {
 		itemId=23018,
 		name="Signet of the Fallen Defender",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23017={
+	["23017"] = {
 		itemId=23017,
 		name="Veil of Eclipse",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23014={
+	["23014"] = {
 		itemId=23014,
 		name="Iblis Blade of the Fallen Seraph",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23009={
+	["23009"] = {
 		itemId=23009,
 		name="Wand of the Whispering Dead",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23006={
+	["23006"] = {
 		itemId=23006,
 		name="Libram of Light",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23005={
+	["23005"] = {
 		itemId=23005,
 		name="Totem of Flowing Water",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23004={
+	["23004"] = {
 		itemId=23004,
 		name="Idol of Longevity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23001={
+	["23001"] = {
 		itemId=23001,
 		name="Eye of Diminution",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	23000={
+	["23000"] = {
 		itemId=23000,
 		name="Plated Abomination Ribcage",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22994={
+	["22994"] = {
 		itemId=22994,
 		name="Digested Hand of Power",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22988={
+	["22988"] = {
 		itemId=22988,
 		name="The End of Dreams",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22983={
+	["22983"] = {
 		itemId=22983,
 		name="Rime Covered Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22981={
+	["22981"] = {
 		itemId=22981,
 		name="Gluth's Missing Collar",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22968={
+	["22968"] = {
 		itemId=22968,
 		name="Glacial Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22967={
+	["22967"] = {
 		itemId=22967,
 		name="Icy Scale Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22961={
+	["22961"] = {
 		itemId=22961,
 		name="Band of Reanimation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22960={
+	["22960"] = {
 		itemId=22960,
 		name="Cloak of Suturing",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22954={
+	["22954"] = {
 		itemId=22954,
 		name="Kiss of the Spider",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22947={
+	["22947"] = {
 		itemId=22947,
 		name="Pendant of Forgotten Names",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22943={
+	["22943"] = {
 		itemId=22943,
 		name="Malice Stone Pendant",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22942={
+	["22942"] = {
 		itemId=22942,
 		name="The Widow's Embrace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22941={
+	["22941"] = {
 		itemId=22941,
 		name="Polar Shoulder Pads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22940={
+	["22940"] = {
 		itemId=22940,
 		name="Icebane Pauldrons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22939={
+	["22939"] = {
 		itemId=22939,
 		name="Band of Unanswered Prayers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22938={
+	["22938"] = {
 		itemId=22938,
 		name="Cryptfiend Silk Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22937={
+	["22937"] = {
 		itemId=22937,
 		name="Gem of Nerubis",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22936={
+	["22936"] = {
 		itemId=22936,
 		name="Wristguards of Vengeance",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22935={
+	["22935"] = {
 		itemId=22935,
 		name="Touch of Frost",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22897={
+	["22897"] = {
 		itemId=22897,
 		name="Tome of Conjure Food VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	22821={
+	["22821"] = {
 		itemId=22821,
 		name="Doomfinger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22820={
+	["22820"] = {
 		itemId=22820,
 		name="Wand of Fates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22819={
+	["22819"] = {
 		itemId=22819,
 		name="Shield of Condemnation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22818={
+	["22818"] = {
 		itemId=22818,
 		name="The Plague Bearer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22816={
+	["22816"] = {
 		itemId=22816,
 		name="Hatchet of Sundered Bone",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22815={
+	["22815"] = {
 		itemId=22815,
 		name="Severance",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22813={
+	["22813"] = {
 		itemId=22813,
 		name="Claymore of Unholy Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22810={
+	["22810"] = {
 		itemId=22810,
 		name="Toxin Injector",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22808={
+	["22808"] = {
 		itemId=22808,
 		name="The Castigator",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22807={
+	["22807"] = {
 		itemId=22807,
 		name="Wraith Blade",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22806={
+	["22806"] = {
 		itemId=22806,
 		name="Widow's Remorse",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22804={
+	["22804"] = {
 		itemId=22804,
 		name="Maexxna's Fang",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22803={
+	["22803"] = {
 		itemId=22803,
 		name="Midnight Haze",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22802={
+	["22802"] = {
 		itemId=22802,
 		name="Kingsfall",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22801={
+	["22801"] = {
 		itemId=22801,
 		name="Spire of Twilight",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22800={
+	["22800"] = {
 		itemId=22800,
 		name="Brimstone Staff",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22799={
+	["22799"] = {
 		itemId=22799,
 		name="Soulseeker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22798={
+	["22798"] = {
 		itemId=22798,
 		name="Might of Menethil",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22739={
+	["22739"] = {
 		itemId=22739,
 		name="Tome of Polymorph: Turtle",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	22732={
+	["22732"] = {
 		itemId=22732,
 		name="Mark of C'Thun",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22731={
+	["22731"] = {
 		itemId=22731,
 		name="Cloak of the Devoured",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22730={
+	["22730"] = {
 		itemId=22730,
 		name="Eyestalk Waist Cord",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22726={
+	["22726"] = {
 		itemId=22726,
 		name="Splinter of Atiesh",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	22711={
+	["22711"] = {
 		itemId=22711,
 		name="Cloak of the Hakkari Worshipers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22682={
+	["22682"] = {
 		itemId=22682,
 		name="Frozen Rune",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	22637={
+	["22637"] = {
 		itemId=22637,
 		name="Primal Hakkari Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	22520={
+	["22520"] = {
 		itemId=22520,
 		name="The Phylactery of Kel'Thuzad",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22412={
+	["22412"] = {
 		itemId=22412,
 		name="Thuzadin Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22411={
+	["22411"] = {
 		itemId=22411,
 		name="Helm of the Executioner",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22410={
+	["22410"] = {
 		itemId=22410,
 		name="Gauntlets of Deftness",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22409={
+	["22409"] = {
 		itemId=22409,
 		name="Tunic of the Crescent Moon",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22408={
+	["22408"] = {
 		itemId=22408,
 		name="Ritssyn's Wand of Bad Mojo",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22407={
+	["22407"] = {
 		itemId=22407,
 		name="Helm of the New Moon",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22406={
+	["22406"] = {
 		itemId=22406,
 		name="Redemption",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22405={
+	["22405"] = {
 		itemId=22405,
 		name="Mantle of the Scarlet Crusade",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22404={
+	["22404"] = {
 		itemId=22404,
 		name="Willey's Back Scratcher",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22403={
+	["22403"] = {
 		itemId=22403,
 		name="Diana's Pearl Necklace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22402={
+	["22402"] = {
 		itemId=22402,
 		name="Libram of Grace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22399={
+	["22399"] = {
 		itemId=22399,
 		name="Idol of Health",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22398={
+	["22398"] = {
 		itemId=22398,
 		name="Idol of Rejuvenation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22396={
+	["22396"] = {
 		itemId=22396,
 		name="Totem of Life",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22372={
+	["22372"] = {
 		itemId=22372,
 		name="Desecrated Sandals",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22371={
+	["22371"] = {
 		itemId=22371,
 		name="Desecrated Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22370={
+	["22370"] = {
 		itemId=22370,
 		name="Desecrated Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22369={
+	["22369"] = {
 		itemId=22369,
 		name="Desecrated Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22368={
+	["22368"] = {
 		itemId=22368,
 		name="Desecrated Shoulderpads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22367={
+	["22367"] = {
 		itemId=22367,
 		name="Desecrated Circlet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22366={
+	["22366"] = {
 		itemId=22366,
 		name="Desecrated Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22365={
+	["22365"] = {
 		itemId=22365,
 		name="Desecrated Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22364={
+	["22364"] = {
 		itemId=22364,
 		name="Desecrated Handguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22363={
+	["22363"] = {
 		itemId=22363,
 		name="Desecrated Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22362={
+	["22362"] = {
 		itemId=22362,
 		name="Desecrated Wristguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22361={
+	["22361"] = {
 		itemId=22361,
 		name="Desecrated Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22360={
+	["22360"] = {
 		itemId=22360,
 		name="Desecrated Headpiece",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22359={
+	["22359"] = {
 		itemId=22359,
 		name="Desecrated Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22358={
+	["22358"] = {
 		itemId=22358,
 		name="Desecrated Sabatons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22357={
+	["22357"] = {
 		itemId=22357,
 		name="Desecrated Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22356={
+	["22356"] = {
 		itemId=22356,
 		name="Desecrated Waistguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22355={
+	["22355"] = {
 		itemId=22355,
 		name="Desecrated Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22354={
+	["22354"] = {
 		itemId=22354,
 		name="Desecrated Pauldrons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22353={
+	["22353"] = {
 		itemId=22353,
 		name="Desecrated Helmet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22352={
+	["22352"] = {
 		itemId=22352,
 		name="Desecrated Legplates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22343={
+	["22343"] = {
 		itemId=22343,
 		name="Handguards of Savagery",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22342={
+	["22342"] = {
 		itemId=22342,
 		name="Leggings of Torment",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22340={
+	["22340"] = {
 		itemId=22340,
 		name="Pendant of Celerity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22339={
+	["22339"] = {
 		itemId=22339,
 		name="Rune Band of Wizardry",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22337={
+	["22337"] = {
 		itemId=22337,
 		name="Shroud of Domination",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22336={
+	["22336"] = {
 		itemId=22336,
 		name="Draconian Aegis of the Legion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22335={
+	["22335"] = {
 		itemId=22335,
 		name="Lord Valthalak's Staff of Command",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22334={
+	["22334"] = {
 		itemId=22334,
 		name="Band of Mending",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22325={
+	["22325"] = {
 		itemId=22325,
 		name="Belt of the Trickster",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22322={
+	["22322"] = {
 		itemId=22322,
 		name="The Jaw Breaker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22321={
+	["22321"] = {
 		itemId=22321,
 		name="Heart of Wyrmthalak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22319={
+	["22319"] = {
 		itemId=22319,
 		name="Tome of Divine Right",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22313={
+	["22313"] = {
 		itemId=22313,
 		name="Ironweave Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22311={
+	["22311"] = {
 		itemId=22311,
 		name="Ironweave Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22306={
+	["22306"] = {
 		itemId=22306,
 		name="Ironweave Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22302={
+	["22302"] = {
 		itemId=22302,
 		name="Ironweave Cowl",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22269={
+	["22269"] = {
 		itemId=22269,
 		name="Shadow Prowler's Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22268={
+	["22268"] = {
 		itemId=22268,
 		name="Draconic Infused Emblem",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22267={
+	["22267"] = {
 		itemId=22267,
 		name="Spellweaver's Turban",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22253={
+	["22253"] = {
 		itemId=22253,
 		name="Tome of the Lost",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22247={
+	["22247"] = {
 		itemId=22247,
 		name="Faith Healer's Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22232={
+	["22232"] = {
 		itemId=22232,
 		name="Marksman's Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22231={
+	["22231"] = {
 		itemId=22231,
 		name="Kayser's Boots of Precision",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22225={
+	["22225"] = {
 		itemId=22225,
 		name="Dragonskin Cowl",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	22222={
+	["22222"] = {
 		itemId=22222,
 		name="Plans: Thick Obsidian Breastplate",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	22220={
+	["22220"] = {
 		itemId=22220,
 		name="Plans: Black Grasp of the Destroyer",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21891={
+	["21891"] = {
 		itemId=21891,
 		name="Shard of the Fallen Star",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21890={
+	["21890"] = {
 		itemId=21890,
 		name="Gloves of the Fallen Prophet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21889={
+	["21889"] = {
 		itemId=21889,
 		name="Gloves of the Redeemed Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21888={
+	["21888"] = {
 		itemId=21888,
 		name="Gloves of the Immortal",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21856={
+	["21856"] = {
 		itemId=21856,
 		name="Neretzek The Blood Drinker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21839={
+	["21839"] = {
 		itemId=21839,
 		name="Scepter of the False Prophet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21838={
+	["21838"] = {
 		itemId=21838,
 		name="Garb of Royal Ascension",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21837={
+	["21837"] = {
 		itemId=21837,
 		name="Anubisath Warhammer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21836={
+	["21836"] = {
 		itemId=21836,
 		name="Ritssyn's Ring of Chaos",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21814={
+	["21814"] = {
 		itemId=21814,
 		name="Breastplate of Annihilation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21810={
+	["21810"] = {
 		itemId=21810,
 		name="Treads of the Wandering Nomad",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21809={
+	["21809"] = {
 		itemId=21809,
 		name="Fury of the Forgotten Swarm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21806={
+	["21806"] = {
 		itemId=21806,
 		name="Gavel of Qiraji Authority",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21805={
+	["21805"] = {
 		itemId=21805,
 		name="Polished Obsidian Pauldrons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21804={
+	["21804"] = {
 		itemId=21804,
 		name="Coif of Elemental Fury",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21803={
+	["21803"] = {
 		itemId=21803,
 		name="Helm of the Holy Avenger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21802={
+	["21802"] = {
 		itemId=21802,
 		name="The Lost Kris of Zedd",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21801={
+	["21801"] = {
 		itemId=21801,
 		name="Antenna of Invigoration",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21800={
+	["21800"] = {
 		itemId=21800,
 		name="Silithid Husked Launcher",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21715={
+	["21715"] = {
 		itemId=21715,
 		name="Sand Polished Hammer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21708={
+	["21708"] = {
 		itemId=21708,
 		name="Beetle Scaled Wristguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21707={
+	["21707"] = {
 		itemId=21707,
 		name="Ring of Swarming Thought",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21706={
+	["21706"] = {
 		itemId=21706,
 		name="Boots of the Unwavering Will",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21705={
+	["21705"] = {
 		itemId=21705,
 		name="Boots of the Fallen Prophet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21704={
+	["21704"] = {
 		itemId=21704,
 		name="Boots of the Redeemed Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21703={
+	["21703"] = {
 		itemId=21703,
 		name="Hammer of Ji'zhi",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21702={
+	["21702"] = {
 		itemId=21702,
 		name="Amulet of Foul Warding",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21701={
+	["21701"] = {
 		itemId=21701,
 		name="Cloak of Concentrated Hatred",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21700={
+	["21700"] = {
 		itemId=21700,
 		name="Pendant of the Qiraji Guardian",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21699={
+	["21699"] = {
 		itemId=21699,
 		name="Barrage Shoulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21698={
+	["21698"] = {
 		itemId=21698,
 		name="Leggings of Immersion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21697={
+	["21697"] = {
 		itemId=21697,
 		name="Cape of the Trinity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21696={
+	["21696"] = {
 		itemId=21696,
 		name="Robes of the Triumvirate",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21695={
+	["21695"] = {
 		itemId=21695,
 		name="Angelista's Touch",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21694={
+	["21694"] = {
 		itemId=21694,
 		name="Ternary Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21693={
+	["21693"] = {
 		itemId=21693,
 		name="Guise of the Devourer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21692={
+	["21692"] = {
 		itemId=21692,
 		name="Triad Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21691={
+	["21691"] = {
 		itemId=21691,
 		name="Ooze-ridden Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21690={
+	["21690"] = {
 		itemId=21690,
 		name="Angelista's Charm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21689={
+	["21689"] = {
 		itemId=21689,
 		name="Gloves of Ebru",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21688={
+	["21688"] = {
 		itemId=21688,
 		name="Boots of the Fallen Hero",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21687={
+	["21687"] = {
 		itemId=21687,
 		name="Ukko's Ring of Darkness",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21686={
+	["21686"] = {
 		itemId=21686,
 		name="Mantle of Phrenic Power",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21685={
+	["21685"] = {
 		itemId=21685,
 		name="Petrified Scarab",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21684={
+	["21684"] = {
 		itemId=21684,
 		name="Mantle of the Desert's Fury",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21683={
+	["21683"] = {
 		itemId=21683,
 		name="Mantle of the Desert Crusade",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21682={
+	["21682"] = {
 		itemId=21682,
 		name="Bile-Covered Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21681={
+	["21681"] = {
 		itemId=21681,
 		name="Ring of the Devoured",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21680={
+	["21680"] = {
 		itemId=21680,
 		name="Vest of Swift Execution",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21679={
+	["21679"] = {
 		itemId=21679,
 		name="Kalimdor's Revenge",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21678={
+	["21678"] = {
 		itemId=21678,
 		name="Necklace of Purity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21677={
+	["21677"] = {
 		itemId=21677,
 		name="Ring of the Qiraji Fury",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21676={
+	["21676"] = {
 		itemId=21676,
 		name="Leggings of the Festering Swarm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21675={
+	["21675"] = {
 		itemId=21675,
 		name="Thick Qirajihide Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21674={
+	["21674"] = {
 		itemId=21674,
 		name="Gauntlets of Steadfast Determination",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21673={
+	["21673"] = {
 		itemId=21673,
 		name="Silithid Claw",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21672={
+	["21672"] = {
 		itemId=21672,
 		name="Gloves of Enforcement",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21671={
+	["21671"] = {
 		itemId=21671,
 		name="Robes of the Battleguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21670={
+	["21670"] = {
 		itemId=21670,
 		name="Badge of the Swarmguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21669={
+	["21669"] = {
 		itemId=21669,
 		name="Creeping Vine Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21668={
+	["21668"] = {
 		itemId=21668,
 		name="Scaled Leggings of Qiraji Fury",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21667={
+	["21667"] = {
 		itemId=21667,
 		name="Legplates of Blazing Light",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21666={
+	["21666"] = {
 		itemId=21666,
 		name="Sartura's Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21665={
+	["21665"] = {
 		itemId=21665,
 		name="Mantle of Wicked Revenge",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21664={
+	["21664"] = {
 		itemId=21664,
 		name="Barbed Choker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21663={
+	["21663"] = {
 		itemId=21663,
 		name="Robes of the Guardian Saint",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21652={
+	["21652"] = {
 		itemId=21652,
 		name="Silithid Carapace Chestguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21651={
+	["21651"] = {
 		itemId=21651,
 		name="Scaled Sand Reaver Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21650={
+	["21650"] = {
 		itemId=21650,
 		name="Ancient Qiraji Ripper",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21648={
+	["21648"] = {
 		itemId=21648,
 		name="Recomposed Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21647={
+	["21647"] = {
 		itemId=21647,
 		name="Fetish of the Sand Reaver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21645={
+	["21645"] = {
 		itemId=21645,
 		name="Hive Tunneler's Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21639={
+	["21639"] = {
 		itemId=21639,
 		name="Pauldrons of the Unrelenting",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21635={
+	["21635"] = {
 		itemId=21635,
 		name="Barb of the Sand Reaver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21627={
+	["21627"] = {
 		itemId=21627,
 		name="Cloak of Untold Secrets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21626={
+	["21626"] = {
 		itemId=21626,
 		name="Slime-coated Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21625={
+	["21625"] = {
 		itemId=21625,
 		name="Scarab Brooch",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21624={
+	["21624"] = {
 		itemId=21624,
 		name="Gauntlets of Kalimdor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21623={
+	["21623"] = {
 		itemId=21623,
 		name="Gauntlets of the Righteous Champion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21622={
+	["21622"] = {
 		itemId=21622,
 		name="Sharpened Silithid Femur",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21621={
+	["21621"] = {
 		itemId=21621,
 		name="Cloak of the Golden Hive",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21620={
+	["21620"] = {
 		itemId=21620,
 		name="Ring of the Martyr",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21619={
+	["21619"] = {
 		itemId=21619,
 		name="Gloves of the Messiah",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21618={
+	["21618"] = {
 		itemId=21618,
 		name="Hive Defiler Wristguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21617={
+	["21617"] = {
 		itemId=21617,
 		name="Wasphide Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21616={
+	["21616"] = {
 		itemId=21616,
 		name="Huhuran's Stinger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21615={
+	["21615"] = {
 		itemId=21615,
 		name="Don Rigoberto's Lost Hat",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21611={
+	["21611"] = {
 		itemId=21611,
 		name="Burrower Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21610={
+	["21610"] = {
 		itemId=21610,
 		name="Wormscale Blocker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21609={
+	["21609"] = {
 		itemId=21609,
 		name="Regenerating Belt of Vek'nilash",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21608={
+	["21608"] = {
 		itemId=21608,
 		name="Amulet of Vek'nilash",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21607={
+	["21607"] = {
 		itemId=21607,
 		name="Grasp of the Fallen Emperor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21606={
+	["21606"] = {
 		itemId=21606,
 		name="Belt of the Fallen Emperor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21605={
+	["21605"] = {
 		itemId=21605,
 		name="Gloves of the Hidden Temple",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21604={
+	["21604"] = {
 		itemId=21604,
 		name="Bracelets of Royal Redemption",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21603={
+	["21603"] = {
 		itemId=21603,
 		name="Wand of Qiraji Nobility",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21602={
+	["21602"] = {
 		itemId=21602,
 		name="Qiraji Execution Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21601={
+	["21601"] = {
 		itemId=21601,
 		name="Ring of Emperor Vek'lor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21600={
+	["21600"] = {
 		itemId=21600,
 		name="Boots of Epiphany",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21599={
+	["21599"] = {
 		itemId=21599,
 		name="Vek'lor's Gloves of Devastation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21598={
+	["21598"] = {
 		itemId=21598,
 		name="Royal Qiraji Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21597={
+	["21597"] = {
 		itemId=21597,
 		name="Royal Scepter of Vek'lor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21596={
+	["21596"] = {
 		itemId=21596,
 		name="Ring of the Godslayer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21586={
+	["21586"] = {
 		itemId=21586,
 		name="Belt of Never-ending Agony",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21585={
+	["21585"] = {
 		itemId=21585,
 		name="Dark Storm Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21583={
+	["21583"] = {
 		itemId=21583,
 		name="Cloak of Clarity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21582={
+	["21582"] = {
 		itemId=21582,
 		name="Grasp of the Old God",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21581={
+	["21581"] = {
 		itemId=21581,
 		name="Gauntlets of Annihilation",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21579={
+	["21579"] = {
 		itemId=21579,
 		name="Vanquished Tentacle of C'Thun",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21503={
+	["21503"] = {
 		itemId=21503,
 		name="Belt of the Sand Reaver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21502={
+	["21502"] = {
 		itemId=21502,
 		name="Sand Reaver Wristguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21501={
+	["21501"] = {
 		itemId=21501,
 		name="Toughened Silithid Hide Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21500={
+	["21500"] = {
 		itemId=21500,
 		name="Belt of the Inquisition",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21499={
+	["21499"] = {
 		itemId=21499,
 		name="Vestments of the Shifting Sands",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21498={
+	["21498"] = {
 		itemId=21498,
 		name="Qiraji Sacrificial Dagger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21497={
+	["21497"] = {
 		itemId=21497,
 		name="Boots of the Qiraji General",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21496={
+	["21496"] = {
 		itemId=21496,
 		name="Bracers of Qiraji Command",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21495={
+	["21495"] = {
 		itemId=21495,
 		name="Legplates of the Qiraji Command",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21494={
+	["21494"] = {
 		itemId=21494,
 		name="Southwind's Grasp",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21493={
+	["21493"] = {
 		itemId=21493,
 		name="Boots of the Vanguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21492={
+	["21492"] = {
 		itemId=21492,
 		name="Manslayer of the Qiraji",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21491={
+	["21491"] = {
 		itemId=21491,
 		name="Scaled Bracers of the Gorger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21490={
+	["21490"] = {
 		itemId=21490,
 		name="Slime Kickers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21489={
+	["21489"] = {
 		itemId=21489,
 		name="Quicksand Waders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21488={
+	["21488"] = {
 		itemId=21488,
 		name="Fetish of Chitinous Spikes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21487={
+	["21487"] = {
 		itemId=21487,
 		name="Slimy Scaled Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21486={
+	["21486"] = {
 		itemId=21486,
 		name="Gloves of the Swarm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21485={
+	["21485"] = {
 		itemId=21485,
 		name="Buru's Skull Fragment",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21484={
+	["21484"] = {
 		itemId=21484,
 		name="Helm of Regrowth",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21483={
+	["21483"] = {
 		itemId=21483,
 		name="Ring of the Desert Winds",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21482={
+	["21482"] = {
 		itemId=21482,
 		name="Boots of the Fiery Sands",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21481={
+	["21481"] = {
 		itemId=21481,
 		name="Boots of the Desert Protector",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21480={
+	["21480"] = {
 		itemId=21480,
 		name="Scaled Silithid Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21479={
+	["21479"] = {
 		itemId=21479,
 		name="Gauntlets of the Immovable",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21478={
+	["21478"] = {
 		itemId=21478,
 		name="Bow of Taut Sinew",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21477={
+	["21477"] = {
 		itemId=21477,
 		name="Ring of Fury",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21476={
+	["21476"] = {
 		itemId=21476,
 		name="Obsidian Scaled Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21475={
+	["21475"] = {
 		itemId=21475,
 		name="Legplates of the Destroyer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21474={
+	["21474"] = {
 		itemId=21474,
 		name="Chitinous Shoulderguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21473={
+	["21473"] = {
 		itemId=21473,
 		name="Eye of Moam",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21472={
+	["21472"] = {
 		itemId=21472,
 		name="Dustwind Turban",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21471={
+	["21471"] = {
 		itemId=21471,
 		name="Talon of Furious Concentration",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21470={
+	["21470"] = {
 		itemId=21470,
 		name="Cloak of the Savior",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21469={
+	["21469"] = {
 		itemId=21469,
 		name="Gauntlets of Southwind",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21468={
+	["21468"] = {
 		itemId=21468,
 		name="Mantle of Maz'Nadir",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21467={
+	["21467"] = {
 		itemId=21467,
 		name="Thick Silithid Chestguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21466={
+	["21466"] = {
 		itemId=21466,
 		name="Stinger of Ayamiss",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21464={
+	["21464"] = {
 		itemId=21464,
 		name="Shackles of the Unscarred",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21463={
+	["21463"] = {
 		itemId=21463,
 		name="Ossirian's Binding",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21462={
+	["21462"] = {
 		itemId=21462,
 		name="Gloves of Dark Wisdom",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21461={
+	["21461"] = {
 		itemId=21461,
 		name="Leggings of the Black Blizzard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21460={
+	["21460"] = {
 		itemId=21460,
 		name="Helm of Domination",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21459={
+	["21459"] = {
 		itemId=21459,
 		name="Crossbow of Imminent Doom",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21458={
+	["21458"] = {
 		itemId=21458,
 		name="Gauntlets of New Life",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21457={
+	["21457"] = {
 		itemId=21457,
 		name="Bracers of Brutality",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21456={
+	["21456"] = {
 		itemId=21456,
 		name="Sandstorm Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21455={
+	["21455"] = {
 		itemId=21455,
 		name="Southwind Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21454={
+	["21454"] = {
 		itemId=21454,
 		name="Runic Stone Shoulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21453={
+	["21453"] = {
 		itemId=21453,
 		name="Mantle of the Horusath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21452={
+	["21452"] = {
 		itemId=21452,
 		name="Staff of the Ruins",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21324={
+	["21324"] = {
 		itemId=21324,
 		name="Yellow Qiraji Resonating Crystal",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21323={
+	["21323"] = {
 		itemId=21323,
 		name="Green Qiraji Resonating Crystal",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21321={
+	["21321"] = {
 		itemId=21321,
 		name="Red Qiraji Resonating Crystal",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21307={
+	["21307"] = {
 		itemId=21307,
 		name="Guide: Aspect of the Hawk VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21306={
+	["21306"] = {
 		itemId=21306,
 		name="Guide: Serpent Sting IX",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21304={
+	["21304"] = {
 		itemId=21304,
 		name="Guide: Multi-Shot V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21303={
+	["21303"] = {
 		itemId=21303,
 		name="Handbook of Feint V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21302={
+	["21302"] = {
 		itemId=21302,
 		name="Handbook of Deadly Poison V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21300={
+	["21300"] = {
 		itemId=21300,
 		name="Handbook of Backstab IX",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21299={
+	["21299"] = {
 		itemId=21299,
 		name="Manual of Revenge VI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21298={
+	["21298"] = {
 		itemId=21298,
 		name="Manual of Battle Shout VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21297={
+	["21297"] = {
 		itemId=21297,
 		name="Manual of Heroic Strike IX",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21296={
+	["21296"] = {
 		itemId=21296,
 		name="Book of Rejuvenation XI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21295={
+	["21295"] = {
 		itemId=21295,
 		name="Book of Starfire VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21294={
+	["21294"] = {
 		itemId=21294,
 		name="Book of Healing Touch XI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21293={
+	["21293"] = {
 		itemId=21293,
 		name="Tablet of Grace of Air Totem III",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21292={
+	["21292"] = {
 		itemId=21292,
 		name="Tablet of Strength of Earth Totem V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21291={
+	["21291"] = {
 		itemId=21291,
 		name="Tablet of Healing Wave X",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21290={
+	["21290"] = {
 		itemId=21290,
 		name="Libram: Holy Light IX",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21289={
+	["21289"] = {
 		itemId=21289,
 		name="Libram: Blessing of Might VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21288={
+	["21288"] = {
 		itemId=21288,
 		name="Libram: Blessing of Wisdom VI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21287={
+	["21287"] = {
 		itemId=21287,
 		name="Codex of Prayer of Healing V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21285={
+	["21285"] = {
 		itemId=21285,
 		name="Codex of Renew X",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21284={
+	["21284"] = {
 		itemId=21284,
 		name="Codex of Greater Heal V",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21283={
+	["21283"] = {
 		itemId=21283,
 		name="Grimoire of Corruption VII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21282={
+	["21282"] = {
 		itemId=21282,
 		name="Grimoire of Immolate VIII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21281={
+	["21281"] = {
 		itemId=21281,
 		name="Grimoire of Shadow Bolt X",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21280={
+	["21280"] = {
 		itemId=21280,
 		name="Tome of Arcane Missiles VIII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21279={
+	["21279"] = {
 		itemId=21279,
 		name="Tome of Fireball XII",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21237={
+	["21237"] = {
 		itemId=21237,
 		name="Imperial Qiraji Regalia",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21232={
+	["21232"] = {
 		itemId=21232,
 		name="Imperial Qiraji Armaments",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21221={
+	["21221"] = {
 		itemId=21221,
 		name="Eye of C'Thun",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21220={
+	["21220"] = {
 		itemId=21220,
 		name="Head of Ossirian the Unscarred",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21218={
+	["21218"] = {
 		itemId=21218,
 		name="Blue Qiraji Resonating Crystal",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21214={
+	["21214"] = {
 		itemId=21214,
 		name="Tome of Frostbolt XI",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21138={
+	["21138"] = {
 		itemId=21138,
 		name="Red Scepter Shard",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	21134={
+	["21134"] = {
 		itemId=21134,
 		name="Dark Edge of Insanity",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21128={
+	["21128"] = {
 		itemId=21128,
 		name="Staff of the Qiraji Prophets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	21126={
+	["21126"] = {
 		itemId=21126,
 		name="Death's Sting",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20933={
+	["20933"] = {
 		itemId=20933,
 		name="Husk of the Old God",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20932={
+	["20932"] = {
 		itemId=20932,
 		name="Qiraji Bindings of Dominance",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20931={
+	["20931"] = {
 		itemId=20931,
 		name="Skin of the Great Sandworm",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20930={
+	["20930"] = {
 		itemId=20930,
 		name="Vek'lor's Diadem",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20929={
+	["20929"] = {
 		itemId=20929,
 		name="Carapace of the Old God",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20928={
+	["20928"] = {
 		itemId=20928,
 		name="Qiraji Bindings of Command",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20927={
+	["20927"] = {
 		itemId=20927,
 		name="Ouro's Intact Hide",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20926={
+	["20926"] = {
 		itemId=20926,
 		name="Vek'nilash's Circlet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20890={
+	["20890"] = {
 		itemId=20890,
 		name="Qiraji Ornate Hilt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20889={
+	["20889"] = {
 		itemId=20889,
 		name="Qiraji Regal Drape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20888={
+	["20888"] = {
 		itemId=20888,
 		name="Qiraji Ceremonial Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20886={
+	["20886"] = {
 		itemId=20886,
 		name="Qiraji Spiked Hilt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20885={
+	["20885"] = {
 		itemId=20885,
 		name="Qiraji Martial Drape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20884={
+	["20884"] = {
 		itemId=20884,
 		name="Qiraji Magisterial Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20882={
+	["20882"] = {
 		itemId=20882,
 		name="Idol of War",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20881={
+	["20881"] = {
 		itemId=20881,
 		name="Idol of Strife",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20879={
+	["20879"] = {
 		itemId=20879,
 		name="Idol of Life",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20878={
+	["20878"] = {
 		itemId=20878,
 		name="Idol of Rebirth",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20877={
+	["20877"] = {
 		itemId=20877,
 		name="Idol of the Sage",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20876={
+	["20876"] = {
 		itemId=20876,
 		name="Idol of Death",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20875={
+	["20875"] = {
 		itemId=20875,
 		name="Idol of Night",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20874={
+	["20874"] = {
 		itemId=20874,
 		name="Idol of the Sun",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20873={
+	["20873"] = {
 		itemId=20873,
 		name="Alabaster Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20872={
+	["20872"] = {
 		itemId=20872,
 		name="Vermillion Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20871={
+	["20871"] = {
 		itemId=20871,
 		name="Obsidian Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20870={
+	["20870"] = {
 		itemId=20870,
 		name="Jasper Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20869={
+	["20869"] = {
 		itemId=20869,
 		name="Amber Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20868={
+	["20868"] = {
 		itemId=20868,
 		name="Lambent Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20867={
+	["20867"] = {
 		itemId=20867,
 		name="Onyx Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20866={
+	["20866"] = {
 		itemId=20866,
 		name="Azure Idol",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20735={
+	["20735"] = {
 		itemId=20735,
 		name="Formula: Enchant Cloak - Subtlety",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20726={
+	["20726"] = {
 		itemId=20726,
 		name="Formula: Enchant Gloves - Threat",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20383={
+	["20383"] = {
 		itemId=20383,
 		name="Head of the Broodlord Lashlayer",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	20263={
+	["20263"] = {
 		itemId=20263,
 		name="Gurubashi Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20262={
+	["20262"] = {
 		itemId=20262,
 		name="Seafury Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20261={
+	["20261"] = {
 		itemId=20261,
 		name="Shadow Panther Hide Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20260={
+	["20260"] = {
 		itemId=20260,
 		name="Seafury Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20259={
+	["20259"] = {
 		itemId=20259,
 		name="Shadow Panther Hide Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	20258={
+	["20258"] = {
 		itemId=20258,
 		name="Zulian Ceremonial Staff",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19993={
+	["19993"] = {
 		itemId=19993,
 		name="Hoodoo Hunting Bow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19965={
+	["19965"] = {
 		itemId=19965,
 		name="Wushoolay's Poker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19964={
+	["19964"] = {
 		itemId=19964,
 		name="Renataki's Soul Conduit",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19963={
+	["19963"] = {
 		itemId=19963,
 		name="Pitchfork of Madness",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19962={
+	["19962"] = {
 		itemId=19962,
 		name="Gri'lek's Carver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19961={
+	["19961"] = {
 		itemId=19961,
 		name="Gri'lek's Grinder",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19946={
+	["19946"] = {
 		itemId=19946,
 		name="Tigule's Harpoon",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19930={
+	["19930"] = {
 		itemId=19930,
 		name="Mar'li's Eye",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19927={
+	["19927"] = {
 		itemId=19927,
 		name="Mar'li's Touch",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19921={
+	["19921"] = {
 		itemId=19921,
 		name="Zulian Hacker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19919={
+	["19919"] = {
 		itemId=19919,
 		name="Bloodstained Greaves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19918={
+	["19918"] = {
 		itemId=19918,
 		name="Jeklik's Crusher",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19915={
+	["19915"] = {
 		itemId=19915,
 		name="Zulian Defender",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19914={
+	["19914"] = {
 		itemId=19914,
 		name="Panther Hide Sack",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19910={
+	["19910"] = {
 		itemId=19910,
 		name="Arlokk's Grasp",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19908={
+	["19908"] = {
 		itemId=19908,
 		name="Sceptre of Smiting",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19902={
+	["19902"] = {
 		itemId=19902,
 		name="Swift Zulian Tiger",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19896={
+	["19896"] = {
 		itemId=19896,
 		name="Thekal's Grasp",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19876={
+	["19876"] = {
 		itemId=19876,
 		name="Soul Corrupter's Necklace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19872={
+	["19872"] = {
 		itemId=19872,
 		name="Swift Razzashi Raptor",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19866={
+	["19866"] = {
 		itemId=19866,
 		name="Warblade of the Hakkari",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19865={
+	["19865"] = {
 		itemId=19865,
 		name="Warblade of the Hakkari",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19861={
+	["19861"] = {
 		itemId=19861,
 		name="Touch of Chaos",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19802={
+	["19802"] = {
 		itemId=19802,
 		name="Heart of Hakkar",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19724={
+	["19724"] = {
 		itemId=19724,
 		name="Primal Hakkari Aegis",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19723={
+	["19723"] = {
 		itemId=19723,
 		name="Primal Hakkari Kossack",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19722={
+	["19722"] = {
 		itemId=19722,
 		name="Primal Hakkari Tabard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19721={
+	["19721"] = {
 		itemId=19721,
 		name="Primal Hakkari Shawl",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19720={
+	["19720"] = {
 		itemId=19720,
 		name="Primal Hakkari Sash",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19719={
+	["19719"] = {
 		itemId=19719,
 		name="Primal Hakkari Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19718={
+	["19718"] = {
 		itemId=19718,
 		name="Primal Hakkari Stanchion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19717={
+	["19717"] = {
 		itemId=19717,
 		name="Primal Hakkari Armsplint",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19716={
+	["19716"] = {
 		itemId=19716,
 		name="Primal Hakkari Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19715={
+	["19715"] = {
 		itemId=19715,
 		name="Gold Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19714={
+	["19714"] = {
 		itemId=19714,
 		name="Silver Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19713={
+	["19713"] = {
 		itemId=19713,
 		name="Bronze Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19712={
+	["19712"] = {
 		itemId=19712,
 		name="Purple Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19711={
+	["19711"] = {
 		itemId=19711,
 		name="Green Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19710={
+	["19710"] = {
 		itemId=19710,
 		name="Orange Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19709={
+	["19709"] = {
 		itemId=19709,
 		name="Yellow Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19708={
+	["19708"] = {
 		itemId=19708,
 		name="Blue Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19707={
+	["19707"] = {
 		itemId=19707,
 		name="Red Hakkari Bijou",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19405={
+	["19405"] = {
 		itemId=19405,
 		name="Malfurion's Blessed Bulwark",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19401={
+	["19401"] = {
 		itemId=19401,
 		name="Primalist's Linked Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19393={
+	["19393"] = {
 		itemId=19393,
 		name="Primalist's Linked Waistguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19378={
+	["19378"] = {
 		itemId=19378,
 		name="Cloak of the Brood Lord",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19360={
+	["19360"] = {
 		itemId=19360,
 		name="Lok'amir il Romathis",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19356={
+	["19356"] = {
 		itemId=19356,
 		name="Staff of the Shadow Flame",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19344={
+	["19344"] = {
 		itemId=19344,
 		name="Natural Alignment Crystal",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19337={
+	["19337"] = {
 		itemId=19337,
 		name="The Black Book",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	19227={
+	["19227"] = {
 		itemId=19227,
 		name="Ace of Beasts",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	19017={
+	["19017"] = {
 		itemId=19017,
 		name="Essence of the Firelord",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18870={
+	["18870"] = {
 		itemId=18870,
 		name="Helm of the Lifegiver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18861={
+	["18861"] = {
 		itemId=18861,
 		name="Flamewaker Legplates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18842={
+	["18842"] = {
 		itemId=18842,
 		name="Staff of Dominance",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18829={
+	["18829"] = {
 		itemId=18829,
 		name="Deep Earth Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18815={
+	["18815"] = {
 		itemId=18815,
 		name="Essence of the Pure Flame",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18784={
+	["18784"] = {
 		itemId=18784,
 		name="Top Half of Advanced Armorsmithing: Volume III",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18783={
+	["18783"] = {
 		itemId=18783,
 		name="Bottom Half of Advanced Armorsmithing: Volume III",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18781={
+	["18781"] = {
 		itemId=18781,
 		name="Bottom Half of Advanced Armorsmithing: Volume II",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18779={
+	["18779"] = {
 		itemId=18779,
 		name="Bottom Half of Advanced Armorsmithing: Volume I",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18745={
+	["18745"] = {
 		itemId=18745,
 		name="Sacred Cloth Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18744={
+	["18744"] = {
 		itemId=18744,
 		name="Plaguebat Fur Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18743={
+	["18743"] = {
 		itemId=18743,
 		name="Gracious Cape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18742={
+	["18742"] = {
 		itemId=18742,
 		name="Stratholme Militia Shoulderguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18741={
+	["18741"] = {
 		itemId=18741,
 		name="Morlune's Bracer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18740={
+	["18740"] = {
 		itemId=18740,
 		name="Thuzadin Sash",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18739={
+	["18739"] = {
 		itemId=18739,
 		name="Chitinous Plate Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18738={
+	["18738"] = {
 		itemId=18738,
 		name="Carapace Spine Crossbow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18737={
+	["18737"] = {
 		itemId=18737,
 		name="Bone Slicing Hatchet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18736={
+	["18736"] = {
 		itemId=18736,
 		name="Plaguehound Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18735={
+	["18735"] = {
 		itemId=18735,
 		name="Maleki's Footwraps",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18734={
+	["18734"] = {
 		itemId=18734,
 		name="Pale Moon Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18730={
+	["18730"] = {
 		itemId=18730,
 		name="Shadowy Laced Handwraps",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18729={
+	["18729"] = {
 		itemId=18729,
 		name="Screeching Bow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18728={
+	["18728"] = {
 		itemId=18728,
 		name="Anastari Heirloom",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18727={
+	["18727"] = {
 		itemId=18727,
 		name="Crimson Felt Hat",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18726={
+	["18726"] = {
 		itemId=18726,
 		name="Magistrate's Cuffs",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18725={
+	["18725"] = {
 		itemId=18725,
 		name="Peacemaker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18723={
+	["18723"] = {
 		itemId=18723,
 		name="Animated Chain Necklace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18722={
+	["18722"] = {
 		itemId=18722,
 		name="Death Grips",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18721={
+	["18721"] = {
 		itemId=18721,
 		name="Barrage Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18720={
+	["18720"] = {
 		itemId=18720,
 		name="Shroud of the Nathrezim",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18718={
+	["18718"] = {
 		itemId=18718,
 		name="Grand Crusader's Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18717={
+	["18717"] = {
 		itemId=18717,
 		name="Hammer of the Grand Crusader",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18716={
+	["18716"] = {
 		itemId=18716,
 		name="Ash Covered Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18564={
+	["18564"] = {
 		itemId=18564,
 		name="Bindings of the Windseeker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18563={
+	["18563"] = {
 		itemId=18563,
 		name="Bindings of the Windseeker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18562={
+	["18562"] = {
 		itemId=18562,
 		name="Elementium Ore",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	18292={
+	["18292"] = {
 		itemId=18292,
 		name="Schematic: Core Marksman Rifle",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18291={
+	["18291"] = {
 		itemId=18291,
 		name="Schematic: Force Reactive Disk",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18290={
+	["18290"] = {
 		itemId=18290,
 		name="Schematic: Biznicks 247x128 Accurascope",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18265={
+	["18265"] = {
 		itemId=18265,
 		name="Pattern: Flarecore Wraps",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18264={
+	["18264"] = {
 		itemId=18264,
 		name="Plans: Elemental Sharpening Stone",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18260={
+	["18260"] = {
 		itemId=18260,
 		name="Formula: Enchant Weapon - Healing Power",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18259={
+	["18259"] = {
 		itemId=18259,
 		name="Formula: Enchant Weapon - Spell Power",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18257={
+	["18257"] = {
 		itemId=18257,
 		name="Recipe: Major Rejuvenation Potion",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18252={
+	["18252"] = {
 		itemId=18252,
 		name="Pattern: Core Armor Kit",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	18104={
+	["18104"] = {
 		itemId=18104,
 		name="Feralsurge Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18103={
+	["18103"] = {
 		itemId=18103,
 		name="Band of Rumination",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18102={
+	["18102"] = {
 		itemId=18102,
 		name="Dragonrider Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18048={
+	["18048"] = {
 		itemId=18048,
 		name="Mastersmith's Hammer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	18047={
+	["18047"] = {
 		itemId=18047,
 		name="Flame Walkers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	17204={
+	["17204"] = {
 		itemId=17204,
 		name="Eye of Sulfuras",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	17203={
+	["17203"] = {
 		itemId=17203,
 		name="Sulfuron Ingot",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	17082={
+	["17082"] = {
 		itemId=17082,
 		name="Shard of the Flame",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	17074={
+	["17074"] = {
 		itemId=17074,
 		name="Shadowstrike",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	17061={
+	["17061"] = {
 		itemId=17061,
 		name="Juno's Shadow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	17011={
+	["17011"] = {
 		itemId=17011,
 		name="Lava Core",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	17010={
+	["17010"] = {
 		itemId=17010,
 		name="Fiery Core",
 		mats=true,
 		special=false,
 		prio="",
 	},
-	16966={
+	["16966"] = {
 		itemId=16966,
 		name="Breastplate of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16965={
+	["16965"] = {
 		itemId=16965,
 		name="Sabatons of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16964={
+	["16964"] = {
 		itemId=16964,
 		name="Gauntlets of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16962={
+	["16962"] = {
 		itemId=16962,
 		name="Legplates of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16961={
+	["16961"] = {
 		itemId=16961,
 		name="Pauldrons of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16960={
+	["16960"] = {
 		itemId=16960,
 		name="Waistband of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16959={
+	["16959"] = {
 		itemId=16959,
 		name="Bracelets of Wrath",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16958={
+	["16958"] = {
 		itemId=16958,
 		name="Judgement Breastplate",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16957={
+	["16957"] = {
 		itemId=16957,
 		name="Judgement Sabatons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16956={
+	["16956"] = {
 		itemId=16956,
 		name="Judgement Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16954={
+	["16954"] = {
 		itemId=16954,
 		name="Judgement Legplates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16953={
+	["16953"] = {
 		itemId=16953,
 		name="Judgement Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16952={
+	["16952"] = {
 		itemId=16952,
 		name="Judgement Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16951={
+	["16951"] = {
 		itemId=16951,
 		name="Judgement Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16950={
+	["16950"] = {
 		itemId=16950,
 		name="Breastplate of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16949={
+	["16949"] = {
 		itemId=16949,
 		name="Greaves of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16948={
+	["16948"] = {
 		itemId=16948,
 		name="Gauntlets of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16946={
+	["16946"] = {
 		itemId=16946,
 		name="Legplates of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16945={
+	["16945"] = {
 		itemId=16945,
 		name="Epaulets of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16944={
+	["16944"] = {
 		itemId=16944,
 		name="Belt of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16943={
+	["16943"] = {
 		itemId=16943,
 		name="Bracers of Ten Storms",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16942={
+	["16942"] = {
 		itemId=16942,
 		name="Dragonstalker's Breastplate",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16941={
+	["16941"] = {
 		itemId=16941,
 		name="Dragonstalker's Greaves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16940={
+	["16940"] = {
 		itemId=16940,
 		name="Dragonstalker's Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16938={
+	["16938"] = {
 		itemId=16938,
 		name="Dragonstalker's Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16937={
+	["16937"] = {
 		itemId=16937,
 		name="Dragonstalker's Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16936={
+	["16936"] = {
 		itemId=16936,
 		name="Dragonstalker's Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16935={
+	["16935"] = {
 		itemId=16935,
 		name="Dragonstalker's Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16934={
+	["16934"] = {
 		itemId=16934,
 		name="Nemesis Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16933={
+	["16933"] = {
 		itemId=16933,
 		name="Nemesis Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16932={
+	["16932"] = {
 		itemId=16932,
 		name="Nemesis Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16931={
+	["16931"] = {
 		itemId=16931,
 		name="Nemesis Robes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16930={
+	["16930"] = {
 		itemId=16930,
 		name="Nemesis Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16928={
+	["16928"] = {
 		itemId=16928,
 		name="Nemesis Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16927={
+	["16927"] = {
 		itemId=16927,
 		name="Nemesis Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16926={
+	["16926"] = {
 		itemId=16926,
 		name="Bindings of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16925={
+	["16925"] = {
 		itemId=16925,
 		name="Belt of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16924={
+	["16924"] = {
 		itemId=16924,
 		name="Pauldrons of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16923={
+	["16923"] = {
 		itemId=16923,
 		name="Robes of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16922={
+	["16922"] = {
 		itemId=16922,
 		name="Leggings of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16920={
+	["16920"] = {
 		itemId=16920,
 		name="Handguards of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16919={
+	["16919"] = {
 		itemId=16919,
 		name="Boots of Transcendence",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16918={
+	["16918"] = {
 		itemId=16918,
 		name="Netherwind Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16917={
+	["16917"] = {
 		itemId=16917,
 		name="Netherwind Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16916={
+	["16916"] = {
 		itemId=16916,
 		name="Netherwind Robes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16915={
+	["16915"] = {
 		itemId=16915,
 		name="Netherwind Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16913={
+	["16913"] = {
 		itemId=16913,
 		name="Netherwind Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16912={
+	["16912"] = {
 		itemId=16912,
 		name="Netherwind Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16911={
+	["16911"] = {
 		itemId=16911,
 		name="Bloodfang Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16910={
+	["16910"] = {
 		itemId=16910,
 		name="Bloodfang Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16909={
+	["16909"] = {
 		itemId=16909,
 		name="Bloodfang Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16907={
+	["16907"] = {
 		itemId=16907,
 		name="Bloodfang Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16906={
+	["16906"] = {
 		itemId=16906,
 		name="Bloodfang Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16905={
+	["16905"] = {
 		itemId=16905,
 		name="Bloodfang Chestpiece",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16904={
+	["16904"] = {
 		itemId=16904,
 		name="Stormrage Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16903={
+	["16903"] = {
 		itemId=16903,
 		name="Stormrage Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16902={
+	["16902"] = {
 		itemId=16902,
 		name="Stormrage Pauldrons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16901={
+	["16901"] = {
 		itemId=16901,
 		name="Stormrage Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16899={
+	["16899"] = {
 		itemId=16899,
 		name="Stormrage Handguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16898={
+	["16898"] = {
 		itemId=16898,
 		name="Stormrage Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16897={
+	["16897"] = {
 		itemId=16897,
 		name="Stormrage Chestguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16868={
+	["16868"] = {
 		itemId=16868,
 		name="Pauldrons of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16867={
+	["16867"] = {
 		itemId=16867,
 		name="Legplates of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16866={
+	["16866"] = {
 		itemId=16866,
 		name="Helm of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16865={
+	["16865"] = {
 		itemId=16865,
 		name="Breastplate of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16864={
+	["16864"] = {
 		itemId=16864,
 		name="Belt of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16863={
+	["16863"] = {
 		itemId=16863,
 		name="Gauntlets of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16862={
+	["16862"] = {
 		itemId=16862,
 		name="Sabatons of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16861={
+	["16861"] = {
 		itemId=16861,
 		name="Bracers of Might",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16860={
+	["16860"] = {
 		itemId=16860,
 		name="Lawbringer Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16859={
+	["16859"] = {
 		itemId=16859,
 		name="Lawbringer Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16858={
+	["16858"] = {
 		itemId=16858,
 		name="Lawbringer Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16857={
+	["16857"] = {
 		itemId=16857,
 		name="Lawbringer Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16856={
+	["16856"] = {
 		itemId=16856,
 		name="Lawbringer Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16855={
+	["16855"] = {
 		itemId=16855,
 		name="Lawbringer Legplates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16854={
+	["16854"] = {
 		itemId=16854,
 		name="Lawbringer Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16853={
+	["16853"] = {
 		itemId=16853,
 		name="Lawbringer Chestguard",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16852={
+	["16852"] = {
 		itemId=16852,
 		name="Giantstalker's Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16851={
+	["16851"] = {
 		itemId=16851,
 		name="Giantstalker's Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16850={
+	["16850"] = {
 		itemId=16850,
 		name="Giantstalker's Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16849={
+	["16849"] = {
 		itemId=16849,
 		name="Giantstalker's Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16848={
+	["16848"] = {
 		itemId=16848,
 		name="Giantstalker's Epaulets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16847={
+	["16847"] = {
 		itemId=16847,
 		name="Giantstalker's Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16846={
+	["16846"] = {
 		itemId=16846,
 		name="Giantstalker's Helmet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16845={
+	["16845"] = {
 		itemId=16845,
 		name="Giantstalker's Breastplate",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16844={
+	["16844"] = {
 		itemId=16844,
 		name="Earthfury Epaulets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16843={
+	["16843"] = {
 		itemId=16843,
 		name="Earthfury Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16842={
+	["16842"] = {
 		itemId=16842,
 		name="Earthfury Helmet",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16841={
+	["16841"] = {
 		itemId=16841,
 		name="Earthfury Vestments",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16840={
+	["16840"] = {
 		itemId=16840,
 		name="Earthfury Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16839={
+	["16839"] = {
 		itemId=16839,
 		name="Earthfury Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16838={
+	["16838"] = {
 		itemId=16838,
 		name="Earthfury Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16837={
+	["16837"] = {
 		itemId=16837,
 		name="Earthfury Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16836={
+	["16836"] = {
 		itemId=16836,
 		name="Cenarion Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16835={
+	["16835"] = {
 		itemId=16835,
 		name="Cenarion Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16834={
+	["16834"] = {
 		itemId=16834,
 		name="Cenarion Helm",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16833={
+	["16833"] = {
 		itemId=16833,
 		name="Cenarion Vestments",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16832={
+	["16832"] = {
 		itemId=16832,
 		name="Bloodfang Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16831={
+	["16831"] = {
 		itemId=16831,
 		name="Cenarion Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16830={
+	["16830"] = {
 		itemId=16830,
 		name="Cenarion Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16829={
+	["16829"] = {
 		itemId=16829,
 		name="Cenarion Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16828={
+	["16828"] = {
 		itemId=16828,
 		name="Cenarion Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16827={
+	["16827"] = {
 		itemId=16827,
 		name="Nightslayer Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16826={
+	["16826"] = {
 		itemId=16826,
 		name="Nightslayer Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16825={
+	["16825"] = {
 		itemId=16825,
 		name="Nightslayer Bracelets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16824={
+	["16824"] = {
 		itemId=16824,
 		name="Nightslayer Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16823={
+	["16823"] = {
 		itemId=16823,
 		name="Nightslayer Shoulder Pads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16822={
+	["16822"] = {
 		itemId=16822,
 		name="Nightslayer Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16821={
+	["16821"] = {
 		itemId=16821,
 		name="Nightslayer Cover",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16820={
+	["16820"] = {
 		itemId=16820,
 		name="Nightslayer Chestpiece",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16819={
+	["16819"] = {
 		itemId=16819,
 		name="Vambraces of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16818={
+	["16818"] = {
 		itemId=16818,
 		name="Netherwind Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16817={
+	["16817"] = {
 		itemId=16817,
 		name="Girdle of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16816={
+	["16816"] = {
 		itemId=16816,
 		name="Mantle of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16815={
+	["16815"] = {
 		itemId=16815,
 		name="Robes of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16814={
+	["16814"] = {
 		itemId=16814,
 		name="Pants of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16813={
+	["16813"] = {
 		itemId=16813,
 		name="Circlet of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16812={
+	["16812"] = {
 		itemId=16812,
 		name="Gloves of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16811={
+	["16811"] = {
 		itemId=16811,
 		name="Boots of Prophecy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16810={
+	["16810"] = {
 		itemId=16810,
 		name="Felheart Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16809={
+	["16809"] = {
 		itemId=16809,
 		name="Felheart Robes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16808={
+	["16808"] = {
 		itemId=16808,
 		name="Felheart Horns",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16807={
+	["16807"] = {
 		itemId=16807,
 		name="Felheart Shoulder Pads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16806={
+	["16806"] = {
 		itemId=16806,
 		name="Felheart Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16805={
+	["16805"] = {
 		itemId=16805,
 		name="Felheart Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16804={
+	["16804"] = {
 		itemId=16804,
 		name="Felheart Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16803={
+	["16803"] = {
 		itemId=16803,
 		name="Felheart Slippers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16802={
+	["16802"] = {
 		itemId=16802,
 		name="Arcanist Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16801={
+	["16801"] = {
 		itemId=16801,
 		name="Arcanist Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16800={
+	["16800"] = {
 		itemId=16800,
 		name="Arcanist Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16799={
+	["16799"] = {
 		itemId=16799,
 		name="Arcanist Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16798={
+	["16798"] = {
 		itemId=16798,
 		name="Arcanist Robes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16797={
+	["16797"] = {
 		itemId=16797,
 		name="Arcanist Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16796={
+	["16796"] = {
 		itemId=16796,
 		name="Arcanist Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16795={
+	["16795"] = {
 		itemId=16795,
 		name="Arcanist Crown",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16737={
+	["16737"] = {
 		itemId=16737,
 		name="Gauntlets of Valor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16735={
+	["16735"] = {
 		itemId=16735,
 		name="Bracers of Valor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16733={
+	["16733"] = {
 		itemId=16733,
 		name="Spaulders of Valor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16732={
+	["16732"] = {
 		itemId=16732,
 		name="Legplates of Valor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16730={
+	["16730"] = {
 		itemId=16730,
 		name="Breastplate of Valor",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16729={
+	["16729"] = {
 		itemId=16729,
 		name="Lightforge Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16728={
+	["16728"] = {
 		itemId=16728,
 		name="Lightforge Legplates",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16726={
+	["16726"] = {
 		itemId=16726,
 		name="Lightforge Breastplate",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16725={
+	["16725"] = {
 		itemId=16725,
 		name="Lightforge Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16723={
+	["16723"] = {
 		itemId=16723,
 		name="Lightforge Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16721={
+	["16721"] = {
 		itemId=16721,
 		name="Shadowcraft Tunic",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16719={
+	["16719"] = {
 		itemId=16719,
 		name="Wildheart Kilt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16718={
+	["16718"] = {
 		itemId=16718,
 		name="Wildheart Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16715={
+	["16715"] = {
 		itemId=16715,
 		name="Wildheart Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16713={
+	["16713"] = {
 		itemId=16713,
 		name="Shadowcraft Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16712={
+	["16712"] = {
 		itemId=16712,
 		name="Shadowcraft Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16709={
+	["16709"] = {
 		itemId=16709,
 		name="Shadowcraft Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16708={
+	["16708"] = {
 		itemId=16708,
 		name="Shadowcraft Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16706={
+	["16706"] = {
 		itemId=16706,
 		name="Wildheart Vest",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16704={
+	["16704"] = {
 		itemId=16704,
 		name="Dreadmist Sandals",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16703={
+	["16703"] = {
 		itemId=16703,
 		name="Dreadmist Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16700={
+	["16700"] = {
 		itemId=16700,
 		name="Dreadmist Robe",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16699={
+	["16699"] = {
 		itemId=16699,
 		name="Dreadmist Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16697={
+	["16697"] = {
 		itemId=16697,
 		name="Devout Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16696={
+	["16696"] = {
 		itemId=16696,
 		name="Devout Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16695={
+	["16695"] = {
 		itemId=16695,
 		name="Devout Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16694={
+	["16694"] = {
 		itemId=16694,
 		name="Devout Skirt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16692={
+	["16692"] = {
 		itemId=16692,
 		name="Devout Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16691={
+	["16691"] = {
 		itemId=16691,
 		name="Devout Sandals",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16690={
+	["16690"] = {
 		itemId=16690,
 		name="Devout Robe",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16688={
+	["16688"] = {
 		itemId=16688,
 		name="Magister's Robes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16687={
+	["16687"] = {
 		itemId=16687,
 		name="Magister's Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16683={
+	["16683"] = {
 		itemId=16683,
 		name="Magister's Bindings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16682={
+	["16682"] = {
 		itemId=16682,
 		name="Magister's Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16680={
+	["16680"] = {
 		itemId=16680,
 		name="Beaststalker's Belt",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16679={
+	["16679"] = {
 		itemId=16679,
 		name="Beaststalker's Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16678={
+	["16678"] = {
 		itemId=16678,
 		name="Beaststalker's Pants",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16676={
+	["16676"] = {
 		itemId=16676,
 		name="Beaststalker's Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16675={
+	["16675"] = {
 		itemId=16675,
 		name="Beaststalker's Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16674={
+	["16674"] = {
 		itemId=16674,
 		name="Beaststalker's Tunic",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16673={
+	["16673"] = {
 		itemId=16673,
 		name="Cord of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16672={
+	["16672"] = {
 		itemId=16672,
 		name="Gauntlets of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16670={
+	["16670"] = {
 		itemId=16670,
 		name="Boots of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16669={
+	["16669"] = {
 		itemId=16669,
 		name="Pauldrons of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16668={
+	["16668"] = {
 		itemId=16668,
 		name="Kilt of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	16666={
+	["16666"] = {
 		itemId=16666,
 		name="Vest of Elements",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	15730={
+	["15730"] = {
 		itemId=15730,
 		name="Pattern: Red Dragonscale Breastplate",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	14513={
+	["14513"] = {
 		itemId=14513,
 		name="Pattern: Robe of the Archmage",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	14512={
+	["14512"] = {
 		itemId=14512,
 		name="Pattern: Truefaith Vestments",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	13954={
+	["13954"] = {
 		itemId=13954,
 		name="Verdant Footpads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13534={
+	["13534"] = {
 		itemId=13534,
 		name="Banshee Finger",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13529={
+	["13529"] = {
 		itemId=13529,
 		name="Husk of Nerub'enkan",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13524={
+	["13524"] = {
 		itemId=13524,
 		name="Skull of Burning Shadows",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13515={
+	["13515"] = {
 		itemId=13515,
 		name="Ramstein's Lightning Bolts",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13505={
+	["13505"] = {
 		itemId=13505,
 		name="Runeblade of Baron Rivendare",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13502={
+	["13502"] = {
 		itemId=13502,
 		name="Handcrafted Mastersmith Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13498={
+	["13498"] = {
 		itemId=13498,
 		name="Handcrafted Mastersmith Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13409={
+	["13409"] = {
 		itemId=13409,
 		name="Tearfall Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13408={
+	["13408"] = {
 		itemId=13408,
 		name="Soul Breaker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13405={
+	["13405"] = {
 		itemId=13405,
 		name="Wailing Nightbane Pauldrons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13404={
+	["13404"] = {
 		itemId=13404,
 		name="Mask of the Unforgiven",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13403={
+	["13403"] = {
 		itemId=13403,
 		name="Grimgore Noose",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13402={
+	["13402"] = {
 		itemId=13402,
 		name="Timmy's Galoshes",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13401={
+	["13401"] = {
 		itemId=13401,
 		name="The Cruel Hand of Timmy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13400={
+	["13400"] = {
 		itemId=13400,
 		name="Vambraces of the Sadist",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13399={
+	["13399"] = {
 		itemId=13399,
 		name="Gargoyle Shredder Talons",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13397={
+	["13397"] = {
 		itemId=13397,
 		name="Stoneskin Gargoyle Cape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13396={
+	["13396"] = {
 		itemId=13396,
 		name="Skul's Ghastly Touch",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13395={
+	["13395"] = {
 		itemId=13395,
 		name="Skul's Fingerbone Claws",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13394={
+	["13394"] = {
 		itemId=13394,
 		name="Skul's Cold Embrace",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13393={
+	["13393"] = {
 		itemId=13393,
 		name="Malown's Slam",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13392={
+	["13392"] = {
 		itemId=13392,
 		name="The Postmaster's Seal",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13391={
+	["13391"] = {
 		itemId=13391,
 		name="The Postmaster's Treads",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13390={
+	["13390"] = {
 		itemId=13390,
 		name="The Postmaster's Band",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13389={
+	["13389"] = {
 		itemId=13389,
 		name="The Postmaster's Trousers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13388={
+	["13388"] = {
 		itemId=13388,
 		name="The Postmaster's Tunic",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13387={
+	["13387"] = {
 		itemId=13387,
 		name="Foresight Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13386={
+	["13386"] = {
 		itemId=13386,
 		name="Archivist Cape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13385={
+	["13385"] = {
 		itemId=13385,
 		name="Tome of Knowledge",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13384={
+	["13384"] = {
 		itemId=13384,
 		name="Rainbow Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13383={
+	["13383"] = {
 		itemId=13383,
 		name="Woollies of the Prancing Minstrel",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13382={
+	["13382"] = {
 		itemId=13382,
 		name="Cannonball Runner",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13381={
+	["13381"] = {
 		itemId=13381,
 		name="Master Cannoneer Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13380={
+	["13380"] = {
 		itemId=13380,
 		name="Willey's Portable Howitzer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13379={
+	["13379"] = {
 		itemId=13379,
 		name="Piccolo of the Flaming Fire",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13378={
+	["13378"] = {
 		itemId=13378,
 		name="Songbird Blouse",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13377={
+	["13377"] = {
 		itemId=13377,
 		name="Miniature Cannon Balls",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13376={
+	["13376"] = {
 		itemId=13376,
 		name="Royal Tribunal Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13375={
+	["13375"] = {
 		itemId=13375,
 		name="Crest of Retribution",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13374={
+	["13374"] = {
 		itemId=13374,
 		name="Soulstealer Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13373={
+	["13373"] = {
 		itemId=13373,
 		name="Band of Flesh",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13372={
+	["13372"] = {
 		itemId=13372,
 		name="Slavedriver's Cane",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13369={
+	["13369"] = {
 		itemId=13369,
 		name="Fire Striders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13368={
+	["13368"] = {
 		itemId=13368,
 		name="Bonescraper",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13361={
+	["13361"] = {
 		itemId=13361,
 		name="Skullforge Reaver",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13360={
+	["13360"] = {
 		itemId=13360,
 		name="Gift of the Elven Magi",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13359={
+	["13359"] = {
 		itemId=13359,
 		name="Crown of Tyranny",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13358={
+	["13358"] = {
 		itemId=13358,
 		name="Wyrmtongue Shoulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13353={
+	["13353"] = {
 		itemId=13353,
 		name="Book of the Dead",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13349={
+	["13349"] = {
 		itemId=13349,
 		name="Scepter of the Unholy",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13348={
+	["13348"] = {
 		itemId=13348,
 		name="Demonshear",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13346={
+	["13346"] = {
 		itemId=13346,
 		name="Robes of the Exalted",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13345={
+	["13345"] = {
 		itemId=13345,
 		name="Seal of Rivendare",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13344={
+	["13344"] = {
 		itemId=13344,
 		name="Dracorian Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13340={
+	["13340"] = {
 		itemId=13340,
 		name="Cape of the Black Baron",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13286={
+	["13286"] = {
 		itemId=13286,
 		name="Rivenspike",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13285={
+	["13285"] = {
 		itemId=13285,
 		name="The Blackrock Slicer",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13284={
+	["13284"] = {
 		itemId=13284,
 		name="Swiftdart Battleboots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13283={
+	["13283"] = {
 		itemId=13283,
 		name="Magus Ring",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13282={
+	["13282"] = {
 		itemId=13282,
 		name="Ogreseer Tower Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13261={
+	["13261"] = {
 		itemId=13261,
 		name="Globe of D'sak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13260={
+	["13260"] = {
 		itemId=13260,
 		name="Wind Dancer Boots",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13259={
+	["13259"] = {
 		itemId=13259,
 		name="Ribsteel Footguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13258={
+	["13258"] = {
 		itemId=13258,
 		name="Slaghide Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13257={
+	["13257"] = {
 		itemId=13257,
 		name="Demonic Runed Spaulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13255={
+	["13255"] = {
 		itemId=13255,
 		name="Trueaim Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13253={
+	["13253"] = {
 		itemId=13253,
 		name="Hands of Power",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13252={
+	["13252"] = {
 		itemId=13252,
 		name="Cloudrunner Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13244={
+	["13244"] = {
 		itemId=13244,
 		name="Gilded Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13218={
+	["13218"] = {
 		itemId=13218,
 		name="Fang of the Crystal Spider",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13213={
+	["13213"] = {
 		itemId=13213,
 		name="Smolderweb's Eye",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13212={
+	["13212"] = {
 		itemId=13212,
 		name="Halycon's Spiked Collar",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13211={
+	["13211"] = {
 		itemId=13211,
 		name="Slashclaw Bracers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13210={
+	["13210"] = {
 		itemId=13210,
 		name="Pads of the Dread Wolf",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13208={
+	["13208"] = {
 		itemId=13208,
 		name="Bleak Howler Armguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13206={
+	["13206"] = {
 		itemId=13206,
 		name="Wolfshear Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13205={
+	["13205"] = {
 		itemId=13205,
 		name="Rhombeard Protector",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13204={
+	["13204"] = {
 		itemId=13204,
 		name="Bashguuder",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13203={
+	["13203"] = {
 		itemId=13203,
 		name="Armswake Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13198={
+	["13198"] = {
 		itemId=13198,
 		name="Hurd Smasher",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13185={
+	["13185"] = {
 		itemId=13185,
 		name="Sunderseer Mantle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13184={
+	["13184"] = {
 		itemId=13184,
 		name="Fallbrush Handgrips",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13183={
+	["13183"] = {
 		itemId=13183,
 		name="Venomspitter",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13182={
+	["13182"] = {
 		itemId=13182,
 		name="Phase Blade",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13181={
+	["13181"] = {
 		itemId=13181,
 		name="Demonskin Gloves",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13179={
+	["13179"] = {
 		itemId=13179,
 		name="Brazecore Armguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13178={
+	["13178"] = {
 		itemId=13178,
 		name="Rosewine Circle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13177={
+	["13177"] = {
 		itemId=13177,
 		name="Talisman of Evasion",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13173={
+	["13173"] = {
 		itemId=13173,
 		name="Flightblade Throwing Axe",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13170={
+	["13170"] = {
 		itemId=13170,
 		name="Skyshroud Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13169={
+	["13169"] = {
 		itemId=13169,
 		name="Tressermane Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13168={
+	["13168"] = {
 		itemId=13168,
 		name="Plate of the Shaman King",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13167={
+	["13167"] = {
 		itemId=13167,
 		name="Fist of Omokk",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13166={
+	["13166"] = {
 		itemId=13166,
 		name="Slamshot Shoulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13164={
+	["13164"] = {
 		itemId=13164,
 		name="Heart of the Scale",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13163={
+	["13163"] = {
 		itemId=13163,
 		name="Relentless Scythe",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13162={
+	["13162"] = {
 		itemId=13162,
 		name="Reiver Claws",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13161={
+	["13161"] = {
 		itemId=13161,
 		name="Trindlehaven Staff",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13148={
+	["13148"] = {
 		itemId=13148,
 		name="Chillpike",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13143={
+	["13143"] = {
 		itemId=13143,
 		name="Mark of the Dragon Lord",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13142={
+	["13142"] = {
 		itemId=13142,
 		name="Brigam Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13141={
+	["13141"] = {
 		itemId=13141,
 		name="Tooth of Gnarr",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	13098={
+	["13098"] = {
 		itemId=13098,
 		name="Painweaver Band",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12969={
+	["12969"] = {
 		itemId=12969,
 		name="Seeping Willow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12968={
+	["12968"] = {
 		itemId=12968,
 		name="Frostweaver Cape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12967={
+	["12967"] = {
 		itemId=12967,
 		name="Bloodmoon Cloak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12966={
+	["12966"] = {
 		itemId=12966,
 		name="Blackmist Armguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12965={
+	["12965"] = {
 		itemId=12965,
 		name="Spiritshroud Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12964={
+	["12964"] = {
 		itemId=12964,
 		name="Tristam Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12963={
+	["12963"] = {
 		itemId=12963,
 		name="Blademaster Leggings",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12960={
+	["12960"] = {
 		itemId=12960,
 		name="Tribal War Feathers",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12953={
+	["12953"] = {
 		itemId=12953,
 		name="Dragoneye Coif",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12952={
+	["12952"] = {
 		itemId=12952,
 		name="Gyth's Skull",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12940={
+	["12940"] = {
 		itemId=12940,
 		name="Dal'Rend's Sacred Charge",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12939={
+	["12939"] = {
 		itemId=12939,
 		name="Dal'Rend's Tribal Guardian",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12936={
+	["12936"] = {
 		itemId=12936,
 		name="Battleborn Armbraces",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12935={
+	["12935"] = {
 		itemId=12935,
 		name="Warmaster Legguards",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12930={
+	["12930"] = {
 		itemId=12930,
 		name="Briarwood Reed",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12929={
+	["12929"] = {
 		itemId=12929,
 		name="Emberfury Talisman",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12927={
+	["12927"] = {
 		itemId=12927,
 		name="Truestrike Shoulders",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12926={
+	["12926"] = {
 		itemId=12926,
 		name="Flaming Band",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12905={
+	["12905"] = {
 		itemId=12905,
 		name="Wildfire Cape",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12839={
+	["12839"] = {
 		itemId=12839,
 		name="Plans: Heartseeker",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12838={
+	["12838"] = {
 		itemId=12838,
 		name="Plans: Arcanite Reaper",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12837={
+	["12837"] = {
 		itemId=12837,
 		name="Plans: Masterwork Stormhammer",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12835={
+	["12835"] = {
 		itemId=12835,
 		name="Plans: Annihilator",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12834={
+	["12834"] = {
 		itemId=12834,
 		name="Plans: Arcanite Champion",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12833={
+	["12833"] = {
 		itemId=12833,
 		name="Plans: Hammer of the Titans",
 		mats=false,
 		special=true,
 		prio="",
 	},
-	12709={
+	["12709"] = {
 		itemId=12709,
 		name="Finkle's Skinner",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12654={
+	["12654"] = {
 		itemId=12654,
 		name="Doomshot",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12653={
+	["12653"] = {
 		itemId=12653,
 		name="Riphook",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12651={
+	["12651"] = {
 		itemId=12651,
 		name="Blackcrow",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12637={
+	["12637"] = {
 		itemId=12637,
 		name="Backusarian Gauntlets",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12634={
+	["12634"] = {
 		itemId=12634,
 		name="Chiselbrand Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12626={
+	["12626"] = {
 		itemId=12626,
 		name="Funeral Cuffs",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12621={
+	["12621"] = {
 		itemId=12621,
 		name="Demonfork",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12609={
+	["12609"] = {
 		itemId=12609,
 		name="Polychromatic Visionwrap",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12608={
+	["12608"] = {
 		itemId=12608,
 		name="Butcher's Apron",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12606={
+	["12606"] = {
 		itemId=12606,
 		name="Crystallized Girdle",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12605={
+	["12605"] = {
 		itemId=12605,
 		name="Serpentine Skuller",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12604={
+	["12604"] = {
 		itemId=12604,
 		name="Starfire Tiara",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12603={
+	["12603"] = {
 		itemId=12603,
 		name="Nightbrace Tunic",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12602={
+	["12602"] = {
 		itemId=12602,
 		name="Draconian Deflector",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12592={
+	["12592"] = {
 		itemId=12592,
 		name="Blackblade of Shahram",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12590={
+	["12590"] = {
 		itemId=12590,
 		name="Felstriker",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12589={
+	["12589"] = {
 		itemId=12589,
 		name="Dustfeather Sash",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12588={
+	["12588"] = {
 		itemId=12588,
 		name="Bonespike Shoulder",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12587={
+	["12587"] = {
 		itemId=12587,
 		name="Eye of Rend",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12583={
+	["12583"] = {
 		itemId=12583,
 		name="Blackhand Doomsaw",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12582={
+	["12582"] = {
 		itemId=12582,
 		name="Keris of Zul'Serak",
 		mats=false,
 		special=false,
 		prio="",
 	},
-	12103={
+	["12103"] = {
 		itemId=12103,
 		name="Star of Mystaria",
 		mats=false,
