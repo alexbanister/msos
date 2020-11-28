@@ -1,0 +1,1048 @@
+itemId	name	from	location	slot	type	special	mats	prio
+18257	Recipe: Major Rejuvenation Potion	Zone Drop	MC	Recipe	Alchemy	TRUE		
+12654	Doomshot	Shadow Hunter Vosh'gajin	UBRS	Projectile	Arrow			
+19363	Crul'shorukh, Edge of Chaos	Nefarian	BWL	Weapon	Axe			Fury warriors > OT
+21856	Neretzek, The Blood Drinker	Zone Drop	AQ40	Weapon	Axe			
+12621	Demonfork	Bannok Grimaxe	UBRS	Weapon	Axe			
+13286	Rivenspike	Spirestone Butcher	UBRS	Weapon	Axe			
+13285	The Blackrock Slicer	Spirestone Battle Lord	UBRS	Weapon	Axe			
+13408	Soul Breaker	The Unforgiven	STRAT	Weapon	Axe			
+17104	Spinal Reaper	Ragnaros	MC	Weapon	Axe			2H Fury/ Ret Paladin
+18737	Bone Slicing Hatchet	Maleki the Pallid	STRAT	Weapon	Axe			
+19353	Drake Talon Cleaver	Zone Drop	BWL	Weapon	Axe			Warrior dps then ret paladin
+19354	Draconic Avenger	Death Talon Wyrmguard	BWL	Weapon	Axe			No priority, burn a main roll if you want it
+19362	Doom's Edge	Zone Drop	BWL	Weapon	Axe			Someone with Edgemasters that will use it
+19852	Ancient Hakkari Manslayer	Hakkar	ZG	Weapon	Axe			1H Fury
+19921	Zulian Hacker	Zone Drop	ZG	Weapon	Axe			None
+19900	Zulian Stone Axe	High Priest Venoxis	ZG	Weapon	Axe			Hunters
+19962	Gri'lek's Carver	Gri'lek	ZG	Weapon	Axe			None
+21134	Dark Edge of Insanity	C'Thun	AQ40	Weapon	Axe			
+22815	Severance	Patchwerk	Naxx	Weapon	Axe			
+22816	Hatchet of Sundered Bone	Noth the Plaguebringer	Naxx	Weapon	Axe			
+19914	Panther Hide Sack	High Priestess Arlokk	ZG	Container	Bag	TRUE		
+12838	Plans: Arcanite Reaper	Bannok Grimaxe	UBRS	Recipe	Blacksmithing	TRUE		
+12837	Plans: Masterwork Stormhammer	Goraluk Anvilcrack	UBRS	Recipe	Blacksmithing	TRUE		
+12835	Plans: Annihilator	Quartermaster Zigris	UBRS	Recipe	Blacksmithing	TRUE		
+12839	Plans: Heartseeker	Cannon Master Willey	STRAT	Recipe	Blacksmithing	TRUE		
+12834	Plans: Arcanite Champion	Goraluk Anvilcrack	UBRS	Recipe	Blacksmithing	TRUE		
+12833	Plans: Hammer of the Titans	Maleki the Pallid	STRAT	Recipe	Blacksmithing	TRUE		
+18264	Plans: Elemental Sharpening Stone	Zone Drop	MC	Recipe	Blacksmithing	TRUE		
+22222	Plans: Thick Obsidian Breastplate	The Prophet Skeram	AQ40	Recipe	Blacksmithing	TRUE		
+22220	Plans: Black Grasp of the Destroyer	Moam	AQ20	Recipe	Blacksmithing	TRUE		
+21214	Tome of Frostbolt XI	Zone Drop	AQ20	Recipe	Book	TRUE		
+21281	Grimoire of Shadow Bolt X	Zone Drop	AQ20	Recipe	Book	TRUE		
+21279	Tome of Fireball XII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21291	Tablet of Healing Wave X	Zone Drop	AQ20	Recipe	Book	TRUE		
+21300	Handbook of Backstab IX	Zone Drop	AQ20	Recipe	Book	TRUE		
+21295	Book of Starfire VII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21293	Tablet of Grace of Air Totem III	Zone Drop	AQ20	Recipe	Book	TRUE		
+21304	Guide: Multi-Shot V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21298	Manual of Battle Shout VII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21297	Manual of Heroic Strike IX	Zone Drop	AQ20	Recipe	Book	TRUE		
+21290	Libram: Holy Light IX	Zone Drop	AQ20	Recipe	Book	TRUE		
+21280	Tome of Arcane Missiles VIII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21292	Tablet of Strength of Earth Totem V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21289	Libram: Blessing of Might VII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21287	Codex of Prayer of Healing V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21296	Book of Rejuvenation XI	Zone Drop	AQ20	Recipe	Book	TRUE		
+21303	Handbook of Feint V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21306	Guide: Serpent Sting IX	Zone Drop	AQ20	Recipe	Book	TRUE		
+21307	Guide: Aspect of the Hawk VII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21302	Handbook of Deadly Poison V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21283	Grimoire of Corruption VII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21294	Book of Healing Touch XI	Zone Drop	AQ20	Recipe	Book	TRUE		
+21282	Grimoire of Immolate VIII	Zone Drop	AQ20	Recipe	Book	TRUE		
+21285	Codex of Renew X	Zone Drop	AQ20	Recipe	Book	TRUE		
+21299	Manual of Revenge VI	Zone Drop	AQ20	Recipe	Book	TRUE		
+21284	Codex of Greater Heal V	Zone Drop	AQ20	Recipe	Book	TRUE		
+21288	Libram: Blessing of Wisdom VI	Zone Drop	AQ20	Recipe	Book	TRUE		
+22739	Tome of Polymorph: Turtle	Gahz'ranka	ZG	Recipe	Book	TRUE		
+22897	Tome of Conjure Food VII	Archivist Galford	STRAT	Recipe	Book	TRUE		
+23320	Tablet of Flame Shock VI	Pyroguard Emberseer	UBRS	Recipe	Book	TRUE		
+24102	Manual of Eviscerate IX	Blackhand Assassin	UBRS	Recipe	Book	TRUE		
+24101	Book of Ferocious Bite V	The Beast	UBRS	Recipe	Book	TRUE		
+12653	Riphook	Shadow Hunter Vosh'gajin	UBRS	Weapon	Bow			
+17069	Striker's Mark	Magmadar	MC	Weapon	Bow			Rogue BIS/DPS Warrior/Tank
+18729	Screeching Bow	Baroness Anastari	STRAT	Weapon	Bow			
+19350	Heartstriker	Broodlord Lashlayer	BWL	Weapon	Bow			Rogues and warrior dps
+19993	Hoodoo Hunting Bow	Wushoolay	ZG	Weapon	Bow			None
+20038	Mandokir's Sting	Bloodlord Mandokir	ZG	Weapon	Bow			Hunters
+21478	Bow of Taut Sinew	Ayamiss the Hunter	AQ20	Weapon	Bow			
+21616	Huhuran's Stinger	Princess Huhuran	AQ40	Weapon	Bow			
+13377	Miniature Cannon Balls	Cannon Master Willey	STRAT	Projectile	Bullet	TRUE		
+19375	Mish'undare, Circlet of the Mind Flayer	Nefarian	BWL	Armor	Cloth			Caster dps > holy pally > OS
+12609	Polychromatic Visionwrap	Solakar Flamewreath	UBRS	Armor	Cloth			
+12604	Starfire Tiara	Jed Runewatcher	UBRS	Armor	Cloth			
+12589	Dustfeather Sash	Solakar Flamewreath	UBRS	Armor	Cloth			
+12608	Butcher's Apron	Spirestone Butcher	UBRS	Armor	Cloth			
+12626	Funeral Cuffs	Shadow Hunter Vosh'gajin	UBRS	Armor	Cloth			
+12905	Wildfire Cape	Pyroguard Emberseer	UBRS	Armor	Cloth			
+12968	Frostweaver Cape	The Beast	UBRS	Armor	Cloth			
+12965	Spiritshroud Leggings	The Beast	UBRS	Armor	Cloth			
+12967	Bloodmoon Cloak	The Beast	UBRS	Armor	Cloth			
+13170	Skyshroud Leggings	Highlord Omokk	UBRS	Armor	Cloth			
+13181	Demonskin Gloves	Burning Felguard	UBRS	Armor	Cloth			
+13206	Wolfshear Leggings	Gizrul the Slavener	UBRS	Armor	Cloth			
+13282	Ogreseer Tower Boots	Spirestone Lord Magus	UBRS	Armor	Cloth			
+13203	Armswake Cloak	Ghok Bashguud	UBRS	Armor	Cloth			
+13253	Hands of Power	Quartermaster Zigris	UBRS	Armor	Cloth			
+13185	Sunderseer Mantle	Crystal Fang	UBRS	Armor	Cloth			
+13340	Cape of the Black Baron	Baron Rivendare	STRAT	Armor	Cloth			
+13346	Robes of the Exalted	Baron Rivendare	STRAT	Armor	Cloth			
+13376	Royal Tribunal Cloak	Magistrate Barthilas	STRAT	Armor	Cloth			
+13390	The Postmaster's Band	Postmaster Malown	STRAT	Armor	Cloth			
+13386	Archivist Cape	Archivist Galford	STRAT	Armor	Cloth			
+13374	Soulstealer Mantle	Ramstein the Gorger	STRAT	Armor	Cloth			
+13397	Stoneskin Gargoyle Cape	Stonespine	STRAT	Armor	Cloth			
+13388	The Postmaster's Tunic	Postmaster Malown	STRAT	Armor	Cloth			
+13391	The Postmaster's Treads	Postmaster Malown	STRAT	Armor	Cloth			
+13389	The Postmaster's Trousers	Postmaster Malown	STRAT	Armor	Cloth			
+13403	Grimgore Noose	Timmy the Cruel	STRAT	Armor	Cloth			
+13409	Tearfall Bracers	The Unforgiven	STRAT	Armor	Cloth			
+13369	Fire Striders	Zone Drop	STRAT	Armor	Cloth			
+16694	Devout Skirt	Baron Rivendare	STRAT	Armor	Cloth			
+16696	Devout Belt	Zone Drop	UBRS	Armor	Cloth			
+16695	Devout Mantle	Solakar Flamewreath	UBRS	Armor	Cloth			
+16690	Devout Robe	General Drakkisath	UBRS	Armor	Cloth			
+16691	Devout Sandals	Maleki the Pallid	STRAT	Armor	Cloth			
+16683	Magister's Bindings	Zone Drop	UBRS	Armor	Cloth			
+16688	Magister's Robes	General Drakkisath	UBRS	Armor	Cloth			
+16692	Devout Gloves	Archivist Galford	STRAT	Armor	Cloth			
+16699	Dreadmist Leggings	Baron Rivendare	STRAT	Armor	Cloth			
+16687	Magister's Leggings	Baron Rivendare	STRAT	Armor	Cloth			
+16697	Devout Bracers	Zone Drop	STRAT	Armor	Cloth			
+16700	Dreadmist Robe	General Drakkisath	UBRS	Armor	Cloth			
+16704	Dreadmist Sandals	Baroness Anastari	STRAT	Armor	Cloth			
+16682	Magister's Boots	Hearthsinger Forresten	STRAT	Armor	Cloth			
+16703	Dreadmist Bracers	Zone Drop	UBRS	Armor	Cloth			
+16795	Arcanist Crown	Garr	MC	Armor	Cloth			
+16798	Arcanist Robes	Golemagg the Incinerator	MC	Armor	Cloth			
+16802	Arcanist Belt	Zone Drop	MC	Armor	Cloth			
+16797	Arcanist Mantle	Baron Geddon	MC	Armor	Cloth			
+16806	Felheart Belt	Zone Drop	MC	Armor	Cloth			
+16805	Felheart Gloves	Lucifron	MC	Armor	Cloth			
+16808	Felheart Horns	Garr	MC	Armor	Cloth			
+16796	Arcanist Leggings	Magmadar	MC	Armor	Cloth			
+16815	Robes of Prophecy	Golemagg the Incinerator	MC	Armor	Cloth			
+16804	Felheart Bracers	Zone Drop	MC	Armor	Cloth			
+16803	Felheart Slippers	Shazzrah	MC	Armor	Cloth			
+16819	Vambraces of Prophecy	Zone Drop	MC	Armor	Cloth			
+16816	Mantle of Prophecy	Sulfuron Harbinger	MC	Armor	Cloth			
+16817	Girdle of Prophecy	Zone Drop	MC	Armor	Cloth			
+16800	Arcanist Boots	Lucifron	MC	Armor	Cloth			
+16809	Felheart Robes	Golemagg the Incinerator	MC	Armor	Cloth			
+16807	Felheart Shoulder Pads	Baron Geddon	MC	Armor	Cloth			
+16814	Pants of Prophecy	Magmadar	MC	Armor	Cloth			
+16812	Gloves of Prophecy	Gehennas	MC	Armor	Cloth			
+16811	Boots of Prophecy	Shazzrah	MC	Armor	Cloth			
+16810	Felheart Pants	Magmadar	MC	Armor	Cloth			
+16813	Circlet of Prophecy	Garr	MC	Armor	Cloth			
+16799	Arcanist Bindings	Zone Drop	MC	Armor	Cloth			
+16818	Netherwind Belt	Vaelastrasz the Corrupt	BWL	Armor	Cloth			
+16801	Arcanist Gloves	Shazzrah	MC	Armor	Cloth			
+16913	Netherwind Gloves	Zone Drop	BWL	Armor	Cloth			
+16912	Netherwind Boots	Broodlord Lashlayer	BWL	Armor	Cloth			
+16917	Netherwind Mantle	Chromaggus	BWL	Armor	Cloth			
+16922	Leggings of Transcendence	Ragnaros	MC	Armor	Cloth			
+16918	Netherwind Bindings	Razorgore the Untamed	BWL	Armor	Cloth			
+16934	Nemesis Bracers	Razorgore the Untamed	BWL	Armor	Cloth			
+16919	Boots of Transcendence	Broodlord Lashlayer	BWL	Armor	Cloth			
+16924	Pauldrons of Transcendence	Chromaggus	BWL	Armor	Cloth			
+16923	Robes of Transcendence	Nefarian	BWL	Armor	Cloth			
+16916	Netherwind Robes	Nefarian	BWL	Armor	Cloth			
+16915	Netherwind Pants	Ragnaros	MC	Armor	Cloth			
+16920	Handguards of Transcendence	Zone Drop	BWL	Armor	Cloth			
+16928	Nemesis Gloves	Zone Drop	BWL	Armor	Cloth			
+16927	Nemesis Boots	Broodlord Lashlayer	BWL	Armor	Cloth			
+16930	Nemesis Leggings	Ragnaros	MC	Armor	Cloth			
+16933	Nemesis Belt	Vaelastrasz the Corrupt	BWL	Armor	Cloth			
+16925	Belt of Transcendence	Vaelastrasz the Corrupt	BWL	Armor	Cloth			
+16932	Nemesis Spaulders	Chromaggus	BWL	Armor	Cloth			
+16931	Nemesis Robes	Nefarian	BWL	Armor	Cloth			
+16926	Bindings of Transcendence	Razorgore the Untamed	BWL	Armor	Cloth			
+17102	Cloak of the Shrouded Mists	Ragnaros	MC	Armor	Cloth			Hunter/Rogue/Fury Warriors
+17061	Juno's Shadow	Zone Drop	STRAT	Armor	Cloth			
+17107	Dragon's Blood Cape	Ragnaros	MC	Armor	Cloth			Tank
+18102	Dragonrider Boots	Warchief Rend Blackhand	UBRS	Armor	Cloth			
+18720	Shroud of the Nathrezim	Zone Drop	STRAT	Armor	Cloth			
+18727	Crimson Felt Hat	Magistrate Barthilas	STRAT	Armor	Cloth			
+18730	Shadowy Laced Handwraps	Baroness Anastari	STRAT	Armor	Cloth			
+18743	Gracious Cape	Zone Drop	STRAT	Armor	Cloth			
+18735	Maleki's Footwraps	Maleki the Pallid	STRAT	Armor	Cloth			
+18745	Sacred Cloth Leggings	Zone Drop	STRAT	Armor	Cloth			
+18734	Pale Moon Cloak	Maleki the Pallid	STRAT	Armor	Cloth			
+18740	Thuzadin Sash	Nerub'enkan	STRAT	Armor	Cloth			
+18811	Fireproof Cloak	Majordomo Executus	MC	Armor	Cloth			Fire Resist
+18809	Sash of Whispered Secrets	Majordomo Executus	MC	Armor	Cloth			Warlock/Shadow Priest
+18872	Manastorm Leggings	Zone Drop	MC	Armor	Cloth			Healer
+19136	Mana Igniting Cord	Zone Drop	MC	Armor	Cloth			Caster DPS
+19145	Robe of Volatile Power	Zone Drop	MC	Armor	Cloth			Caster DPS
+19374	Bracers of Arcane Accuracy	Broodlord Lashlayer	BWL	Armor	Cloth			Locks & Mages > shadow priest (shadow priests get 10% hit from talents)
+19388	Angelista's Grasp	Chromaggus	BWL	Armor	Cloth			Mages and locks, then shadow priests
+19369	Gloves of Rapid Evolution	Razorgore the Untamed	BWL	Armor	Cloth			Healers > Caster dps > Offspec
+19398	Cloak of Firemaw	Firemaw	BWL	Armor	Cloth			Rogues
+19385	Empowered Leggings	Chromaggus	BWL	Armor	Cloth			Healers
+19370	Mantle of the Blackwing Cabal	Razorgore the Untamed	BWL	Armor	Cloth			Caster dps
+19386	Elementium Threaded Cloak	Chromaggus	BWL	Armor	Cloth			Druid tank then warrior MT then warrior OT
+19378	Cloak of the Brood Lord	Nefarian	BWL	Armor	Cloth			
+19391	Shimmering Geta	Chromaggus	BWL	Armor	Cloth			Healers
+19430	Shroud of Pure Thought	Flamegor	BWL	Armor	Cloth			Healers
+19399	Black Ash Robe	Firemaw	BWL	Armor	Cloth			All healers (Druid tank should consider if fire resist upgrade)
+19400	Firemaw's Clutch	Firemaw	BWL	Armor	Cloth			Caster dps
+19407	Ebony Flame Gloves	Ebonroc	BWL	Armor	Cloth			Warlocks and shadow priests
+19438	Ringo's Blizzard Boots	Death Talon Wyrmguard	BWL	Armor	Cloth			Mages
+19437	Boots of Pure Thought	Zone Drop	BWL	Armor	Cloth			All healers
+19436	Cloak of Draconic Might	Zone Drop	BWL	Armor	Cloth			DPS warriors (including OT) then ret paladin and feral dps
+19870	Hakkari Loa Cloak	Bloodlord Mandokir	ZG	Armor	Cloth			Healers
+19857	Cloak of Consumption	Hakkar	ZG	Armor	Cloth			Caster DPS
+19886	The Hexxer's Cover	Jin'do the Hexxer	ZG	Armor	Cloth			Shadow Priests BIS
+19888	Overlord's Embrace	Jin'do the Hexxer	ZG	Armor	Cloth			Tanks
+19899	Ritualistic Legguards	High Priest Thekal	ZG	Armor	Cloth			Holy Priests/Healers
+19907	Zulian Tigerhide Cloak	High Priest Venoxis	ZG	Armor	Cloth			Melee DPS/Hunter
+19897	Betrayer's Boots	High Priest Thekal	ZG	Armor	Cloth			Caster DPS
+19929	Bloodtinged Gloves	Jin'do the Hexxer	ZG	Armor	Cloth			Caster DPS
+19895	Bloodtinged Kilt	Bloodlord Mandokir	ZG	Armor	Cloth			Caster DPS
+20032	Flowing Ritual Robes	High Priestess Mar'li	ZG	Armor	Cloth			Caster DPS
+21464	Shackles of the Unscarred	Ossirian the Unscarred	AQ20	Armor	Cloth			
+21462	Gloves of Dark Wisdom	Ossirian the Unscarred	AQ20	Armor	Cloth			
+21461	Leggings of the Black Blizzard	Ossirian the Unscarred	AQ20	Armor	Cloth			
+21456	Sandstorm Cloak	Ossirian the Unscarred	AQ20	Armor	Cloth			
+21468	Mantle of Maz'Nadir	Moam	AQ20	Armor	Cloth			
+21470	Cloak of the Savior	Moam	AQ20	Armor	Cloth			
+21496	Bracers of Qiraji Command	General Rajaxx	AQ20	Armor	Cloth			
+21489	Quicksand Waders	Buru the Gorger	AQ20	Armor	Cloth			
+21472	Dustwind Turban	Moam	AQ20	Armor	Cloth			
+21500	Belt of the Inquisition	Kurinnaxx	AQ20	Armor	Cloth			
+21499	Vestments of the Shifting Sands	Kurinnaxx	AQ20	Armor	Cloth			
+21583	Cloak of Clarity	C'Thun	AQ40	Armor	Cloth			
+21585	Dark Storm Gauntlets	C'Thun	AQ40	Armor	Cloth			
+21615	Don Rigoberto's Lost Hat	Ouro	AQ40	Armor	Cloth			
+21604	Bracelets of Royal Redemption	Emperor Vek'nilash	AQ40	Armor	Cloth			
+21611	Burrower Bracers	Ouro	AQ40	Armor	Cloth			
+21619	Gloves of the Messiah	Princess Huhuran	AQ40	Armor	Cloth			
+21648	Recomposed Boots	Battleguard Sartura	AQ40	Armor	Cloth			
+21663	Robes of the Guardian Saint	Fankriss the Unyielding	AQ40	Armor	Cloth			
+21582	Grasp of the Old God	C'Thun	AQ40	Armor	Cloth			
+21600	Boots of Epiphany	Emperor Vek'lor	AQ40	Armor	Cloth			
+21676	Leggings of the Festering Swarm	Battleguard Sartura	AQ40	Armor	Cloth			
+21686	Mantle of Phrenic Power	Princess Yauj	AQ40	Armor	Cloth			
+21621	Cloak of the Golden Hive	Princess Huhuran	AQ40	Armor	Cloth			
+21671	Robes of the Battleguard	Battleguard Sartura	AQ40	Armor	Cloth			
+21627	Cloak of Untold Secrets	Fankriss the Unyielding	AQ40	Armor	Cloth			
+21694	Ternary Mantle	Zone Drop	AQ40	Armor	Cloth			
+21701	Cloak of Concentrated Hatred	The Prophet Skeram	AQ40	Armor	Cloth			
+21697	Cape of the Trinity	Zone Drop	AQ40	Armor	Cloth			
+21696	Robes of the Triumvirate	Zone Drop	AQ40	Armor	Cloth			
+21810	Treads of the Wandering Nomad	Zone Drop	AQ20	Armor	Cloth			
+21838	Garb of Royal Ascension	Zone Drop	AQ40	Armor	Cloth			
+21888	Gloves of the Immortal	Zone Drop	AQ40	Armor	Cloth			
+22225	Dragonskin Cowl	Gyth	UBRS	Armor	Cloth			
+22231	Kayser's Boots of Precision	War Master Voone	UBRS	Armor	Cloth			
+22267	Spellweaver's Turban	General Drakkisath	UBRS	Armor	Cloth			
+22306	Ironweave Belt	Mor Grayhoof	UBRS	Armor	Cloth			
+22311	Ironweave Boots	The Beast	UBRS	Armor	Cloth			
+22269	Shadow Prowler's Cloak	General Drakkisath	UBRS	Armor	Cloth			
+22313	Ironweave Bracers	Halycon	UBRS	Armor	Cloth			
+22302	Ironweave Cowl	Lord Valthalak	UBRS	Armor	Cloth			
+22247	Faith Healer's Boots	Warchief Rend Blackhand	UBRS	Armor	Cloth			
+22337	Shroud of Domination	Lord Valthalak	UBRS	Armor	Cloth			
+22342	Leggings of Torment	Lord Valthalak	UBRS	Armor	Cloth			
+22412	Thuzadin Mantle	Baron Rivendare	STRAT	Armor	Cloth			
+22405	Mantle of the Scarlet Crusade	Cannon Master Willey	STRAT	Armor	Cloth			
+22712	Might of the Tribe	Zone Drop	ZG	Armor	Cloth			Melee DPS/Hunter
+22720	Zulian Headdress	Zone Drop	ZG	Armor	Cloth			Healers
+22716	Belt of Untapped Power	Zone Drop	ZG	Armor	Cloth			Caster DPS
+22730	Eyestalk Waist Cord	C'Thun	AQ40	Armor	Cloth			
+22731	Cloak of the Devoured	C'Thun	AQ40	Armor	Cloth			
+22711	Cloak of the Hakkari Worshipers	Zone Drop	ZG	Armor	Cloth			
+22938	Cryptfiend Silk Cloak	Anub'Rekhan	Naxx	Armor	Cloth			
+23017	Veil of Eclipse	Instructor Razuvious	Naxx	Armor	Cloth			
+23030	Cloak of the Scourge	Noth the Plaguebringer	Naxx	Armor	Cloth			
+22960	Cloak of Suturing	Patchwerk	Naxx	Armor	Cloth			
+22968	Glacial Mantle	Grobbulus	Naxx	Armor	Cloth			
+23045	Shroud of Dominion	Sapphiron	Naxx	Armor	Cloth			
+23050	Cloak of the Necropolis	Sapphiron	Naxx	Armor	Cloth			
+22983	Rime Covered Mantle	Gluth	Naxx	Armor	Cloth			
+23032	Glacial Headdress	Gothik the Harvester	Naxx	Armor	Cloth			
+23070	Leggings of Polarity	Thaddius	Naxx	Armor	Cloth			
+23021	The Soul Harvester's Bindings	Gothik the Harvester	Naxx	Armor	Cloth			
+23035	Preceptor's Hat	Heigan the Unclean	Naxx	Armor	Cloth			
+23220	Crystal Webbed Robe	Maexxna	Naxx	Armor	Cloth			
+19361	Ashjre'thul, Crossbow of Smiting	Chromaggus	BWL	Weapon	Crossbow			Hunters
+12651	Blackcrow	Shadow Hunter Vosh'gajin	UBRS	Weapon	Crossbow			
+18738	Carapace Spine Crossbow	Nerub'enkan	STRAT	Weapon	Crossbow			
+21459	Crossbow of Imminent Doom	Ossirian the Unscarred	AQ20	Weapon	Crossbow			
+2941	Prison Shank	Bruegal Ironknuckle	STOCKS	Weapon	Dagger			
+12582	Keris of Zul'Serak	War Master Voone	UBRS	Weapon	Dagger			
+12590	Felstriker	Warchief Rend Blackhand	UBRS	Weapon	Dagger			
+12709	Finkle's Skinner	The Beast	UBRS	Weapon	Dagger			
+13218	Fang of the Crystal Spider	Crystal Fang	UBRS	Weapon	Dagger			
+13368	Bonescraper	Baron Rivendare	STRAT	Weapon	Dagger			
+13360	Gift of the Elven Magi	Zone Drop	STRAT	Weapon	Dagger			
+17071	Gutgore Ripper	Garr	MC	Weapon	Dagger			Rogue
+18805	Core Hound Tooth	Majordomo Executus	MC	Weapon	Dagger			Rogue
+18816	Perdition's Blade	Ragnaros	MC	Weapon	Dagger			Rogue
+18878	Sorcerous Dagger	Zone Drop	MC	Weapon	Dagger			Caster DPS
+19347	Claw of Chromaggus	Chromaggus	BWL	Weapon	Dagger			Resto druid & Caster dps
+19346	Dragonfang Blade	Vaelastrasz the Corrupt	BWL	Weapon	Dagger			Dagger rogues (Warrior tank first, if needed)
+19859	Fang of the Faceless	Hakkar	ZG	Weapon	Dagger			Hunter
+19903	Fang of Venoxis	High Priest Venoxis	ZG	Weapon	Dagger			Caster DPS
+19965	Wushoolay's Poker	Wushoolay	ZG	Weapon	Dagger			None
+21126	Death's Sting	C'Thun	AQ40	Weapon	Dagger			
+21498	Qiraji Sacrificial Dagger	Kurinnaxx	AQ20	Weapon	Dagger			
+21802	The Lost Kris of Zedd	Zone Drop	AQ20	Weapon	Dagger			
+22804	Maexxna's Fang	Maexxna	Naxx	Weapon	Dagger			
+22802	Kingsfall	Kel'Thuzad	Naxx	Weapon	Dagger			
+22803	Midnight Haze	Grobbulus	Naxx	Weapon	Dagger			
+18260	Formula: Enchant Weapon - Healing Power	Zone Drop	MC	Recipe	Enchanting	TRUE		
+18259	Formula: Enchant Weapon - Spell Power	Zone Drop	MC	Recipe	Enchanting	TRUE		
+20726	Formula: Enchant Gloves - Threat	Emperor Vek'nilash	AQ40	Recipe	Enchanting	TRUE		
+20735	Formula: Enchant Cloak - Subtlety	Emperor Vek'lor	AQ40	Recipe	Enchanting	TRUE		
+18292	Schematic: Core Marksman Rifle	Zone Drop	MC	Recipe	Engineering	TRUE		
+18290	Schematic: Biznicks 247x128 Accurascope	Zone Drop	MC	Recipe	Engineering	TRUE		
+18291	Schematic: Force Reactive Disk	Zone Drop	MC	Recipe	Engineering	TRUE		
+2942	Iron Knuckles	Bruegal Ironknuckle	STOCKS	Weapon	Fist Weapon			
+13198	Hurd Smasher	Ghok Bashguud	UBRS	Weapon	Fist Weapon			
+13399	Gargoyle Shredder Talons	Stonespine	STRAT	Weapon	Fist Weapon			
+18203	Eskhandar's Right Claw	Magmadar	MC	Weapon	Fist Weapon			Tank/1H Fury/Rogue
+19365	Claw of the Black Drake	Firemaw	BWL	Weapon	Fist Weapon			No priority
+19896	Thekal's Grasp	High Priest Thekal	ZG	Weapon	Fist Weapon			None
+19910	Arlokk's Grasp	High Priestess Arlokk	ZG	Weapon	Fist Weapon			None
+21673	Silithid Claw	Battleguard Sartura	AQ40	Weapon	Fist Weapon			
+22404	Willey's Back Scratcher	Cannon Master Willey	STRAT	Weapon	Fist Weapon			
+23242	Claw of the Frost Wyrm	Sapphiron	Naxx	Weapon	Fist Weapon			
+13380	Willey's Portable Howitzer	Cannon Master Willey	STRAT	Weapon	Gun			
+17072	Blastershot Launcher	Golemagg the Incinerator	MC	Weapon	Gun			Tanks
+19368	Dragonbreath Hand Cannon	Ebonroc	BWL	Weapon	Gun			Warrior tank, then warrior dps and rogues
+19853	Gurubashi Dwarf Destroyer	Hakkar	ZG	Weapon	Gun			Rogue and Warrior DPS
+21800	Silithid Husked Launcher	Zone Drop	AQ20	Weapon	Gun			
+22810	Toxin Injector	Grobbulus	Naxx	Weapon	Gun			
+23557	Larvae of the Great Worm	Ouro	AQ40	Weapon	Gun			
+22398	Idol of Rejuvenation	Mor Grayhoof	UBRS	Armor	Idol			
+22399	Idol of Health	Viscidus	AQ40	Armor	Idol			
+23004	Idol of Longevity	Instructor Razuvious	Naxx	Armor	Idol			
+23198	Idol of Brutality	Magistrate Barthilas	STRAT	Armor	Idol			
+18563	Bindings of the Windseeker	Baron Geddon	MC	Miscellaneous	Junk			
+18564	Bindings of the Windseeker	Garr	MC	Miscellaneous	Junk			
+19227	Ace of Beasts	The Beast	UBRS	Miscellaneous	Junk	TRUE		
+19872	Swift Razzashi Raptor	Bloodlord Mandokir	ZG	Miscellaneous	Junk	TRUE		
+19902	Swift Zulian Tiger	High Priest Thekal	ZG	Miscellaneous	Junk	TRUE		
+21218	Blue Qiraji Resonating Crystal	Zone Drop	AQ40	Miscellaneous	Junk	TRUE		
+21232	Imperial Qiraji Armaments	Zone Drop	AQ40	Miscellaneous	Junk			
+21237	Imperial Qiraji Regalia	Zone Drop	AQ40	Miscellaneous	Junk			
+21323	Green Qiraji Resonating Crystal	Zone Drop	AQ40	Miscellaneous	Junk	TRUE		
+21324	Yellow Qiraji Resonating Crystal	Zone Drop	AQ40	Miscellaneous	Junk	TRUE		
+21321	Red Qiraji Resonating Crystal	Zone Drop	AQ40	Miscellaneous	Junk	TRUE		
+22354	Desecrated Pauldrons	Zone Drop	Naxx	Miscellaneous	Junk			
+22353	Desecrated Helmet	Thaddius	Naxx	Miscellaneous	Junk			
+22359	Desecrated Legguards	Loatheb	Naxx	Miscellaneous	Junk			
+22355	Desecrated Bracers	Zone Drop	Naxx	Miscellaneous	Junk			
+22356	Desecrated Waistguard	Zone Drop	Naxx	Miscellaneous	Junk			
+22367	Desecrated Circlet	Thaddius	Naxx	Miscellaneous	Junk			
+22358	Desecrated Sabatons	Zone Drop	Naxx	Miscellaneous	Junk			
+22370	Desecrated Belt	Zone Drop	Naxx	Miscellaneous	Junk			
+22364	Desecrated Handguards	Maexxna	Naxx	Miscellaneous	Junk			
+22362	Desecrated Wristguards	Zone Drop	Naxx	Miscellaneous	Junk			
+22361	Desecrated Spaulders	Zone Drop	Naxx	Miscellaneous	Junk			
+22363	Desecrated Girdle	Zone Drop	Naxx	Miscellaneous	Junk			
+22369	Desecrated Bindings	Zone Drop	Naxx	Miscellaneous	Junk			
+22352	Desecrated Legplates	Loatheb	Naxx	Miscellaneous	Junk			
+22366	Desecrated Leggings	Loatheb	Naxx	Miscellaneous	Junk			
+22371	Desecrated Gloves	Maexxna	Naxx	Miscellaneous	Junk			
+22365	Desecrated Boots	Zone Drop	Naxx	Miscellaneous	Junk			
+22368	Desecrated Shoulderpads	Zone Drop	Naxx	Miscellaneous	Junk			
+22372	Desecrated Sandals	Zone Drop	Naxx	Miscellaneous	Junk			
+22357	Desecrated Gauntlets	Maexxna	Naxx	Miscellaneous	Junk			
+22360	Desecrated Headpiece	Thaddius	Naxx	Miscellaneous	Junk			
+22520	The Phylactery of Kel'Thuzad	Kel'Thuzad	Naxx	Miscellaneous	Junk	TRUE		
+22637	Primal Hakkari Idol	Zone Drop	ZG	Miscellaneous	Junk			
+22726	Splinter of Atiesh	Zone Drop	Naxx	Miscellaneous	Junk			
+12603	Nightbrace Tunic	Solakar Flamewreath	UBRS	Armor	Leather			
+12606	Crystallized Girdle	Solakar Flamewreath	UBRS	Armor	Leather			
+12587	Eye of Rend	Warchief Rend Blackhand	UBRS	Armor	Leather			
+12927	Truestrike Shoulders	Pyroguard Emberseer	UBRS	Armor	Leather			
+12966	Blackmist Armguards	The Beast	UBRS	Armor	Leather			
+12960	Tribal War Feathers	Gyth	UBRS	Armor	Leather			
+12963	Blademaster Leggings	The Beast	UBRS	Armor	Leather			
+13169	Tressermane Leggings	Highlord Omokk	UBRS	Armor	Leather			
+13184	Fallbrush Handgrips	Crystal Fang	UBRS	Armor	Leather			
+13252	Cloudrunner Girdle	Quartermaster Zigris	UBRS	Armor	Leather			
+13210	Pads of the Dread Wolf	Halycon	UBRS	Armor	Leather			
+13208	Bleak Howler Armguards	Gizrul the Slavener	UBRS	Armor	Leather			
+13258	Slaghide Gauntlets	Urok Doomhowl	UBRS	Armor	Leather			
+13257	Demonic Runed Spaulders	Shadow Hunter Vosh'gajin	UBRS	Armor	Leather			
+13378	Songbird Blouse	Hearthsinger Forresten	STRAT	Armor	Leather			
+13358	Wyrmtongue Shoulders	Zone Drop	STRAT	Armor	Leather			
+13395	Skul's Fingerbone Claws	Skul	STRAT	Armor	Leather			
+13404	Mask of the Unforgiven	The Unforgiven	STRAT	Armor	Leather			
+13954	Verdant Footpads	Stonespine	STRAT	Armor	Leather			
+16715	Wildheart Boots	Mother Smolderweb	UBRS	Armor	Leather			
+16706	Wildheart Vest	General Drakkisath	UBRS	Armor	Leather			
+16718	Wildheart Spaulders	Gizrul the Slavener	UBRS	Armor	Leather			
+16708	Shadowcraft Spaulders	Cannon Master Willey	STRAT	Armor	Leather			
+16709	Shadowcraft Pants	Baron Rivendare	STRAT	Armor	Leather			
+16719	Wildheart Kilt	Baron Rivendare	STRAT	Armor	Leather			
+16712	Shadowcraft Gloves	Shadow Hunter Vosh'gajin	UBRS	Armor	Leather			
+16721	Shadowcraft Tunic	General Drakkisath	UBRS	Armor	Leather			
+16713	Shadowcraft Belt	Zone Drop	UBRS	Armor	Leather			
+16824	Nightslayer Boots	Shazzrah	MC	Armor	Leather			
+16820	Nightslayer Chestpiece	Golemagg the Incinerator	MC	Armor	Leather			
+16823	Nightslayer Shoulder Pads	Sulfuron Harbinger	MC	Armor	Leather			
+16821	Nightslayer Cover	Garr	MC	Armor	Leather			
+16831	Cenarion Gloves	Shazzrah	MC	Armor	Leather			
+16825	Nightslayer Bracelets	Zone Drop	MC	Armor	Leather			
+16822	Nightslayer Pants	Magmadar	MC	Armor	Leather			
+16836	Cenarion Spaulders	Baron Geddon	MC	Armor	Leather			
+16832	Bloodfang Spaulders	Chromaggus	BWL	Armor	Leather			
+16829	Cenarion Boots	Lucifron	MC	Armor	Leather			
+16826	Nightslayer Gloves	Gehennas	MC	Armor	Leather			
+16828	Cenarion Belt	Zone Drop	MC	Armor	Leather			
+16827	Nightslayer Belt	Zone Drop	MC	Armor	Leather			
+16835	Cenarion Leggings	Magmadar	MC	Armor	Leather			
+16830	Cenarion Bracers	Zone Drop	MC	Armor	Leather			
+16834	Cenarion Helm	Garr	MC	Armor	Leather			
+16833	Cenarion Vestments	Golemagg the Incinerator	MC	Armor	Leather			
+16903	Stormrage Belt	Vaelastrasz the Corrupt	BWL	Armor	Leather			
+16902	Stormrage Pauldrons	Chromaggus	BWL	Armor	Leather			
+16899	Stormrage Handguards	Zone Drop	BWL	Armor	Leather			
+16901	Stormrage Legguards	Ragnaros	MC	Armor	Leather			
+16898	Stormrage Boots	Broodlord Lashlayer	BWL	Armor	Leather			
+16897	Stormrage Chestguard	Nefarian	BWL	Armor	Leather			
+16904	Stormrage Bracers	Razorgore the Untamed	BWL	Armor	Leather			
+16906	Bloodfang Boots	Broodlord Lashlayer	BWL	Armor	Leather			
+16909	Bloodfang Pants	Ragnaros	MC	Armor	Leather			
+16905	Bloodfang Chestpiece	Nefarian	BWL	Armor	Leather			
+16910	Bloodfang Belt	Vaelastrasz the Corrupt	BWL	Armor	Leather			
+16907	Bloodfang Gloves	Zone Drop	BWL	Armor	Leather			
+16911	Bloodfang Bracers	Razorgore the Untamed	BWL	Armor	Leather			
+18716	Ash Covered Boots	Archivist Galford	STRAT	Armor	Leather			
+18744	Plaguebat Fur Gloves	Zone Drop	STRAT	Armor	Leather			
+18726	Magistrate's Cuffs	Magistrate Barthilas	STRAT	Armor	Leather			
+18736	Plaguehound Leggings	Zone Drop	STRAT	Armor	Leather			
+18810	Wild Growth Spaulders	Majordomo Executus	MC	Armor	Leather			Resto Druid/Holy Pally
+18823	Aged Core Leather Gloves	Zone Drop	MC	Armor	Leather			Dagger Rogue > Feral/1H Fury
+18875	Salamander Scale Pants	Zone Drop	MC	Armor	Leather			Resto Druid/ Holy Pally
+19146	Wristguards of Stability	Zone Drop	MC	Armor	Leather			Feral/Fury Warrior
+19396	Taut Dragonhide Belt	Zone Drop	BWL	Armor	Leather			Druid tank
+19390	Taut Dragonhide Gloves	Chromaggus	BWL	Armor	Leather			Holy paladins then resto druids
+19381	Boots of the Shadow Flame	Nefarian	BWL	Armor	Leather			Feral tank > feral dps > then rogues
+19389	Taut Dragonhide Shoulderpads	Chromaggus	BWL	Armor	Leather			Druid tanks then feral dps
+19405	Malfurion's Blessed Bulwark	Ebonroc	BWL	Armor	Leather			
+19439	Interlaced Shadow Jerkin	Death Talon Wyrmguard	BWL	Armor	Leather			Druid tanks for shadow resist
+19877	Animist's Leggings	Bloodlord Mandokir	ZG	Armor	Leather			Resto Druid
+19869	Blooddrenched Grips	Bloodlord Mandokir	ZG	Armor	Leather			Feral/Rogue
+19889	Blooddrenched Leggings	Jin'do the Hexxer	ZG	Armor	Leather			Feral
+19892	Animist's Boots	Jin'do the Hexxer	ZG	Armor	Leather			Resto Druid
+19906	Blooddrenched Footpads	High Priest Venoxis	ZG	Armor	Leather			Feral
+19928	Animist's Spaulders	High Priestess Jeklik	ZG	Armor	Leather			Resto Druid BIS Phase 4
+19945	Foror's Eyepatch	Gahz'ranka	ZG	Armor	Leather			Feral
+20261	Shadow Panther Hide Belt	Zone Drop	ZG	Armor	Leather			
+20259	Shadow Panther Hide Gloves	Zone Drop	ZG	Armor	Leather			
+21455	Southwind Helm	Moam	AQ20	Armor	Leather			
+21458	Gauntlets of New Life	Ossirian the Unscarred	AQ20	Armor	Leather			
+21467	Thick Silithid Chestguard	Moam	AQ20	Armor	Leather			
+21469	Gauntlets of Southwind	Moam	AQ20	Armor	Leather			
+21474	Chitinous Shoulderguards	Moam	AQ20	Armor	Leather			
+21484	Helm of Regrowth	Ayamiss the Hunter	AQ20	Armor	Leather			
+21491	Scaled Bracers of the Gorger	Buru the Gorger	AQ20	Armor	Leather			
+21493	Boots of the Vanguard	General Rajaxx	AQ20	Armor	Leather			
+21494	Southwind's Grasp	General Rajaxx	AQ20	Armor	Leather			
+21501	Toughened Silithid Hide Gloves	Kurinnaxx	AQ20	Armor	Leather			
+21602	Qiraji Execution Bracers	Emperor Vek'lor	AQ40	Armor	Leather			
+21617	Wasphide Gauntlets	Princess Huhuran	AQ40	Armor	Leather			
+21609	Regenerating Belt of Vek'nilash	Emperor Vek'nilash	AQ40	Armor	Leather			
+21605	Gloves of the Hidden Temple	Emperor Vek'nilash	AQ40	Armor	Leather			
+21675	Thick Qirajihide Belt	Battleguard Sartura	AQ40	Armor	Leather			
+21672	Gloves of Enforcement	Battleguard Sartura	AQ40	Armor	Leather			
+21586	Belt of Never-ending Agony	C'Thun	AQ40	Armor	Leather			
+21665	Mantle of Wicked Revenge	Fankriss the Unyielding	AQ40	Armor	Leather			
+21680	Vest of Swift Execution	Lord Kri	AQ40	Armor	Leather			
+21669	Creeping Vine Helm	Battleguard Sartura	AQ40	Armor	Leather			
+21645	Hive Tunneler's Boots	Fankriss the Unyielding	AQ40	Armor	Leather			
+21693	Guise of the Devourer	Zone Drop	AQ40	Armor	Leather			
+21698	Leggings of Immersion	The Prophet Skeram	AQ40	Armor	Leather			
+21682	Bile-Covered Gauntlets	Princess Yauj	AQ40	Armor	Leather			
+21708	Beetle Scaled Wristguards	The Prophet Skeram	AQ40	Armor	Leather			
+21689	Gloves of Ebru	Vem	AQ40	Armor	Leather			
+22325	Belt of the Trickster	Mor Grayhoof	UBRS	Armor	Leather			
+22407	Helm of the New Moon	Cannon Master Willey	STRAT	Armor	Leather			
+22409	Tunic of the Crescent Moon	Baron Rivendare	STRAT	Armor	Leather			
+22718	Blooddrenched Mask	Zone Drop	ZG	Armor	Leather			Feral
+22941	Polar Shoulder Pads	Grand Widow Faerlina	Naxx	Armor	Leather			
+23020	Polar Helmet	Gothik the Harvester	Naxx	Armor	Leather			
+23073	Boots of Displacement	Gothik the Harvester	Naxx	Armor	Leather			
+15730	Pattern: Red Dragonscale Breastplate	General Drakkisath	UBRS	Recipe	Leatherworking	TRUE		
+18252	Pattern: Core Armor Kit	Zone Drop	MC	Recipe	Leatherworking	TRUE		
+22402	Libram of Grace	Fankriss the Unyielding	AQ40	Armor	Libram			
+23006	Libram of Light	Noth the Plaguebringer	Naxx	Armor	Libram			
+12969	Seeping Willow	The Beast	UBRS	Weapon	Mace			
+13167	Fist of Omokk	Highlord Omokk	UBRS	Weapon	Mace			
+13183	Venomspitter	Mother Smolderweb	UBRS	Weapon	Mace			
+13204	Bashguuder	Ghok Bashguud	UBRS	Weapon	Mace			
+13349	Scepter of the Unholy	Baron Rivendare	STRAT	Weapon	Mace			
+13393	Malown's Slam	Postmaster Malown	STRAT	Weapon	Mace			
+13401	The Cruel Hand of Timmy	Timmy the Cruel	STRAT	Weapon	Mace			
+17073	Earthshaker	Magmadar	MC	Weapon	Mace			Ret Pally/ 2H Fury
+17105	Aurastone Hammer	Garr	MC	Weapon	Mace			Resto Druid/Holy Paladin
+18048	Mastersmith's Hammer	Goraluk Anvilcrack	UBRS	Weapon	Mace			
+18717	Hammer of the Grand Crusader	Zone Drop	STRAT	Weapon	Mace			
+19335	Spineshatter	Razorgore the Untamed	BWL	Weapon	Mace			DPS warrior
+19357	Herald of Woe	Flamegor	BWL	Weapon	Mace			Ret paladin
+19360	Lok'amir il Romathis	Nefarian	BWL	Weapon	Mace			
+19358	Draconic Maul	Zone Drop	BWL	Weapon	Mace			Feral > PvP roll
+19890	Jin'do's Hexxer	Jin'do the Hexxer	ZG	Weapon	Mace			Holy Pally/Resto Druid
+19908	Sceptre of Smiting	Zone Drop	ZG	Weapon	Mace			None
+19918	Jeklik's Crusher	High Priestess Jeklik	ZG	Weapon	Mace			None
+19961	Gri'lek's Grinder	Gri'lek	ZG	Weapon	Mace			None
+21466	Stinger of Ayamiss	Ayamiss the Hunter	AQ20	Weapon	Mace			
+21703	Hammer of Ji'zhi	The Prophet Skeram	AQ40	Weapon	Mace			
+21715	Sand Polished Hammer	Ossirian the Unscarred	AQ20	Weapon	Mace			
+21806	Gavel of Qiraji Authority	Zone Drop	AQ20	Weapon	Mace			
+21839	Scepter of the False Prophet	C'Thun	AQ40	Weapon	Mace			
+21837	Anubisath Warhammer	Zone Drop	AQ40	Weapon	Mace			
+22322	The Jaw Breaker	Mor Grayhoof	UBRS	Weapon	Mace			
+22713	Zulian Scepter of Rites	Zone Drop	ZG	Weapon	Mace			Healers
+22798	Might of Menethil	Kel'Thuzad	Naxx	Weapon	Mace			
+22942	The Widow's Embrace	Grand Widow Faerlina	Naxx	Weapon	Mace			
+22808	The Castigator	Thaddius	Naxx	Weapon	Mace			
+22988	The End of Dreams	Grobbulus	Naxx	Weapon	Mace			
+23056	Hammer of the Twisting Nether	Kel'Thuzad	Naxx	Weapon	Mace			
+3228	Jimmied Handcuffs	Bruegal Ironknuckle	STOCKS	Armor	Mail			
+12588	Bonespike Shoulder	Warchief Rend Blackhand	UBRS	Armor	Mail			
+12634	Chiselbrand Girdle	Bannok Grimaxe	UBRS	Armor	Mail			
+12953	Dragoneye Coif	Gyth	UBRS	Armor	Mail			
+12964	Tristam Legguards	The Beast	UBRS	Armor	Mail			
+13179	Brazecore Armguards	War Master Voone	UBRS	Armor	Mail			
+13255	Trueaim Gauntlets	Shadow Hunter Vosh'gajin	UBRS	Armor	Mail			
+13260	Wind Dancer Boots	Zone Drop	UBRS	Armor	Mail			
+13244	Gilded Gauntlets	Mother Smolderweb	UBRS	Armor	Mail			
+13284	Swiftdart Battleboots	Spirestone Battle Lord	UBRS	Armor	Mail			
+13211	Slashclaw Bracers	Halycon	UBRS	Armor	Mail			
+13344	Dracorian Gauntlets	Baron Rivendare	STRAT	Armor	Mail			
+13359	Crown of Tyranny	Zone Drop	STRAT	Armor	Mail			
+13387	Foresight Girdle	Archivist Galford	STRAT	Armor	Mail			
+13383	Woollies of the Prancing Minstrel	Hearthsinger Forresten	STRAT	Armor	Mail			
+13402	Timmy's Galoshes	Timmy the Cruel	STRAT	Armor	Mail			
+16666	Vest of Elements	General Drakkisath	UBRS	Armor	Mail			
+16668	Kilt of Elements	Baron Rivendare	STRAT	Armor	Mail			
+16673	Cord of Elements	Zone Drop	UBRS	Armor	Mail			
+16670	Boots of Elements	Highlord Omokk	UBRS	Armor	Mail			
+16680	Beaststalker's Belt	Zone Drop	UBRS	Armor	Mail			
+16669	Pauldrons of Elements	Gyth	UBRS	Armor	Mail			
+16678	Beaststalker's Pants	Baron Rivendare	STRAT	Armor	Mail			
+16674	Beaststalker's Tunic	General Drakkisath	UBRS	Armor	Mail			
+16679	Beaststalker's Mantle	Overlord Wyrmthalak	UBRS	Armor	Mail			
+16676	Beaststalker's Gloves	War Master Voone	UBRS	Armor	Mail			
+16672	Gauntlets of Elements	Pyroguard Emberseer	UBRS	Armor	Mail			
+16675	Beaststalker's Boots	Nerub'enkan	STRAT	Armor	Mail			
+16839	Earthfury Gauntlets	Gehennas	MC	Armor	Mail			
+16847	Giantstalker's Leggings	Magmadar	MC	Armor	Mail			
+16843	Earthfury Legguards	Magmadar	MC	Armor	Mail			
+16849	Giantstalker's Boots	Gehennas	MC	Armor	Mail			
+16840	Earthfury Bracers	Zone Drop	MC	Armor	Mail			
+16850	Giantstalker's Bracers	Zone Drop	MC	Armor	Mail			
+16841	Earthfury Vestments	Golemagg the Incinerator	MC	Armor	Mail			
+16851	Giantstalker's Belt	Zone Drop	MC	Armor	Mail			
+16837	Earthfury Boots	Lucifron	MC	Armor	Mail			
+16846	Giantstalker's Helmet	Garr	MC	Armor	Mail			
+16844	Earthfury Epaulets	Baron Geddon	MC	Armor	Mail			
+16842	Earthfury Helmet	Garr	MC	Armor	Mail			
+16845	Giantstalker's Breastplate	Golemagg the Incinerator	MC	Armor	Mail			
+16852	Giantstalker's Gloves	Shazzrah	MC	Armor	Mail			
+16838	Earthfury Belt	Zone Drop	MC	Armor	Mail			
+16848	Giantstalker's Epaulets	Sulfuron Harbinger	MC	Armor	Mail			
+16936	Dragonstalker's Belt	Vaelastrasz the Corrupt	BWL	Armor	Mail			
+16937	Dragonstalker's Spaulders	Chromaggus	BWL	Armor	Mail			
+16950	Breastplate of Ten Storms	Nefarian	BWL	Armor	Mail			
+16949	Greaves of Ten Storms	Broodlord Lashlayer	BWL	Armor	Mail			
+16938	Dragonstalker's Legguards	Ragnaros	MC	Armor	Mail			
+16943	Bracers of Ten Storms	Razorgore the Untamed	BWL	Armor	Mail			
+16944	Belt of Ten Storms	Vaelastrasz the Corrupt	BWL	Armor	Mail			
+16942	Dragonstalker's Breastplate	Nefarian	BWL	Armor	Mail			
+16935	Dragonstalker's Bracers	Razorgore the Untamed	BWL	Armor	Mail			
+16948	Gauntlets of Ten Storms	Zone Drop	BWL	Armor	Mail			
+16946	Legplates of Ten Storms	Ragnaros	MC	Armor	Mail			
+16945	Epaulets of Ten Storms	Chromaggus	BWL	Armor	Mail			
+16940	Dragonstalker's Gauntlets	Zone Drop	BWL	Armor	Mail			
+16941	Dragonstalker's Greaves	Broodlord Lashlayer	BWL	Armor	Mail			
+18047	Flame Walkers	Goraluk Anvilcrack	UBRS	Armor	Mail			
+18104	Feralsurge Girdle	Warchief Rend Blackhand	UBRS	Armor	Mail			
+18742	Stratholme Militia Shoulderguard	Zone Drop	STRAT	Armor	Mail			
+18721	Barrage Girdle	Cannon Master Willey	STRAT	Armor	Mail			
+18812	Wristguards of True Flight	Majordomo Executus	MC	Armor	Mail			Hunter
+18817	Crown of Destruction	Ragnaros	MC	Armor	Mail			Hunter/ Fury Warrior/Ret Pally
+18829	Deep Earth Spaulders	Zone Drop	MC	Armor	Mail			None
+18870	Helm of the Lifegiver	Zone Drop	MC	Armor	Mail			
+19144	Sabatons of the Flamewalker	Zone Drop	MC	Armor	Mail			Hunter/Ret Pally
+19380	Therazane's Link	Nefarian	BWL	Armor	Mail			Hunters
+19393	Primalist's Linked Waistguard	Chromaggus	BWL	Armor	Mail			
+19373	Black Brood Pauldrons	Broodlord Lashlayer	BWL	Armor	Mail			Hunters
+19401	Primalist's Linked Legguards	Firemaw	BWL	Armor	Mail			
+19433	Emberweave Leggings	Flamegor	BWL	Armor	Mail			Tanks for fire resist then hunters
+19887	Bloodstained Legplates	Jin'do the Hexxer	ZG	Armor	Mail			Shaman/Hunter
+19875	Bloodstained Coif	Jin'do the Hexxer	ZG	Armor	Mail			Shaman/Hunter
+19919	Bloodstained Greaves	High Priestess Mar'li	ZG	Armor	Mail			None
+19904	Runed Bloodstained Hauberk	High Priest Venoxis	ZG	Armor	Mail			Hunter
+20260	Seafury Leggings	High Priest Thekal	ZG	Armor	Mail			None
+20257	Seafury Gauntlets	Hakkar	ZG	Armor	Mail			Hunter
+20262	Seafury Boots	High Priestess Jeklik	ZG	Armor	Mail			None
+21454	Runic Stone Shoulders	Ossirian the Unscarred	AQ20	Armor	Mail			
+21463	Ossirian's Binding	Ossirian the Unscarred	AQ20	Armor	Mail			
+21476	Obsidian Scaled Leggings	Moam	AQ20	Armor	Mail			
+21482	Boots of the Fiery Sands	Ayamiss the Hunter	AQ20	Armor	Mail			
+21487	Slimy Scaled Gauntlets	Buru the Gorger	AQ20	Armor	Mail			
+21502	Sand Reaver Wristguards	Kurinnaxx	AQ20	Armor	Mail			
+21497	Boots of the Qiraji General	General Rajaxx	AQ20	Armor	Mail			
+21480	Scaled Silithid Gauntlets	Ayamiss the Hunter	AQ20	Armor	Mail			
+21599	Vek'lor's Gloves of Devastation	Emperor Vek'lor	AQ40	Armor	Mail			
+21607	Grasp of the Fallen Emperor	Emperor Vek'nilash	AQ40	Armor	Mail			
+21626	Slime-coated Leggings	Viscidus	AQ40	Armor	Mail			
+21668	Scaled Leggings of Qiraji Fury	Battleguard Sartura	AQ40	Armor	Mail			
+21624	Gauntlets of Kalimdor	Viscidus	AQ40	Armor	Mail			
+21651	Scaled Sand Reaver Leggings	Fankriss the Unyielding	AQ40	Armor	Mail			
+21684	Mantle of the Desert's Fury	Princess Yauj	AQ40	Armor	Mail			
+21699	Barrage Shoulders	The Prophet Skeram	AQ40	Armor	Mail			
+21705	Boots of the Fallen Prophet	The Prophet Skeram	AQ40	Armor	Mail			
+21804	Coif of Elemental Fury	Zone Drop	AQ20	Armor	Mail			
+21890	Gloves of the Fallen Prophet	Zone Drop	AQ40	Armor	Mail			
+22232	Marksman's Girdle	Urok Doomhowl	UBRS	Armor	Mail			
+22343	Handguards of Savagery	Lord Valthalak	UBRS	Armor	Mail			
+22410	Gauntlets of Deftness	Baron Rivendare	STRAT	Armor	Mail			
+22715	Gloves of the Tormented	Zone Drop	ZG	Armor	Mail			Hunter
+22967	Icy Scale Spaulders	Grobbulus	Naxx	Armor	Mail			
+23033	Icy Scale Coif	Heigan the Unclean	Naxx	Armor	Mail			
+12103	Star of Mystaria	Zone Drop	STRAT	Armor	Miscellaneous			
+12929	Emberfury Talisman	Pyroguard Emberseer	UBRS	Armor	Miscellaneous			
+12926	Flaming Band	Pyroguard Emberseer	UBRS	Armor	Miscellaneous			
+12930	Briarwood Reed	Jed Runewatcher	UBRS	Armor	Miscellaneous			
+13098	Painweaver Band	General Drakkisath	UBRS	Armor	Miscellaneous			
+13164	Heart of the Scale	Overlord Wyrmthalak	UBRS	Armor	Miscellaneous			
+13143	Mark of the Dragon Lord	Overlord Wyrmthalak	UBRS	Armor	Miscellaneous			
+13141	Tooth of Gnarr	General Drakkisath	UBRS	Armor	Miscellaneous			
+13178	Rosewine Circle	Urok Doomhowl	UBRS	Armor	Miscellaneous			
+13177	Talisman of Evasion	War Master Voone	UBRS	Armor	Miscellaneous			
+13283	Magus Ring	Spirestone Lord Magus	UBRS	Armor	Miscellaneous			
+13261	Globe of D'sak	Spirestone Lord Magus	UBRS	Armor	Miscellaneous			
+13212	Halycon's Spiked Collar	Halycon	UBRS	Armor	Miscellaneous			
+13213	Smolderweb's Eye	Mother Smolderweb	UBRS	Armor	Miscellaneous			
+13345	Seal of Rivendare	Baron Rivendare	STRAT	Armor	Miscellaneous			
+13379	Piccolo of the Flaming Fire	Hearthsinger Forresten	STRAT	Armor	Miscellaneous			
+13382	Cannonball Runner	Cannon Master Willey	STRAT	Armor	Miscellaneous			
+13392	The Postmaster's Seal	Postmaster Malown	STRAT	Armor	Miscellaneous			
+13353	Book of the Dead	Grand Crusader Dathrohan	STRAT	Armor	Miscellaneous			
+13373	Band of Flesh	Ramstein the Gorger	STRAT	Armor	Miscellaneous			
+13385	Tome of Knowledge	Archivist Galford	STRAT	Armor	Miscellaneous			
+13524	Skull of Burning Shadows	Maleki the Pallid	STRAT	Armor	Miscellaneous			
+13515	Ramstein's Lightning Bolts	Ramstein the Gorger	STRAT	Armor	Miscellaneous			
+17065	Medallion of Steadfast Might	Magmadar	MC	Armor	Miscellaneous			Tank
+17082	Shard of the Flame	Ragnaros	MC	Armor	Miscellaneous			None
+17063	Band of Accuria	Ragnaros	MC	Armor	Miscellaneous			Tank then Melee DPS/Hunters
+17109	Choker of Enlightenment	Lucifron	MC	Armor	Miscellaneous			Caster DPS
+17110	Seal of the Archmagus	Baron Geddon	MC	Armor	Miscellaneous			Caster/ Healers
+18103	Band of Rumination	Warchief Rend Blackhand	UBRS	Armor	Miscellaneous			
+18646	The Eye of Divinity	Majordomo Executus	MC	Armor	Miscellaneous			Priests
+18723	Animated Chain Necklace	Ramstein the Gorger	STRAT	Armor	Miscellaneous			
+18728	Anastari Heirloom	Baroness Anastari	STRAT	Armor	Miscellaneous			
+18815	Essence of the Pure Flame	Ragnaros	MC	Armor	Miscellaneous			
+18820	Talisman of Ephemeral Power	Zone Drop	MC	Armor	Miscellaneous			Caster DPS
+18814	Choker of the Fire Lord	Ragnaros	MC	Armor	Miscellaneous			Caster DPS
+18821	Quick Strike Ring	Zone Drop	MC	Armor	Miscellaneous			Hunter/ Melee DPS
+18879	Heavy Dark Iron Ring	Zone Drop	MC	Armor	Miscellaneous			Tank
+19147	Ring of Spell Power	Zone Drop	MC	Armor	Miscellaneous			Caster DPS
+19138	Band of Sulfuras	Ragnaros	MC	Armor	Miscellaneous			Casters
+19142	Fire Runed Grimoire	Zone Drop	MC	Armor	Miscellaneous			Healers
+19336	Arcane Infused Gem	Razorgore the Untamed	BWL	Armor	Miscellaneous			Hunters
+19337	The Black Book	Razorgore the Untamed	BWL	Armor	Miscellaneous			
+19340	Rune of Metamorphosis	Vaelastrasz the Corrupt	BWL	Armor	Miscellaneous			Feral dps > druid offspec
+19341	Lifegiving Gem	Broodlord Lashlayer	BWL	Armor	Miscellaneous			MT > OT > Offspec
+19343	Scrolls of Blinding Light	Firemaw	BWL	Armor	Miscellaneous			Paladins
+19342	Venomous Totem	Broodlord Lashlayer	BWL	Armor	Miscellaneous			Rogues
+19344	Natural Alignment Crystal	Firemaw	BWL	Armor	Miscellaneous			
+19345	Aegis of Preservation	Ebonroc	BWL	Armor	Miscellaneous			Priests
+19376	Archimtiros' Ring of Reckoning	Nefarian	BWL	Armor	Miscellaneous			Druid tank then paladin tank
+19371	Pendant of the Fallen Dragon	Vaelastrasz the Corrupt	BWL	Armor	Miscellaneous			Healers
+19339	Mind Quickening Gem	Vaelastrasz the Corrupt	BWL	Armor	Miscellaneous			Mages
+19379	Neltharion's Tear	Nefarian	BWL	Armor	Miscellaneous			Locks, then mages, then shadow priests (Locks need +hit the most)
+19382	Pure Elementium Band	Nefarian	BWL	Armor	Miscellaneous			Healers
+19406	Drake Fang Talisman	Ebonroc	BWL	Armor	Miscellaneous			MT > Druid tank/rogue/warrior dps > feral dps/hunter/ret
+19403	Band of Forced Concentration	Ebonroc	BWL	Armor	Miscellaneous			Mages & warlocks > shadow priests > OS
+19397	Ring of Blackrock	Zone Drop	BWL	Armor	Miscellaneous			Caster dps
+19377	Prestor's Talisman of Connivery	Nefarian	BWL	Armor	Miscellaneous			Hunters, rogues, feral dps
+19395	Rejuvenating Gem	Zone Drop	BWL	Armor	Miscellaneous			Healers
+19431	Styleen's Impeding Scarab	Flamegor	BWL	Armor	Miscellaneous			Tanks
+19434	Band of Dark Dominion	Zone Drop	BWL	Armor	Miscellaneous			Locks then shadow priests
+19432	Circle of Applied Force	Flamegor	BWL	Armor	Miscellaneous			Tank > Melee dps
+19871	Talisman of Protection	High Priestess Mar'li	ZG	Armor	Miscellaneous			Tanks
+19873	Overlord's Crimson Band	Bloodlord Mandokir	ZG	Armor	Miscellaneous			Warrior OT (MT likely have better)
+19856	The Eye of Hakkar	Hakkar	ZG	Armor	Miscellaneous			Fury Warrior / Feral Druid
+19876	Soul Corrupter's Necklace	Hakkar	ZG	Armor	Miscellaneous			
+19863	Primalist's Seal	Bloodlord Mandokir	ZG	Armor	Miscellaneous			Healers
+19885	Jin'do's Evil Eye	Jin'do the Hexxer	ZG	Armor	Miscellaneous			Healers (BIS Holy Priests) + Others
+19905	Zanzil's Band	High Priest Venoxis	ZG	Armor	Miscellaneous			Warlocks
+19893	Zanzil's Seal	Bloodlord Mandokir	ZG	Armor	Miscellaneous			Warlocks/Caster DPS
+19891	Jin'do's Bag of Whammies	Jin'do the Hexxer	ZG	Armor	Miscellaneous			Caster DPS
+19912	Overlord's Onyx Band	High Priestess Arlokk	ZG	Armor	Miscellaneous			Warrior OT (Main Tanks likey have better)
+19923	Jeklik's Opaline Talisman	High Priestess Jeklik	ZG	Armor	Miscellaneous			Caster DPS
+19925	Band of Jin	High Priestess Mar'li	ZG	Armor	Miscellaneous			Rogue/Warrior dps/Hunter
+19898	Seal of Jin	High Priest Thekal	ZG	Armor	Miscellaneous			Rogue/Warrior dps/Hunter
+19920	Primalist's Band	High Priestess Jeklik	ZG	Armor	Miscellaneous			Healers
+19922	Arlokk's Hoodoo Stick	High Priestess Arlokk	ZG	Armor	Miscellaneous			Holy Pally/Resto Druid
+19947	Nat Pagle's Broken Reel	Gahz'ranka	ZG	Armor	Miscellaneous			Tanks
+19930	Mar'li's Eye	High Priestess Mar'li	ZG	Armor	Miscellaneous			None
+21471	Talon of Furious Concentration	Moam	AQ20	Armor	Miscellaneous			
+21473	Eye of Moam	Moam	AQ20	Armor	Miscellaneous			
+21477	Ring of Fury	Moam	AQ20	Armor	Miscellaneous			
+21483	Ring of the Desert Winds	Ayamiss the Hunter	AQ20	Armor	Miscellaneous			
+21488	Fetish of Chitinous Spikes	Buru the Gorger	AQ20	Armor	Miscellaneous			
+21579	Vanquished Tentacle of C'Thun	C'Thun	AQ40	Armor	Miscellaneous			
+21596	Ring of the Godslayer	C'Thun	AQ40	Armor	Miscellaneous			
+21601	Ring of Emperor Vek'lor	Emperor Vek'lor	AQ40	Armor	Miscellaneous			
+21597	Royal Scepter of Vek'lor	Emperor Vek'lor	AQ40	Armor	Miscellaneous			
+21620	Ring of the Martyr	Princess Huhuran	AQ40	Armor	Miscellaneous			
+21608	Amulet of Vek'nilash	Emperor Vek'nilash	AQ40	Armor	Miscellaneous			
+21647	Fetish of the Sand Reaver	Fankriss the Unyielding	AQ40	Armor	Miscellaneous			
+21625	Scarab Brooch	Viscidus	AQ40	Armor	Miscellaneous			
+21677	Ring of the Qiraji Fury	Viscidus	AQ40	Armor	Miscellaneous			
+21685	Petrified Scarab	Lord Kri	AQ40	Armor	Miscellaneous			
+21666	Sartura's Might	Battleguard Sartura	AQ40	Armor	Miscellaneous			
+21678	Necklace of Purity	Battleguard Sartura	AQ40	Armor	Miscellaneous			
+21670	Badge of the Swarmguard	Battleguard Sartura	AQ40	Armor	Miscellaneous			
+21664	Barbed Choker	Fankriss the Unyielding	AQ40	Armor	Miscellaneous			
+21687	Ukko's Ring of Darkness	Princess Yauj	AQ40	Armor	Miscellaneous			
+21695	Angelista's Touch	Zone Drop	AQ40	Armor	Miscellaneous			
+21681	Ring of the Devoured	Lord Kri	AQ40	Armor	Miscellaneous			
+21702	Amulet of Foul Warding	The Prophet Skeram	AQ40	Armor	Miscellaneous			
+21700	Pendant of the Qiraji Guardian	The Prophet Skeram	AQ40	Armor	Miscellaneous			
+21707	Ring of Swarming Thought	The Prophet Skeram	AQ40	Armor	Miscellaneous			
+21690	Angelista's Charm	Vem	AQ40	Armor	Miscellaneous			
+21809	Fury of the Forgotten Swarm	Zone Drop	AQ20	Armor	Miscellaneous			
+21891	Shard of the Fallen Star	Zone Drop	AQ40	Armor	Miscellaneous			
+21836	Ritssyn's Ring of Chaos	Zone Drop	AQ40	Armor	Miscellaneous			
+22268	Draconic Infused Emblem	General Drakkisath	UBRS	Armor	Miscellaneous			
+22321	Heart of Wyrmthalak	Overlord Wyrmthalak	UBRS	Armor	Miscellaneous			
+22319	Tome of Divine Right	Mor Grayhoof	UBRS	Armor	Miscellaneous			
+22253	Tome of the Lost	General Drakkisath	UBRS	Armor	Miscellaneous			
+22334	Band of Mending	Grand Crusader Dathrohan	STRAT	Armor	Miscellaneous			
+22340	Pendant of Celerity	Lord Valthalak	UBRS	Armor	Miscellaneous			
+22339	Rune Band of Wizardry	Lord Valthalak	UBRS	Armor	Miscellaneous			
+22403	Diana's Pearl Necklace	Cannon Master Willey	STRAT	Armor	Miscellaneous			
+22721	Band of Servitude	Zone Drop	ZG	Armor	Miscellaneous			Caster DPS
+22722	Seal of the Gurubashi Berserker	Zone Drop	ZG	Armor	Miscellaneous			Melee DPS/Hunter
+22732	Mark of C'Thun	C'Thun	AQ40	Armor	Miscellaneous			
+22939	Band of Unanswered Prayers	Anub'Rekhan	Naxx	Armor	Miscellaneous			
+22947	Pendant of Forgotten Names	Maexxna	Naxx	Armor	Miscellaneous			
+22943	Malice Stone Pendant	Grand Widow Faerlina	Naxx	Armor	Miscellaneous			
+22935	Touch of Frost	Anub'Rekhan	Naxx	Armor	Miscellaneous			
+22937	Gem of Nerubis	Anub'Rekhan	Naxx	Armor	Miscellaneous			
+22961	Band of Reanimation	Patchwerk	Naxx	Armor	Miscellaneous			
+22981	Gluth's Missing Collar	Gluth	Naxx	Armor	Miscellaneous			
+23023	Sadist's Collar	Gothik the Harvester	Naxx	Armor	Miscellaneous			
+23001	Eye of Diminution	Thaddius	Naxx	Armor	Miscellaneous			
+23018	Signet of the Fallen Defender	Instructor Razuvious	Naxx	Armor	Miscellaneous			
+22994	Digested Hand of Power	Gluth	Naxx	Armor	Miscellaneous			
+23046	The Restrained Essence of Sapphiron	Sapphiron	Naxx	Armor	Miscellaneous			
+23038	Band of Unnatural Forces	Loatheb	Naxx	Armor	Miscellaneous			
+23037	Ring of Spiritual Fervor	Loatheb	Naxx	Armor	Miscellaneous			
+23029	Noth's Frigid Heart	Noth the Plaguebringer	Naxx	Armor	Miscellaneous			
+23060	Bonescythe Ring	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23031	Band of the Inevitable	Noth the Plaguebringer	Naxx	Armor	Miscellaneous			
+23040	Glyph of Deflection	Sapphiron	Naxx	Armor	Miscellaneous			
+23047	Eye of the Dead	Sapphiron	Naxx	Armor	Miscellaneous			
+23028	Hailstone Band	Noth the Plaguebringer	Naxx	Armor	Miscellaneous			
+23042	Loatheb's Reflection	Loatheb	Naxx	Armor	Miscellaneous			
+23066	Ring of Redemption	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23036	Necklace of Necropsy	Heigan the Unclean	Naxx	Armor	Miscellaneous			
+23041	Slayer's Crest	Sapphiron	Naxx	Armor	Miscellaneous			
+23064	Ring of the Dreamwalker	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23065	Ring of the Earthshatterer	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+22954	Kiss of the Spider	Maexxna	Naxx	Armor	Miscellaneous			
+23057	Gem of Trapped Innocents	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23063	Plagueheart Ring	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23049	Sapphiron's Left Eye	Sapphiron	Naxx	Armor	Miscellaneous			
+23059	Ring of the Dreadnaught	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23061	Ring of Faith	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23062	Frostfire Ring	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23067	Ring of the Cryptstalker	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23053	Stormrage's Talisman of Seething	Kel'Thuzad	Naxx	Armor	Miscellaneous			
+23048	Sapphiron's Right Eye	Sapphiron	Naxx	Armor	Miscellaneous			
+23558	The Burrower's Shell	Ouro	AQ40	Armor	Miscellaneous			
+23570	Jom Gabbar	Ouro	AQ40	Armor	Miscellaneous			
+12637	Backusarian Gauntlets	Bannok Grimaxe	UBRS	Armor	Plate			
+12936	Battleborn Armbraces	Warchief Rend Blackhand	UBRS	Armor	Plate			
+12935	Warmaster Legguards	Warchief Rend Blackhand	UBRS	Armor	Plate			
+12952	Gyth's Skull	Gyth	UBRS	Armor	Plate			
+13162	Reiver Claws	Overlord Wyrmthalak	UBRS	Armor	Plate			
+13168	Plate of the Shaman King	Highlord Omokk	UBRS	Armor	Plate			
+13142	Brigam Girdle	General Drakkisath	UBRS	Armor	Plate			
+13166	Slamshot Shoulders	Highlord Omokk	UBRS	Armor	Plate			
+13259	Ribsteel Footguards	Urok Doomhowl	UBRS	Armor	Plate			
+13384	Rainbow Girdle	Hearthsinger Forresten	STRAT	Armor	Plate			
+13394	Skul's Cold Embrace	Skul	STRAT	Armor	Plate			
+13400	Vambraces of the Sadist	Timmy the Cruel	STRAT	Armor	Plate			
+13405	Wailing Nightbane Pauldrons	The Unforgiven	STRAT	Armor	Plate			
+13381	Master Cannoneer Boots	Cannon Master Willey	STRAT	Armor	Plate			
+13498	Handcrafted Mastersmith Leggings	Goraluk Anvilcrack	UBRS	Armor	Plate			
+13502	Handcrafted Mastersmith Girdle	Goraluk Anvilcrack	UBRS	Armor	Plate			
+16737	Gauntlets of Valor	Ramstein the Gorger	STRAT	Armor	Plate			
+16726	Lightforge Breastplate	General Drakkisath	UBRS	Armor	Plate			
+16725	Lightforge Boots	Zone Drop	STRAT	Armor	Plate			
+16723	Lightforge Belt	Zone Drop	STRAT	Armor	Plate			
+16732	Legplates of Valor	Baron Rivendare	STRAT	Armor	Plate			
+16730	Breastplate of Valor	General Drakkisath	UBRS	Armor	Plate			
+16735	Bracers of Valor	Zone Drop	UBRS	Armor	Plate			
+16733	Spaulders of Valor	Warchief Rend Blackhand	UBRS	Armor	Plate			
+16729	Lightforge Spaulders	The Beast	UBRS	Armor	Plate			
+16728	Lightforge Legplates	Baron Rivendare	STRAT	Armor	Plate			
+16858	Lawbringer Belt	Zone Drop	MC	Armor	Plate			
+16855	Lawbringer Legplates	Magmadar	MC	Armor	Plate			
+16853	Lawbringer Chestguard	Golemagg the Incinerator	MC	Armor	Plate			
+16868	Pauldrons of Might	Sulfuron Harbinger	MC	Armor	Plate			
+16856	Lawbringer Spaulders	Baron Geddon	MC	Armor	Plate			
+16866	Helm of Might	Garr	MC	Armor	Plate			
+16854	Lawbringer Helm	Garr	MC	Armor	Plate			
+16857	Lawbringer Bracers	Zone Drop	MC	Armor	Plate			
+16864	Belt of Might	Zone Drop	MC	Armor	Plate			
+16861	Bracers of Might	Zone Drop	MC	Armor	Plate			
+16860	Lawbringer Gauntlets	Gehennas	MC	Armor	Plate			
+16867	Legplates of Might	Magmadar	MC	Armor	Plate			
+16862	Sabatons of Might	Gehennas	MC	Armor	Plate			
+16863	Gauntlets of Might	Lucifron	MC	Armor	Plate			
+16859	Lawbringer Boots	Lucifron	MC	Armor	Plate			
+16865	Breastplate of Might	Golemagg the Incinerator	MC	Armor	Plate			
+16954	Judgement Legplates	Ragnaros	MC	Armor	Plate			
+16961	Pauldrons of Wrath	Chromaggus	BWL	Armor	Plate			
+16951	Judgement Bindings	Razorgore the Untamed	BWL	Armor	Plate			
+16957	Judgement Sabatons	Broodlord Lashlayer	BWL	Armor	Plate			
+16960	Waistband of Wrath	Vaelastrasz the Corrupt	BWL	Armor	Plate			
+16952	Judgement Belt	Vaelastrasz the Corrupt	BWL	Armor	Plate			
+16966	Breastplate of Wrath	Nefarian	BWL	Armor	Plate			
+16964	Gauntlets of Wrath	Zone Drop	BWL	Armor	Plate			
+16953	Judgement Spaulders	Chromaggus	BWL	Armor	Plate			
+16956	Judgement Gauntlets	Zone Drop	BWL	Armor	Plate			
+16958	Judgement Breastplate	Nefarian	BWL	Armor	Plate			
+16959	Bracelets of Wrath	Razorgore the Untamed	BWL	Armor	Plate			
+16965	Sabatons of Wrath	Broodlord Lashlayer	BWL	Armor	Plate			
+16962	Legplates of Wrath	Ragnaros	MC	Armor	Plate			
+18718	Grand Crusader's Helm	Zone Drop	STRAT	Armor	Plate			
+18722	Death Grips	Magistrate Barthilas	STRAT	Armor	Plate			
+18741	Morlune's Bracer	Zone Drop	STRAT	Armor	Plate			
+18739	Chitinous Plate Legguards	Nerub'enkan	STRAT	Armor	Plate			
+18824	Magma Tempered Boots	Zone Drop	MC	Armor	Plate			Holy Pally
+18861	Flamewaker Legplates	Zone Drop	MC	Armor	Plate			
+19137	Onslaught Girdle	Ragnaros	MC	Armor	Plate			Fury Warrior / Ret Pally
+19143	Flameguard Gauntlets	Zone Drop	MC	Armor	Plate			Ret Pally/ Fury DPS
+19372	Helm of Endless Rage	Vaelastrasz the Corrupt	BWL	Armor	Plate			Warrior tanks > OS
+19387	Chromatic Boots	Chromaggus	BWL	Armor	Plate			MT > OT/Fury Warrior/Ret paladin
+19394	Drake Talon Pauldrons	Zone Drop	BWL	Armor	Plate			MT > OT > Melee dps
+19402	Legguards of the Fallen Crusader	Firemaw	BWL	Armor	Plate			Ret Paladins/Warrior DPS
+19392	Girdle of the Fallen Crusader	Chromaggus	BWL	Armor	Plate			Paladins
+19855	Bloodsoaked Legplates	Hakkar	ZG	Armor	Plate			Prot Pally
+19878	Bloodsoaked Pauldrons	Bloodlord Mandokir	ZG	Armor	Plate			Prot Pally
+19913	Bloodsoaked Greaves	High Priestess Arlokk	ZG	Armor	Plate			Prot Pally
+19894	Bloodsoaked Gauntlets	Jin'do the Hexxer	ZG	Armor	Plate			Prot Pally
+20263	Gurubashi Helm	Zone Drop	ZG	Armor	Plate			None
+20266	Peacekeeper Leggings	High Priest Thekal	ZG	Armor	Plate			Holy Pally
+20265	Peacekeeper Boots	High Priestess Jeklik	ZG	Armor	Plate			Holy Pally
+20264	Peacekeeper Gauntlets	Hakkar	ZG	Armor	Plate			Holy Pally BIS Phase 4
+21460	Helm of Domination	Ossirian the Unscarred	AQ20	Armor	Plate			
+21457	Bracers of Brutality	Ossirian the Unscarred	AQ20	Armor	Plate			
+21453	Mantle of the Horusath	Ossirian the Unscarred	AQ20	Armor	Plate			
+21475	Legplates of the Destroyer	Moam	AQ20	Armor	Plate			
+21479	Gauntlets of the Immovable	Zone Drop	AQ20	Armor	Plate			
+21490	Slime Kickers	Buru the Gorger	AQ20	Armor	Plate			
+21481	Boots of the Desert Protector	Ayamiss the Hunter	AQ20	Armor	Plate			
+21486	Gloves of the Swarm	Buru the Gorger	AQ20	Armor	Plate			
+21495	Legplates of the Qiraji Command	General Rajaxx	AQ20	Armor	Plate			
+21503	Belt of the Sand Reaver	Kurinnaxx	AQ20	Armor	Plate			
+21581	Gauntlets of Annihilation	C'Thun	AQ40	Armor	Plate			
+21598	Royal Qiraji Belt	Emperor Vek'lor	AQ40	Armor	Plate			
+21618	Hive Defiler Wristguards	Princess Huhuran	AQ40	Armor	Plate			
+21606	Belt of the Fallen Emperor	Emperor Vek'nilash	AQ40	Armor	Plate			
+21639	Pauldrons of the Unrelenting	Fankriss the Unyielding	AQ40	Armor	Plate			
+21623	Gauntlets of the Righteous Champion	Viscidus	AQ40	Armor	Plate			
+21652	Silithid Carapace Chestguard	Fankriss the Unyielding	AQ40	Armor	Plate			
+21667	Legplates of Blazing Light	Battleguard Sartura	AQ40	Armor	Plate			
+21704	Boots of the Redeemed Prophecy	The Prophet Skeram	AQ40	Armor	Plate			
+21692	Triad Girdle	Zone Drop	AQ40	Armor	Plate			
+21691	Ooze-ridden Gauntlets	Vem	AQ40	Armor	Plate			
+21688	Boots of the Fallen Hero	Vem	AQ40	Armor	Plate			
+21683	Mantle of the Desert Crusade	Princess Yauj	AQ40	Armor	Plate			
+21706	Boots of the Unwavering Will	The Prophet Skeram	AQ40	Armor	Plate			
+21674	Gauntlets of Steadfast Determination	Battleguard Sartura	AQ40	Armor	Plate			
+21803	Helm of the Holy Avenger	Zone Drop	AQ20	Armor	Plate			
+21814	Breastplate of Annihilation	The Prophet Skeram	AQ40	Armor	Plate			
+21805	Polished Obsidian Pauldrons	Zone Drop	AQ20	Armor	Plate			
+21889	Gloves of the Redeemed Prophecy	Zone Drop	AQ40	Armor	Plate			
+22411	Helm of the Executioner	Baron Rivendare	STRAT	Armor	Plate			
+22714	Sacrificial Gauntlets	Zone Drop	ZG	Armor	Plate			Fury/Ret Pally
+22940	Icebane Pauldrons	Grand Widow Faerlina	Naxx	Armor	Plate			
+22936	Wristguards of Vengeance	Anub'Rekhan	Naxx	Armor	Plate			
+23000	Plated Abomination Ribcage	Thaddius	Naxx	Armor	Plate			
+23019	Icebane Helmet	Heigan the Unclean	Naxx	Armor	Plate			
+23068	Legplates of Carnage	Heigan the Unclean	Naxx	Armor	Plate			
+23219	Girdle of the Mentor	Instructor Razuvious	Naxx	Armor	Plate			
+12583	Blackhand Doomsaw	Warchief Rend Blackhand	UBRS	Weapon	Polearm			
+13148	Chillpike	Overlord Wyrmthalak	UBRS	Weapon	Polearm			
+17074	Shadowstrike	Sulfuron Harbinger	MC	Weapon	Polearm			None
+18725	Peacemaker	Magistrate Barthilas	STRAT	Weapon	Polearm			
+19874	Halberd of Smiting	Bloodlord Mandokir	ZG	Weapon	Polearm			Fury/Ret Pally
+19963	Pitchfork of Madness	Renataki	ZG	Weapon	Polearm			None
+19946	Tigule's Harpoon	Gahz'ranka	ZG	Weapon	Polearm			None
+21635	Barb of the Sand Reaver	Fankriss the Unyielding	AQ40	Weapon	Polearm			
+23039	The Eye of Nerub	Loatheb	Naxx	Weapon	Polearm			
+18703	Ancient Petrified Leaf	Majordomo Executus	MC	Quest	Quest	TRUE		Hunters
+18784	Top Half of Advanced Armorsmithing: Volume III	Urok Doomhowl	UBRS	Quest	Quest	TRUE		
+18781	Bottom Half of Advanced Armorsmithing: Volume II	Crimson Hammersmith	STRAT	Quest	Quest	TRUE		
+18783	Bottom Half of Advanced Armorsmithing: Volume III	Black Guard Swordsmith	STRAT	Quest	Quest	TRUE		
+18779	Bottom Half of Advanced Armorsmithing: Volume I	Goraluk Anvilcrack	UBRS	Quest	Quest	TRUE		
+19003	Head of Nefarian	Nefarian	BWL	Quest	Quest	TRUE		Priority to melee DPS and hunters that do not have an epic ring (Quick Strike Ring, Band of Accuria, Circle of Applied Force) and any caster DPS that has a Mageblade or BWL 1 handed weapon. Also prot paladins.
+19017	Essence of the Firelord	Ragnaros	MC	Quest	Quest	TRUE		
+19002	Head of Nefarian	Nefarian	BWL	Quest	Quest	TRUE		Priority to melee DPS and hunters that do not have an epic ring (Quick Strike Ring, Band of Accuria, Circle of Applied Force) and any caster DPS that has a Mageblade or BWL 1 handed weapon. Also prot paladins.
+19712	Purple Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19722	Primal Hakkari Tabard	Zone Drop	ZG	Quest	Quest	TRUE		
+19710	Orange Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19719	Primal Hakkari Girdle	Zone Drop	ZG	Quest	Quest	TRUE		
+19708	Blue Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19716	Primal Hakkari Bindings	Zone Drop	ZG	Quest	Quest	TRUE		
+19713	Bronze Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19715	Gold Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19707	Red Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19720	Primal Hakkari Sash	Zone Drop	ZG	Quest	Quest	TRUE		
+19709	Yellow Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19717	Primal Hakkari Armsplint	Zone Drop	ZG	Quest	Quest	TRUE		
+19711	Green Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19714	Silver Hakkari Bijou	Zone Drop	ZG	Quest	Quest	TRUE		
+19724	Primal Hakkari Aegis	Zone Drop	ZG	Quest	Quest	TRUE		
+19718	Primal Hakkari Stanchion	Zone Drop	ZG	Quest	Quest	TRUE		
+19721	Primal Hakkari Shawl	Zone Drop	ZG	Quest	Quest	TRUE		
+19723	Primal Hakkari Kossack	Zone Drop	ZG	Quest	Quest	TRUE		
+19802	Heart of Hakkar	Hakkar	ZG	Quest	Quest	TRUE		None
+20383	Head of the Broodlord Lashlayer	Broodlord Lashlayer	BWL	Quest	Quest	TRUE		
+20869	Amber Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20871	Obsidian Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20868	Lambent Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20866	Azure Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20877	Idol of the Sage	Zone Drop	AQ40	Quest	Quest	TRUE		
+20884	Qiraji Magisterial Ring	Zone Drop	AQ20	Quest	Quest	TRUE		
+20890	Qiraji Ornate Hilt	Zone Drop	AQ20	Quest	Quest	TRUE		
+20876	Idol of Death	Zone Drop	AQ40	Quest	Quest	TRUE		
+20886	Qiraji Spiked Hilt	Zone Drop	AQ20	Quest	Quest	TRUE		
+20879	Idol of Life	Zone Drop	AQ40	Quest	Quest	TRUE		
+20889	Qiraji Regal Drape	Zone Drop	AQ20	Quest	Quest	TRUE		
+20927	Ouro's Intact Hide	Ouro	AQ40	Quest	Quest	TRUE		
+20878	Idol of Rebirth	Zone Drop	AQ40	Quest	Quest	TRUE		
+20882	Idol of War	Zone Drop	AQ40	Quest	Quest	TRUE		
+20932	Qiraji Bindings of Dominance	Zone Drop	AQ40	Quest	Quest	TRUE		
+20931	Skin of the Great Sandworm	Ouro	AQ40	Quest	Quest	TRUE		
+20885	Qiraji Martial Drape	Zone Drop	AQ20	Quest	Quest	TRUE		
+20870	Jasper Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20881	Idol of Strife	Zone Drop	AQ40	Quest	Quest	TRUE		
+20875	Idol of Night	Zone Drop	AQ40	Quest	Quest	TRUE		
+20874	Idol of the Sun	Zone Drop	AQ40	Quest	Quest	TRUE		
+20873	Alabaster Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20888	Qiraji Ceremonial Ring	Zone Drop	AQ20	Quest	Quest	TRUE		
+20930	Vek'lor's Diadem	Emperor Vek'lor	AQ40	Quest	Quest	TRUE		
+20928	Qiraji Bindings of Command	Zone Drop	AQ40	Quest	Quest	TRUE		
+20929	Carapace of the Old God	C'Thun	AQ40	Quest	Quest	TRUE		
+20926	Vek'nilash's Circlet	Emperor Vek'nilash	AQ40	Quest	Quest	TRUE		
+20867	Onyx Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20872	Vermillion Idol	Zone Drop	AQ20	Quest	Quest	TRUE		
+20933	Husk of the Old God	C'Thun	AQ40	Quest	Quest	TRUE		
+21138	Red Scepter Shard	Nefarian	BWL	Quest	Quest	TRUE		
+21220	Head of Ossirian the Unscarred	Ossirian the Unscarred	AQ20	Quest	Quest	TRUE		
+21221	Eye of C'Thun	C'Thun	AQ40	Quest	Quest	TRUE		
+23548	Might of the Scourge	Sapphiron	Naxx	Quest	Quest	TRUE		
+23545	Power of the Scourge	Sapphiron	Naxx	Quest	Quest	TRUE		
+17010	Fiery Core	Zone Drop	MC	Reagent	Reagent		TRUE	
+17011	Lava Core	Zone Drop	MC	Reagent	Reagent		TRUE	
+12602	Draconian Deflector	General Drakkisath	UBRS	Armor	Shield			
+13205	Rhombeard Protector	Gizrul the Slavener	UBRS	Armor	Shield			
+13375	Crest of Retribution	Ramstein the Gorger	STRAT	Armor	Shield			
+13529	Husk of Nerub'enkan	Nerub'enkan	STRAT	Armor	Shield			
+17066	Drillborer Disk	Garr	MC	Armor	Shield			Tank
+17106	Malistar's Defender	Ragnaros	MC	Armor	Shield			Holly Pally
+19349	Elementium Reinforced Bulwark	Chromaggus	BWL	Armor	Shield			Warrior tank
+19348	Red Dragonscale Protector	Vaelastrasz the Corrupt	BWL	Armor	Shield			Holy paladins
+19862	Aegis of the Blood God	Hakkar	ZG	Armor	Shield			Warrior Tank/Prot Pally
+19915	Zulian Defender	High Priestess Jeklik	ZG	Armor	Shield			None
+21485	Buru's Skull Fragment	Buru the Gorger	AQ20	Armor	Shield			
+21610	Wormscale Blocker	Ouro	AQ40	Armor	Shield			
+22336	Draconian Aegis of the Legion	Lord Valthalak	UBRS	Armor	Shield			
+22818	The Plague Bearer	Patchwerk	Naxx	Armor	Shield			
+22819	Shield of Condemnation	Kel'Thuzad	Naxx	Armor	Shield			
+23043	The Face of Death	Sapphiron	Naxx	Armor	Shield			
+23075	Death's Bargain	Gluth	Naxx	Armor	Shield			
+13161	Trindlehaven Staff	Overlord Wyrmthalak	UBRS	Weapon	Staff			
+13372	Slavedriver's Cane	Ramstein the Gorger	STRAT	Weapon	Staff			
+18842	Staff of Dominance	Golemagg the Incinerator	MC	Weapon	Staff			
+19355	Shadow Wing Focus Staff	Zone Drop	BWL	Weapon	Staff			Caster dps > resto druid
+19356	Staff of the Shadow Flame	Nefarian	BWL	Weapon	Staff			
+19884	Jin'do's Judgement	Jin'do the Hexxer	ZG	Weapon	Staff			Caster DPS
+19909	Will of Arlokk	High Priestess Arlokk	ZG	Weapon	Staff			Healers (Weak Benediction)
+19944	Nat Pagle's Fish Terminator	Gahz'ranka	ZG	Weapon	Staff			Feral
+20258	Zulian Ceremonial Staff	Zone Drop	ZG	Weapon	Staff			None
+21128	Staff of the Qiraji Prophets	The Prophet Skeram	AQ40	Weapon	Staff			
+21452	Staff of the Ruins	Ossirian the Unscarred	AQ20	Weapon	Staff			
+22335	Lord Valthalak's Staff of Command	Lord Valthalak	UBRS	Weapon	Staff			
+22406	Redemption	Cannon Master Willey	STRAT	Weapon	Staff			
+22800	Brimstone Staff	Loatheb	Naxx	Weapon	Staff			
+22801	Spire of Twilight	Thaddius	Naxx	Weapon	Staff			
+22799	Soulseeker	Kel'Thuzad	Naxx	Weapon	Staff			
+19351	Maladath, Runed Blade of the Black Flight	Broodlord Lashlayer	BWL	Weapon	Sword			MT > Fury Warriors & Sword Rogues
+19364	Ashkandi, Greatsword of the Brotherhood	Nefarian	BWL	Weapon	Sword			Warrior dps/ret paladin > Hunters
+19854	Zin'rokh, Destroyer of Worlds	Hakkar	ZG	Weapon	Sword			2H Fury/Ret pally
+23054	Gressil, Dawn of Ruin	Kel'Thuzad	Naxx	Weapon	Sword			
+23014	Iblis, Blade of the Fallen Seraph	Instructor Razuvious	Naxx	Weapon	Sword			
+12592	Blackblade of Shahram	General Drakkisath	UBRS	Weapon	Sword			
+12940	Dal'Rend's Sacred Charge	Warchief Rend Blackhand	UBRS	Weapon	Sword			
+12939	Dal'Rend's Tribal Guardian	Warchief Rend Blackhand	UBRS	Weapon	Sword			
+13163	Relentless Scythe	Overlord Wyrmthalak	UBRS	Weapon	Sword			
+13182	Phase Blade	Burning Felguard	UBRS	Weapon	Sword			
+13348	Demonshear	Zone Drop	STRAT	Weapon	Sword			
+13361	Skullforge Reaver	Baron Rivendare	STRAT	Weapon	Sword			
+13505	Runeblade of Baron Rivendare	Baron Rivendare	STRAT	Weapon	Sword			
+17103	Azuresong Mageblade	Golemagg the Incinerator	MC	Weapon	Sword			Caster DPS
+17076	Bonereaver's Edge	Ragnaros	MC	Weapon	Sword			Ret Pally/ 2H Fury
+18822	Obsidian Edged Blade	Zone Drop	MC	Weapon	Sword			Ret Pally/ 2H Fury
+18832	Brutality Blade	Garr	MC	Weapon	Sword			1H Fury/Rogue
+19334	The Untamed Blade	Razorgore the Untamed	BWL	Weapon	Sword			2H Warrior dps & Ret pally
+19352	Chromatically Tempered Sword	Chromaggus	BWL	Weapon	Sword			Fury warriors and sword rogues
+19865	Warblade of the Hakkari	Hakkar	ZG	Weapon	Sword			
+19864	Bloodcaller	Hakkar	ZG	Weapon	Sword			Caster DPS
+19867	Bloodlord's Defender	Bloodlord Mandokir	ZG	Weapon	Sword			Warrior Tank/Prot Pally
+19866	Warblade of the Hakkari	Zone Drop	ZG	Weapon	Sword			
+19901	Zulian Slicer	High Priest Thekal	ZG	Weapon	Sword			Skinners
+19964	Renataki's Soul Conduit	Renataki	ZG	Weapon	Sword			None
+19968	Fiery Retributer	Hazza'rah	ZG	Weapon	Sword			Prot Pally
+21492	Manslayer of the Qiraji	General Rajaxx	AQ20	Weapon	Sword			
+21622	Sharpened Silithid Femur	Viscidus	AQ40	Weapon	Sword			
+21650	Ancient Qiraji Ripper	Fankriss the Unyielding	AQ40	Weapon	Sword			
+21679	Kalimdor's Revenge	Emperor Vek'nilash	AQ40	Weapon	Sword			
+22807	Wraith Blade	Maexxna	Naxx	Weapon	Sword			
+22813	Claymore of Unholy Might	Gluth	Naxx	Weapon	Sword			
+22806	Widow's Remorse	Grand Widow Faerlina	Naxx	Weapon	Sword			
+14513	Pattern: Robe of the Archmage	Firebrand Pyromancer	UBRS	Recipe	Tailoring	TRUE		
+14512	Pattern: Truefaith Vestments	Zone Drop	STRAT	Recipe	Tailoring	TRUE		
+18265	Pattern: Flarecore Wraps	Zone Drop	MC	Recipe	Tailoring	TRUE		
+13173	Flightblade Throwing Axe	War Master Voone	UBRS	Weapon	Thrown			
+22396	Totem of Life	Fankriss the Unyielding	AQ40	Armor	Totem			
+23005	Totem of Flowing Water	Noth the Plaguebringer	Naxx	Armor	Totem			
+17203	Sulfuron Ingot	Golemagg the Incinerator	MC	Trade Goods	Trade Goods		TRUE	
+17204	Eye of Sulfuras	Ragnaros	MC	Trade Goods	Trade Goods		TRUE	
+18562	Elementium Ore	Blackwing Technician	BWL	Trade Goods	Trade Goods		TRUE	
+22682	Frozen Rune	Zone Drop	Naxx	Trade Goods	Trade Goods		TRUE	
+12605	Serpentine Skuller	Jed Runewatcher	UBRS	Weapon	Wand			
+13396	Skul's Ghastly Touch	Skul	STRAT	Weapon	Wand			
+13534	Banshee Finger	Baroness Anastari	STRAT	Weapon	Wand			
+17077	Crimson Shocker	Zone Drop	MC	Weapon	Wand			Wand Users
+19367	Dragon's Touch	Flamegor	BWL	Weapon	Wand			Caster dps
+19435	Essence Gatherer	Zone Drop	BWL	Weapon	Wand			Holy priests
+19861	Touch of Chaos	Hakkar	ZG	Weapon	Wand			
+19927	Mar'li's Touch	High Priestess Mar'li	ZG	Weapon	Wand			None
+19967	Thoughtblighter	Hazza'rah	ZG	Weapon	Wand			Holy Priests
+21603	Wand of Qiraji Nobility	Lord Kri	AQ40	Weapon	Wand			
+21801	Antenna of Invigoration	Zone Drop	AQ20	Weapon	Wand			
+22408	Ritssyn's Wand of Bad Mojo	Baron Rivendare	STRAT	Weapon	Wand			
+22820	Wand of Fates	Patchwerk	Naxx	Weapon	Wand			
+22821	Doomfinger	Kel'Thuzad	Naxx	Weapon	Wand			
+23009	Wand of the Whispering Dead	Instructor Razuvious	Naxx	Weapon	Wand			

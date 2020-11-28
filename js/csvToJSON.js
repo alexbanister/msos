@@ -3,8 +3,8 @@ const fs = require('fs');
 
 let prioList = []
 
-fs.createReadStream('masterPrio.csv')
-  .pipe(csv())
+fs.createReadStream('masterPrio.tsv')
+  .pipe(csv({ separator: '\t' }))
   .on('data', (row) => {
     if(row.special) {
       row.special = true
