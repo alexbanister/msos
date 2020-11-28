@@ -1,12 +1,12 @@
 local defaultPrio = {
-	19852={
+	["19852"]= {
 		itemId=19852,
 		name="Ancient Hakkari Manslayer",
 		mats=false,
 		special=false,
 		prio="1H Fury",
 	},
-	18832={
+	"18832"= {
 		itemId=18832,
 		name="Brutality Blade",
 		mats=false,

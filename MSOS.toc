@@ -2,6 +2,7 @@
 ## Title: MS/OS Master Loot
 ## Version: 0.0.1
 ## Author: Hlinka
+## SavedVariables: MSOSDB
 
 embeds.xml
 
@@ -11,5 +12,6 @@ core.lua
 # utils\helpers.lua
 ui\gui.lua
 mockData.lua
+prioList.lua
 # ui\AceGUIWidget-DragLabel.lua
 # ui\AceGUIContainer-InlineGroupMod.lua

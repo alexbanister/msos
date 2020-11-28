@@ -1,6 +1,15 @@
+prio = {
+   ["19852"]={
+      itemId=19852,
+      name="Ancient Hakkari Manslayer",
+      mats=false,
+      special=false,
+      prio="1H Fury",
+   },
+}
 mockData = {
-    ["11264"] = {
-       item = 11264,
+    ["19885"] = {
+       item = 19885,
        prio = "Healers (BIS Holy Priests) + Others",
        special = false,
        active = true,
