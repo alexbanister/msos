@@ -1,0 +1,15 @@
+## Interface: 11302
+## Title: MS/OS Master Loot
+## Version: 0.0.1
+## Author: Hlinka
+
+embeds.xml
+
+core.lua
+# AssignmentPresets.lua
+# utils\table.lua
+# utils\helpers.lua
+ui\gui.lua
+mockData.lua
+# ui\AceGUIWidget-DragLabel.lua
+# ui\AceGUIContainer-InlineGroupMod.lua
