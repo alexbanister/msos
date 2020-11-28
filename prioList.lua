@@ -1,4 +1,4 @@
-local defaultPrio = {
+defaultPrio = {
 	["19852"] = {
 		itemId=19852,
 		name="Ancient Hakkari Manslayer",

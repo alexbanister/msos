@@ -8,11 +8,23 @@ local dataobj = ldb:NewDataObject("MSOS", {
    icon = "133641",
    OnTooltipShow = function(tooltip)
       tooltip:AddLine("MS/OS Master Loot")
-      tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Click", "Open Loot Panel"))
+      tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Left-Click", "Open Loot Panel"))
+      tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Right-Click", "Open Config"))
+      tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Shift + Left-Click", "Post Loot Rules"))
    end,
-   OnClick = function()
-      MSOS:ShowFrame()
-   end,
+   OnClick = function(self, button)
+      if (button == "LeftButton" and IsShiftKeyDown()) then
+         MSOS:Print("Loot rules")
+      elseif (button == "LeftButton") then
+         MSOS:ToggleFrame()
+      elseif (button == "RightButton") then
+         if (InterfaceOptionsFrame and InterfaceOptionsFrame:IsShown()) then
+            InterfaceOptionsFrame:Hide();
+         else
+            MSOS:OpenConfig();
+         end
+      end
+   end
 })
 --------------------------------------
 -- Defaults (usually a database!)
@@ -111,14 +123,12 @@ MSOS.defaults = {
             hex = "009900"
          },
       },
-      prioList = {
-         test = "TESTING"
-      }
+      prioList = {}
    }
 }
 
 function MSOS:HandleSlashCommands()	
-   MSOS.ShowFrame()
+   MSOS.ToggleFrame()
 end
 
 function MSOS:Reload()	
@@ -126,7 +136,7 @@ function MSOS:Reload()
 end
 
 function MSOS:GetThemeColor()
-	local c = defaults.theme;
+	local c = self.db.profile.theme;
 	return c.r, c.g, c.b, c.hex;
 end
 
@@ -153,12 +163,13 @@ function MSOS:OnInitialize()
    self:RegisterChatCommand("ms", "HandleSlashCommands")
    self:RegisterChatCommand("rl", "Reload")
 
+   self.db:RegisterDefaults(self.defaults)
+   self.db.profile.prioList = defaultPrio
    self:Debug("Initialized")
 end
 
 function MSOS:OnEnable()
    MSOS:Print("MS/OS Loot Master addon loaded")
-   MSOS:Print("TEST::: "..self.db.profile.prioList.test)
 
    -- Minimap button.
    if icon and not icon:IsRegistered("MSOS") then
@@ -166,8 +177,7 @@ function MSOS:OnEnable()
    end
   
    -- UpdateFrame()
-   -- RegisterEvents()
-
+   MSOS:RegisterEvents()
    MSOS:setupFrame()
 
    if self.db.profile.debug then
@@ -180,23 +190,78 @@ function MSOS:OnDisable()
 end
 
 
-function RegisterEvents()
+function MSOS:RegisterEvents()
    MSOS:Debug("REGISTERING")
-   -- Listen for changes in raid roster
+
+   self:RegisterEvent("LOOT_READY", "OnOpen")
+   self:RegisterEvent("LOOT_CLOSED", "OnClose")
+   self:RegisterEvent("ZONE_CHANGED_NEW_AREA", "OnEnterInstance")
+   -- CHAT_MSG_LOOT
+   -- LOOT_CLOSED  Fired when a player ceases looting a corpse. Note that this will fire before the last CHAT_MSG_LOOT event for that loot.
+   -- LOOT_OPENED  Fired when a corpse is looted
+   -- LOOT_SLOT_CLEARED Fired when loot is removed from a corpse
+   -- OPEN_MASTER_LOOT_LIST
+   -- RAID_INSTANCE_WELCOME  Fired when the player enters an instance that saves raid members after a boss is killed.
    -- MSOS:RegisterEvent("CHANNEL_UI_UPDATE", "HandleChannelUpdate")
    -- MSOS:RegisterEvent("GROUP_ROSTER_UPDATE", "HandleRosterChange")
    -- MSOS:RegisterEvent("CHAT_MSG_WHISPER", "ReplyWithAssignment")
 end
 
-function MSOS:ShowFrame()
+function MSOS:ToggleFrame()
    MSOS:Debug("TOGGLE FRAME")
 
    if MSOS.MainWindow:IsVisible() then
       MSOS.scroll:ReleaseChildren()
-      MSOS.MainWindow:Hide()
+      self.OnClose()
    else
-      MSOS.MainWindow:Show()
+      self.OnOpen()
       render(MSOS.scroll, mockData)
+   end
+end
+
+function MSOS:OnOpen()
+   MSOS.MainWindow:Show()
+   render(MSOS.scroll, mockData)
+
+   -- itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
+   -- itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID, 
+   -- isCraftingReagent = GetItemInfo(itemID or "itemString" or "itemName" or "itemLink") 
+   -- https://wow.gamepedia.com/API_GetItemInfo
+   loot = GetLootInfo()
+   -- itemID, itemType, itemSubType, itemEquipLoc, icon, itemClassID, itemSubClassID = GetItemInfoInstant(itemID or "itemString" or "itemName" or "itemLink")
+   -- https://wow.gamepedia.com/API_GetItemInfoInstant
+   -- itemId = GetItemInfoInstant(loot.itemName)
+   -- lootIcon, lootName, lootQuantity, currencyID, lootQuality, locked, isQuestItem, questID, isActive = GetLootSlotInfo(slot)
+   -- https://wow.gamepedia.com/API_GetLootSlotInfo
+   numLootItems = GetNumLootItems();
+   
+   -- self:Debug("NUMBER::: "..itemId)
+
+   for i = 1, #loot do
+      local itemId = GetItemInfoInstant(loot[i].item)
+      self:Debug(loot[i].item)
+      -- self:Debug(itemId)
+      for k, v in pairs(GetItemInfoInstant(loot[i].item)) do
+         self:Debug(k.."::: ")
+      end
+   end
+end
+
+function MSOS:OnClose()
+   MSOS.scroll:ReleaseChildren()
+   MSOS.MainWindow:Hide()
+end
+
+function MSOS:OnEnterInstance(raidInfo)
+   MSOS:Debug("ENTERING ZONE")
+   local name, instanceType, _, _, _, _, _, instanceID = GetInstanceInfo()
+   MSOS:Debug("ZONE::: "..name)
+   MSOS:Debug("TYPE::: "..instanceType)
+   MSOS:Debug("ID::: "..instanceID)
+   if (instanceType == "raid") then
+      self:Print("Loot set for "..name)
+   elseif (instanceType == "party") then
+      self:Print("Loot set for "..name)
    end
 end
 
@@ -211,7 +276,7 @@ end
 
 function MSOS:setupFrame()
    MSOS.MainWindow = AceGUI:Create("Window")
-      MSOS.MainWindow:SetTitle("MS/OS Loot Master")
+      MSOS.MainWindow:SetTitle(self.options.name)
       MSOS.MainWindow:SetLayout("Fill")
 
    MSOS.scrollcontainer = AceGUI:Create("SimpleGroup") -- "InlineGroup" is also good
@@ -229,6 +294,21 @@ function MSOS:setupFrame()
    -- so that it is closed when the escape key is pressed.
    tinsert(UISpecialFrames, "MyGlobalFrameName")
 end
+
+function MSOS:OpenConfig()
+   MSOS:Debug("OPEN CONFIG")
+   --Opening the frame needs to be run twice to avoid a bug.
+   -- InterfaceOptionsFrame:Show();
+	InterfaceOptionsFrame_OpenToCategory(self.options.name);
+	--Hack to fix the issue of interface options not opening to menus below the current scroll range.
+	--This addon name starts with N and will always be closer to the middle so just scroll to the middle when opening.
+	local min, max = InterfaceOptionsFrameAddOnsListScrollBar:GetMinMaxValues();
+	if (min < max) then
+		InterfaceOptionsFrameAddOnsListScrollBar:SetValue(math.floor(max/2));
+	end
+	InterfaceOptionsFrame_OpenToCategory(self.options.name);
+end
+
 
 -- -- function UpdateFrame()
 -- --    DebugPrint("\n-----------\nUPDATE")
