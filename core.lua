@@ -80,11 +80,41 @@ MSOS.options = {
 ---------------------------------------------
 MSOS.defaults = {
    profile = {
-       debug = true,
-       icon  = {
-           hide = false,
-       }
-   },
+      setting = true,
+      debug = true,
+      icon  = {
+         hide = false,
+      },
+      theme = {
+         r = 0, 
+         g = 0.8, -- 204/255
+         b = 1,
+         hex = "00ccff"
+      },
+      colors = {
+         error = {
+            r = 0.8,
+            g = 0,
+            b = 0,
+            hex = "CC0000"
+         },
+         warning = {
+            r = 1,
+            g = 0.5,
+            b = 0,
+            hex = "FF8000"
+         },
+         ok = {
+            r = 0,
+            g = 0.6,
+            b = 0,
+            hex = "009900"
+         },
+      },
+      prioList = {
+         test = "TESTING"
+      }
+   }
 }
 
 function MSOS:HandleSlashCommands()	
@@ -128,6 +158,7 @@ end
 
 function MSOS:OnEnable()
    MSOS:Print("MS/OS Loot Master addon loaded")
+   MSOS:Print("TEST::: "..self.db.profile.prioList.test)
 
    -- Minimap button.
    if icon and not icon:IsRegistered("MSOS") then
