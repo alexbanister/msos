@@ -1,4 +1,18 @@
-local defaultPrio = {
+defaultPrio = {
+	["Chipped Claw"] = {
+		itemId=18257,
+		name="Chipped Claw",
+		mats=false,
+		special=true,
+		prio="Only the best",
+	},
+	["Broken Fang"] = {
+		itemId=7073,
+		name="Broken Fang",
+		mats=true,
+		special=false,
+		prio="Guild Reserve",
+	},
 	["Recipe: Major Rejuvenation Potion"] = {
 		itemId=18257,
 		name="Recipe: Major Rejuvenation Potion",

@@ -1,12 +1,76 @@
--- function to load in custom widget layouts for AceGUI
 local AceGUI = LibStub("AceGUI-3.0")
 
-function createItemBlock(loot)
+-- local rollingSteps = {
+--    ms = "Main Spec",
+--    os = "Off Spec",
+--    special = "Special"
+-- }
+
+function MSOS:createButtonGroup(loot, index)
+   local rollButtonGroup = AceGUI:Create("SimpleGroup")
+   rollButtonGroup:SetFullWidth(true)
+   rollButtonGroup:SetLayout("Flow")
+
+   local MSRollButton = AceGUI:Create("Button")
+   MSRollButton:SetText("Main Spec Roll")
+   MSRollButton:ClearAllPoints()
+   MSRollButton:SetPoint("TOPRIGHT")
+   MSRollButton:SetWidth(125)
+   MSRollButton:SetHeight(20)
+   MSRollButton:SetCallback("OnClick", function() MSOS:StartRoll("ms", index) end)
+   if not loot.rollButtonStatus.ms then
+      MSRollButton:SetDisabled(true)
+   end
+   rollButtonGroup:AddChild(MSRollButton)
+
+   local OSRollButton = AceGUI:Create("Button")
+   OSRollButton:SetText("Off Spec Roll")
+   OSRollButton:ClearAllPoints()
+   OSRollButton:SetPoint("TOPRIGHT")
+   OSRollButton:SetWidth(125)
+   OSRollButton:SetHeight(20)
+   OSRollButton:SetCallback("OnClick", function() MSOS:StartRoll("os", index) end)
+   if not loot.rollButtonStatus.os then
+      OSRollButton:SetDisabled(true)
+   end
+   rollButtonGroup:AddChild(OSRollButton)
+
+   local SPRollButton = AceGUI:Create("Button")
+   SPRollButton:SetText("Special Roll")
+   SPRollButton:ClearAllPoints()
+   SPRollButton:SetPoint("TOPRIGHT")
+   SPRollButton:SetWidth(125)
+   SPRollButton:SetHeight(20)
+   SPRollButton:SetCallback("OnClick", function() MSOS:StartRoll("special", index) end)
+   if not loot.rollButtonStatus.special then
+      SPRollButton:SetDisabled(true)
+   end
+   rollButtonGroup:AddChild(SPRollButton)
+
+   local itemDEButton = AceGUI:Create("Button")
+   itemDEButton:SetText("Mats/DE")
+   itemDEButton:ClearAllPoints()
+   itemDEButton:SetPoint("TOPRIGHT")
+   itemDEButton:SetWidth(125)
+   itemDEButton:SetHeight(20)
+   itemDEButton:SetCallback("OnClick", function() print("MATS/DE ACTION") end)
+   if not loot.rollButtonStatus.mats then
+      itemDEButton:SetDisabled(true)
+   end
+   rollButtonGroup:AddChild(itemDEButton)
+   return rollButtonGroup
+end
+
+function MSOS:createItemBlock(loot, index)
+   local item = loot.name
+   if loot.itemId ~= nil then
+      item = loot.itemId
+   end
    local itemBlock = AceGUI:Create("InlineGroup")
    itemBlock:SetFullWidth(true)
    itemBlock:SetLayout("Flow")
 
-   local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice = GetItemInfo(loot.item)
+   local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice = GetItemInfo(item)
    local itemIcon = AceGUI:Create("Icon")
    itemIcon:SetWidth(44) 
    itemIcon:SetImage(itemTexture)
@@ -31,64 +95,19 @@ function createItemBlock(loot)
    itemText:SetRelativeWidth(1)
    textGroup:AddChild(itemText)
 
-   local itemPrio = AceGUI:Create("Label")
-   itemPrio:SetText("Prio: "..loot.prio)
-   itemPrio:SetRelativeWidth(1)
-   textGroup:AddChild(itemPrio)
+   if loot.prio ~= nil then
+      local itemPrio = AceGUI:Create("Label")
+      itemPrio:SetText("Prio: "..loot.prio)
+      itemPrio:SetRelativeWidth(1)
+      textGroup:AddChild(itemPrio)
+   end
 
-   if loot.active then
-      local rollButtonGroup = AceGUI:Create("SimpleGroup")
-      rollButtonGroup:SetFullWidth(true)
-      rollButtonGroup:SetLayout("Flow")
-      itemBlock:AddChild(rollButtonGroup)
-
-      local MSRollButton = AceGUI:Create("Button")
-      MSRollButton:SetText("Main Spec Roll")
-      MSRollButton:ClearAllPoints()
-      MSRollButton:SetPoint("TOPRIGHT")
-      MSRollButton:SetWidth(125)
-      MSRollButton:SetHeight(20)
-      if not loot.rollButtonStatus.ms then
-         MSRollButton:SetDisabled(true)
-      end
-      rollButtonGroup:AddChild(MSRollButton)
-
-      local OSRollButton = AceGUI:Create("Button")
-      OSRollButton:SetText("Off Spec Roll")
-      OSRollButton:ClearAllPoints()
-      OSRollButton:SetPoint("TOPRIGHT")
-      OSRollButton:SetWidth(125)
-      OSRollButton:SetHeight(20)
-      if not loot.rollButtonStatus.os then
-         OSRollButton:SetDisabled(true)
-      end
-      rollButtonGroup:AddChild(OSRollButton)
-
-      local SPRollButton = AceGUI:Create("Button")
-      SPRollButton:SetText("Special Roll")
-      SPRollButton:ClearAllPoints()
-      SPRollButton:SetPoint("TOPRIGHT")
-      SPRollButton:SetWidth(125)
-      SPRollButton:SetHeight(20)
-      if not loot.rollButtonStatus.sp then
-         SPRollButton:SetDisabled(true)
-      end
-      rollButtonGroup:AddChild(SPRollButton)
-
-      local itemDEButton = AceGUI:Create("Button")
-      itemDEButton:SetText("Mats/DE")
-      itemDEButton:ClearAllPoints()
-      itemDEButton:SetPoint("TOPRIGHT")
-      itemDEButton:SetWidth(125)
-      itemDEButton:SetHeight(20)
-      if not loot.rollButtonStatus.mats then
-         itemDEButton:SetDisabled(true)
-      end
-      rollButtonGroup:AddChild(itemDEButton)
+   if loot.rollingState == "rolling" then
+      itemBlock:AddChild(MSOS:createButtonGroup(loot, index))
 
       local rollBlock = AceGUI:Create("InlineGroup")
       rollBlock:SetFullWidth(true)
-      rollBlock:SetTitle("Rolling Main Spec")
+      rollBlock:SetTitle("Rolling "..MSOS.db.profile.rollingStepText[loot.rollingStep])
       itemBlock:AddChild(rollBlock)
 
       local scrollcontainer = AceGUI:Create("ScrollFrame")
@@ -113,16 +132,16 @@ function createItemBlock(loot)
          os = {
             value = "OS"
          },
-         sp = {
+         special = {
             value = "SP"
          },
          count = {
             value = "Count"
          }
       }
-      scrollcontainer:AddChild(createRollsLine(headers))
+      scrollcontainer:AddChild(MSOS:createRollsLine(headers, index, 0))
       for i = 1, #loot.rolls do
-         scrollcontainer:AddChild(createRollsLine(loot.rolls[i]))
+         scrollcontainer:AddChild(MSOS:createRollsLine(loot.rolls[i], index, i))
       end
 
       local cancelRoll = AceGUI:Create("Button")
@@ -131,8 +150,12 @@ function createItemBlock(loot)
       cancelRoll:SetPoint("TOPRIGHT")
       cancelRoll:SetWidth(100)
       cancelRoll:SetHeight(20)
+      if not loot.rollButtonStatus.cancel then
+         cancelRoll:SetDisabled(true)
+      end
+      cancelRoll:SetCallback("OnClick", function() MSOS:CancelRoll(self.db.profile.loot[index].rollingStep, index) end)
       itemBlock:AddChild(cancelRoll)
-   else
+   elseif loot.rollingState == "finished" then
       local lootAwared = AceGUI:Create("Label")
       lootAwared:SetText("Won by "..loot.awardedTo.name.." with a roll of "..loot.awardedTo.roll)
       lootAwared:SetRelativeWidth(1)
@@ -173,28 +196,30 @@ function createItemBlock(loot)
          os = {
             value = "OS"
          },
-         sp = {
+         special = {
             value = "SP"
          },
          count = {
             value = "Count"
          }
       }
-      scrollcontainer:AddChild(createRollsLine(headers))
+      scrollcontainer:AddChild(MSOS:createRollsLine(headers, index, 0))
       for i = 1, #loot.rolls do
-         scrollcontainer:AddChild(createRollsLine(loot.rolls[i]))
+         scrollcontainer:AddChild(MSOS:createRollsLine(loot.rolls[i], index, i))
       end
+   else
+      itemBlock:AddChild(MSOS:createButtonGroup(loot, index))
    end
    return itemBlock
 end
 
-function createRollsLine(roll)
+function MSOS:createRollsLine(roll, index, i)
    local rollLine = AceGUI:Create("SimpleGroup")
    rollLine:SetFullWidth(true)
    rollLine:SetLayout("Flow")
 
    local rollPostion = AceGUI:Create("Label")
-   rollPostion:SetText(roll.position.value)
+   rollPostion:SetText(i)
    if roll.position.color then
       rollPostion:SetColor(roll.position.color.r, roll.position.color.g, roll.position.color.b)
    end
@@ -235,7 +260,7 @@ function createRollsLine(roll)
    rollLine:AddChild(rollOSCount)
 
    local rollSPCount = AceGUI:Create("Label")
-   rollSPCount:SetText(roll.sp.value)
+   rollSPCount:SetText(roll.special.value)
    if roll.os.color then
       rollSPCount:SetColor(roll.os.color.r, roll.os.color.g, roll.os.color.b)
    end
@@ -255,6 +280,7 @@ function createRollsLine(roll)
       rollLootAward:SetText("Award")
       rollLootAward:SetRelativeWidth(.15)
       rollLootAward:SetHeight(20)
+      rollLootAward:SetCallback("OnClick", function() print("AWARD ACTION FOR INDEX: ", index, "i: ", i) end)
       rollLine:AddChild(rollLootAward)
    else
       local placeholder = AceGUI:Create("SimpleGroup")
@@ -266,8 +292,9 @@ function createRollsLine(roll)
 end
 
 function render(frame, loot)
+   frame:ReleaseChildren()
    for k, v in pairs(loot) do
-      frame:AddChild(createItemBlock(v))
+      frame:AddChild(MSOS:createItemBlock(v, k))
    end
    frame:SetWidth(650)
 end

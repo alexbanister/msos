@@ -1,5 +1,6 @@
-local MSOS = LibStub("AceAddon-3.0"):NewAddon("MSOS", "AceConsole-3.0", "AceEvent-3.0");
+local MSOS = LibStub("AceAddon-3.0"):NewAddon("MSOS", "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0");
 local icon = LibStub("LibDBIcon-1.0", true)
+_G["MSOS"] = MSOS
 local AceGUI = LibStub("AceGUI-3.0")
 local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
 local dataobj = ldb:NewDataObject("MSOS", {
@@ -26,38 +27,6 @@ local dataobj = ldb:NewDataObject("MSOS", {
       end
    end
 })
---------------------------------------
--- Defaults (usually a database!)
---------------------------------------
-defaults = {
-   Debug = true,
-	theme = {
-		r = 0, 
-		g = 0.8, -- 204/255
-		b = 1,
-		hex = "00ccff"
-   },
-   colors = {
-      error = {
-         r = 0.8,
-         g = 0,
-         b = 0,
-         hex = "CC0000"
-      },
-      warning = {
-         r = 1,
-         g = 0.5,
-         b = 0,
-         hex = "FF8000"
-      },
-      ok = {
-         r = 0,
-         g = 0.6,
-         b = 0,
-         hex = "009900"
-      },
-   }
-}
 
 ---------------------------------------------
 -- Options
@@ -77,13 +46,25 @@ MSOS.options = {
        },
        icon = {
            type = "toggle",
-           name = "Hide Icon",
+           name = "Hide Minimap Icon",
            desc = "Shows or Hides minimap icon",
            get = function() return MSOS.db.profile.icon.hide end,
            set = function(_, value) MSOS.db.profile.icon.hide = value end,
            order = 1,
 
-       }
+       },
+       resetPrio = {
+         type = "execute",
+         name = "Reset Prio List",
+         order = 1,
+         func = function() MSOS:ResetPrio() end,
+      },
+      resetLoot = {
+         type = "execute",
+         name = "Reset Loot",
+         order = 1,
+         func = function() MSOS:ResetLoot() end,
+      },
    },
 }
 
@@ -123,7 +104,15 @@ MSOS.defaults = {
             hex = "009900"
          },
       },
-      prioList = {}
+      rollingStepText = {
+         ms = "Main Spec",
+         os = "Off Spec",
+         special = "Special"
+      },
+      prioList = {},
+      loot = {},
+      members = {},
+      lootSource = {}
    }
 }
 
@@ -193,9 +182,12 @@ end
 function MSOS:RegisterEvents()
    MSOS:Debug("REGISTERING")
 
-   self:RegisterEvent("LOOT_READY", "OnOpen")
+   self:RegisterEvent("LOOT_READY", "HandleNewLoot")
+   self:RegisterEvent("LOOT_OPENED", "OnOpen")
    self:RegisterEvent("LOOT_CLOSED", "OnClose")
-   self:RegisterEvent("ZONE_CHANGED_NEW_AREA", "OnEnterInstance")
+   self:RegisterEvent("ZONE_CHANGED_NEW_AREA", "OnEnterInstance")   
+
+   -- ITEM_DATA_LOAD_RESULT
    -- CHAT_MSG_LOOT
    -- LOOT_CLOSED  Fired when a player ceases looting a corpse. Note that this will fire before the last CHAT_MSG_LOOT event for that loot.
    -- LOOT_OPENED  Fired when a corpse is looted
@@ -207,6 +199,10 @@ function MSOS:RegisterEvents()
    -- MSOS:RegisterEvent("CHAT_MSG_WHISPER", "ReplyWithAssignment")
 end
 
+function MSOS:DataLoaded(itemId, sucess)
+   render(MSOS.scroll, MSOS.db.profile.loot)
+end
+
 function MSOS:ToggleFrame()
    MSOS:Debug("TOGGLE FRAME")
 
@@ -215,41 +211,241 @@ function MSOS:ToggleFrame()
       self.OnClose()
    else
       self.OnOpen()
-      render(MSOS.scroll, mockData)
+   end
+end
+
+function MSOS:RollTimer(type, index)
+   self:CancelAllTimers()
+   -- self:ScheduleTimer(function() self:SendMsg("10 Sec Remaining...") end, 20)
+   -- self:ScheduleTimer(function() self:SendMsg("5") end, 25)
+   -- self:ScheduleTimer(function() self:SendMsg("4") end, 26)
+   -- self:ScheduleTimer(function() self:SendMsg("3") end, 27)
+   -- self:ScheduleTimer(function() self:SendMsg("2") end, 28)
+   -- self:ScheduleTimer(function() self:SendMsg("1") end, 29)
+   self:ScheduleTimer(function() 
+      self:SendMsg("Roll Has Ended")
+      MSOS:FinishRoll(type, index)
+   end, 3)
+end
+
+function MSOS:StartRoll(type, index)
+   MSOS:RegisterEvent('CHAT_MSG_SYSTEM', "GetRolls")
+   self.db.profile.currentRollIndex = index
+   self.db.profile.loot[index].rollButtonStatus = {
+      ms = false,
+      os = false,
+      special = false,
+      mats = true,
+      cancel = true,
+   }
+   self.db.profile.loot[index].rollingState = "rolling"
+   self.db.profile.loot[index].rollingStep = type
+   self.db.profile.loot[index].rolls = {}
+   self:SendMsg(self.db.profile.rollingStepText[type].." Roll for "..self.db.profile.loot[index].itemLink)
+   if self.db.profile.loot[index].prio ~= nil then
+      self:SendMsg(self.db.profile.loot[index].prio)
+   end
+   self:RollTimer(type, index)
+   render(MSOS.scroll, MSOS.db.profile.loot)
+end
+
+function MSOS:FinishRoll(type)
+   if type == "ms" then
+      self.db.profile.loot[self.db.profile.currentRollIndex].rollButtonStatus.os = true
+   end
+   render(MSOS.scroll, MSOS.db.profile.loot)
+end
+
+function MSOS:CancelRoll(type)
+   self:CancelAllTimers()
+   self:SendMsg("Roll Canceled")
+   self.db.profile.loot[self.db.profile.currentRollIndex].rollButtonStatus.cancel = false
+   self.db.profile.loot[self.db.profile.currentRollIndex].rollButtonStatus.ms = true
+   self.db.profile.loot[self.db.profile.currentRollIndex].rollButtonStatus.os = true
+   self.db.profile.loot[self.db.profile.currentRollIndex].rollButtonStatus.special = true
+   render(MSOS.scroll, MSOS.db.profile.loot)
+   MSOS:LootItemCloseOut()
+end
+
+function MSOS:LootItemCloseOut()
+   MSOS:UnregisterEvent('CHAT_MSG_SYSTEM')
+end
+
+function MSOS:GetRolls(event, msg)
+   self:Debug("READING ROLLS")
+   local name, roll, low, high
+   local found = strfind(msg,"rolls",1,true)
+
+   if found ~= nil then
+      _,_,name, roll, low, high = string.find(msg, "(%a+) rolls (%d+) %((%d+)%-(%d+)%)$")
+   end
+   
+   roll = tonumber(roll, 10)
+   low = tonumber(low, 10)
+   high = tonumber(high, 10)
+
+   if not name or not roll or low ~= 1 or high ~= 100 then
+      return
+   end
+   MSOS:ProcessRoll(name, roll)
+end
+
+function MSOS:ProcessRoll(name, roll)
+   local index = self.db.profile.currentRollIndex
+   local default = {
+      name = name,
+      class = UnitClass(name),
+      ms = 0,
+      os = 0,
+      special = 0
+   }
+
+   if self.db.profile.members[name] == nil then
+      self.db.profile.members[name] = default
+   end
+
+   local rollLine = {
+      position = {
+         value = 1,
+      },
+      roll = {
+         value = roll,
+      },
+      name = {
+         value = self.db.profile.members[name].name,
+         color = self.db.profile.members[name].class
+      },
+      ms = {
+         value = self.db.profile.members[name].ms,
+      },
+      os = {
+         value = self.db.profile.members[name].os,
+      },
+      special = {
+         value = self.db.profile.members[name].special,
+      },
+      count = {
+         value = 1,
+      },
+      awardable = true
+   }
+   -- if #self.db.profile.loot[index].rolls > 0 then
+   --    for i=1, #self.db.profile.loot[index].rolls do
+   --       if self.db.profile.loot[index].rolls[i].name.value == name then
+   --          -- print("COUNT::: ", self.db.profile.loot[index].rolls[i].count.value)
+   --          self.db.profile.loot[index].rolls[i].count.value = self.db.profile.loot[index].rolls[i].count.value + 1
+   --          self.db.profile.loot[index].rolls[i].count.color = self.db.profile.colors.warning
+   --       end
+   --    end
+   -- else
+      table.insert(self.db.profile.loot[index].rolls, 1, rollLine)
+   -- end
+   MSOS:SortRolls(self.db.profile.loot[index].rolls)
+   -- print("SORTED::: ", #sorted)
+   render(MSOS.scroll, MSOS.db.profile.loot)
+end
+
+function MSOS:SortRolls(rolls)
+   table.sort(rolls, function (a, b) return a.roll.value > b.roll.value end )
+   for i = 1, #rolls do 
+      rolls[i].position.color = nil
+      rolls[i].roll.color = nil
+   end
+   rolls[1].position.color = self.db.profile.colors.ok
+   rolls[1].roll.color = self.db.profile.colors.ok
+end
+
+function MSOS:HandleNewLoot()
+   local guid1 = GetLootSourceInfo(1)
+   if self.db.profile.lootSource[guid1] == nil then
+      for i = GetNumLootItems(), 1, -1  do
+         local itemLink =  GetLootSlotLink(i)
+         local item = Item:CreateFromItemLink(itemLink)
+
+         local name
+         local itemId
+         local itemIcon
+         local itemLink
+         item:ContinueOnItemLoad(function()
+            name = item:GetItemName() 
+            itemId = item:GetItemID()
+            itemIcon = item:GetItemIcon()
+            itemLink = item:GetItemLink()
+         end)
+         local item = {
+            ["name"] = name,
+            ["itemId"] = itemId,
+            ["itemLink"] = itemLink,
+            ["inList"] = false,
+            ["prio"] = nil,
+            ["mats"] = false,
+            ["special"] = false,
+            ["rollingState"] = "waiting",
+            ["active"] = true,
+            ["awardedTo"] = {},
+            ["rolls"] = {},
+            ["rollButtonStatus"] = {
+               ms = true,
+               os = false,
+               special = true,
+               mats = true,
+               cancel = false,
+            }
+         }
+         if self.db.profile.prioList[name] then
+            item.prio = self.db.profile.prioList[name].prio
+            if self.db.profile.prioList[name].mats then
+               item.mats = true
+               item.rollButtonStatus.special = false
+               item.rollButtonStatus.ms = false
+            end
+            if self.db.profile.prioList[name].special then
+               item.special = true
+               item.rollButtonStatus.ms = false
+            end
+            item.inList = true
+            if self.db.profile.prioList[name].special then
+               item.rollButtonStatus.special = true
+               item.rollButtonStatus.ms = false
+            end
+         end
+         table.insert(self.db.profile.loot, 1, item)
+         self:AnnounceLoot(item)
+      end
+      self.db.profile.lootSource[guid1] = true
    end
 end
 
 function MSOS:OnOpen()
    MSOS.MainWindow:Show()
-   render(MSOS.scroll, mockData)
-
-   -- itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
-   -- itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID, 
-   -- isCraftingReagent = GetItemInfo(itemID or "itemString" or "itemName" or "itemLink") 
-   -- https://wow.gamepedia.com/API_GetItemInfo
-   loot = GetLootInfo()
-   -- itemID, itemType, itemSubType, itemEquipLoc, icon, itemClassID, itemSubClassID = GetItemInfoInstant(itemID or "itemString" or "itemName" or "itemLink")
-   -- https://wow.gamepedia.com/API_GetItemInfoInstant
-   -- itemId = GetItemInfoInstant(loot.itemName)
-   -- lootIcon, lootName, lootQuantity, currencyID, lootQuality, locked, isQuestItem, questID, isActive = GetLootSlotInfo(slot)
-   -- https://wow.gamepedia.com/API_GetLootSlotInfo
-   numLootItems = GetNumLootItems();
-   
-   -- self:Debug("NUMBER::: "..itemId)
-
-   for i = 1, #loot do
-      local itemId = GetItemInfoInstant(loot[i].item)
-      self:Debug(loot[i].item)
-      -- self:Debug(itemId)
-      for k, v in pairs(GetItemInfoInstant(loot[i].item)) do
-         self:Debug(k.."::: ")
-      end
-   end
+   render(MSOS.scroll, MSOS.db.profile.loot)
 end
 
 function MSOS:OnClose()
+   CloseLoot()
    MSOS.scroll:ReleaseChildren()
    MSOS.MainWindow:Hide()
+end
+
+function MSOS:AnnounceLoot(loot)
+   local prefix = ""
+   local prioText = "No Prio, Open roll."
+   local msg = ""
+   if not loot.inList then
+      self:SendMsg(loot.name)
+   elseif not loot.mats then
+      if loot.special then
+         prefix = "[Special Roll] "
+         prioText = prioText.." Does not count toward MS roll"
+      end
+      msg = prefix..prioText
+      self:SendMsg(loot.name)
+      self:SendMsg(msg)
+   end
+end
+
+function MSOS:SendMsg(msg)
+   self:Print(msg)
 end
 
 function MSOS:OnEnterInstance(raidInfo)
@@ -274,10 +470,20 @@ function MSOS:HideTheIcon(input)
    end
 end
 
+function MSOS:ResetPrio()
+   self.db.profile.prioList = defaultPrio
+end 
+
+function MSOS:ResetLoot()
+   self.db.profile.loot = {}
+   self.db.profile.lootSource = {}
+end 
+
 function MSOS:setupFrame()
    MSOS.MainWindow = AceGUI:Create("Window")
       MSOS.MainWindow:SetTitle(self.options.name)
       MSOS.MainWindow:SetLayout("Fill")
+      MSOS.MainWindow:SetCallback("OnClose", function() self:OnClose() end)
 
    MSOS.scrollcontainer = AceGUI:Create("SimpleGroup") -- "InlineGroup" is also good
       MSOS.scrollcontainer:SetFullWidth(true)

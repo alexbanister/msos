@@ -7,11 +7,5 @@
 embeds.xml
 
 core.lua
-# AssignmentPresets.lua
-# utils\table.lua
-# utils\helpers.lua
 ui\gui.lua
-mockData.lua
 prioList.lua
-# ui\AceGUIWidget-DragLabel.lua
-# ui\AceGUIContainer-InlineGroupMod.lua
