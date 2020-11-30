@@ -1,6 +1,6 @@
 ## Interface: 11302
 ## Title: MS/OS Master Loot
-## Version: 0.0.1
+## Version: 0.8.1
 ## Author: Hlinka
 ## SavedVariables: MSOSDB
 

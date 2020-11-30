@@ -47,13 +47,14 @@ function MSOS:createButtonGroup(loot, index)
    end
    rollButtonGroup:AddChild(SPRollButton)
 
-   local itemDEButton = AceGUI:Create("Button")
+   local itemDEButton = AceGUI:Create("Dropdown")
    itemDEButton:SetText("Mats/DE")
    itemDEButton:ClearAllPoints()
    itemDEButton:SetPoint("TOPRIGHT")
    itemDEButton:SetWidth(125)
    itemDEButton:SetHeight(20)
-   itemDEButton:SetCallback("OnClick", function() print("MATS/DE ACTION") end)
+   itemDEButton:SetList(MSOS:BuildMatsList())
+   itemDEButton:SetCallback("OnValueChanged", function(event) MSOS:HandleMats(loot, event.value, index) end)
    if not loot.rollButtonStatus.mats then
       itemDEButton:SetDisabled(true)
    end
@@ -157,22 +158,31 @@ function MSOS:createItemBlock(loot, index)
       itemBlock:AddChild(cancelRoll)
    elseif loot.rollingState == "finished" then
       local lootAwared = AceGUI:Create("Label")
-      lootAwared:SetText("Won by "..loot.awardedTo.name.." with a roll of "..loot.awardedTo.roll)
+      lootAwared:SetText("Won by "..loot.awardedTo.name)
       lootAwared:SetRelativeWidth(1)
       lootAwared:SetPoint("CENTER")
       itemBlock:AddChild(lootAwared)
 
-      local expandHistory = AceGUI:Create("Button")
-      expandHistory:SetText("-")
-      expandHistory:ClearAllPoints()
-      expandHistory:SetPoint("TOPRIGHT")
-      expandHistory:SetWidth(15)
-      expandHistory:SetHeight(15)
-      itemBlock:AddChild(expandHistory)
+      -- local expandHistory = AceGUI:Create("Button")
+      -- expandHistory:SetText("-")
+      -- expandHistory:ClearAllPoints()
+      -- expandHistory:SetPoint("TOPRIGHT")
+      -- expandHistory:SetWidth(15)
+      -- expandHistory:SetHeight(15)
+      -- itemBlock:AddChild(expandHistory)
 
       local rollBlock = AceGUI:Create("InlineGroup")
       rollBlock:SetFullWidth(true)
       itemBlock:AddChild(rollBlock)
+      -- expandHistory:SetCallback("OnClick", function() 
+      --    if rollBlock:IsVisible() then
+      --       rollBlock:Hide()
+      --       expandHistory:SetText("+")
+      --    else
+      --       rollBlock:DoLayout()
+      --       expandHistory:SetText("-")
+      --    end
+      -- end)
 
       local scrollcontainer = AceGUI:Create("ScrollFrame")
          scrollcontainer:SetFullWidth(true)
@@ -275,12 +285,17 @@ function MSOS:createRollsLine(roll, index, i)
    rollAttempts:SetRelativeWidth(.1)
    rollLine:AddChild(rollAttempts)
 
-   if roll.awardable then
+   if roll.awardable and (MSOS.db.profile.loot[index].active) then
       local rollLootAward = AceGUI:Create("Button")
       rollLootAward:SetText("Award")
       rollLootAward:SetRelativeWidth(.15)
       rollLootAward:SetHeight(20)
-      rollLootAward:SetCallback("OnClick", function() print("AWARD ACTION FOR INDEX: ", index, "i: ", i) end)
+      if not MSOS:PlayIsEligible(roll.name.value) then
+         rollLootAward:SetDisabled(true)
+      end
+      rollLootAward:SetCallback("OnClick", function() 
+         MSOS:AwardLoot(roll.name.value)
+      end)
       rollLine:AddChild(rollLootAward)
    else
       local placeholder = AceGUI:Create("SimpleGroup")
