@@ -17,8 +17,9 @@ local dataobj = ldb:NewDataObject("MSOS", {
       if (button == "LeftButton" and IsShiftKeyDown()) then
          MSOS:SendMsg("Loot Rules:", 1)
          MSOS:SendMsg("MS/OS!", 1)
-         MSOS:SendMsg("If loot has a prio it will be listed. If their is no prio, or you match the prio you can roll on it.", 2)
+         MSOS:SendMsg("If loot has a prio it will be listed. If their is no prio, or you match the prio you can roll on it if you can use it.", 2)
          MSOS:SendMsg("Everyone is limited to 1 Main Spec item.", 2)
+         MSOS:SendMsg("Your Main Spec is the spec you signed up for, even if you've been asked to fill a different role for raid comp.", 2)
          MSOS:SendMsg("If no one rolls for Main Spec then we will roll for Off-Spec.", 2)
          MSOS:SendMsg("There is no limit to how many Off-Spec rolls you can win, but rolls are prioritized by who has won the least.", 2)
          MSOS:SendMsg("So if you have won an off spec roll earlier and you roll a 99 on another item, but someone else hasn't won an off spec roll and they roll a 50, they will win.", 2)
@@ -26,6 +27,7 @@ local dataobj = ldb:NewDataObject("MSOS", {
          MSOS:SendMsg("All loot will be announced when I open the loot window.", 2)
          MSOS:SendMsg("Rolls will be announced when I start them with the Item, Prio, and type of roll (Main Spec / Off Spec / Special)", 2)
          MSOS:SendMsg("Rolls will remain open for 30 seconds. If you need more time just ask.", 2)
+         MSOS:SendMsg("When you win something it would be nice if you wait a few minutes to equip it just in case there's an issue.", 2)
          MSOS:SendMsg("If you have questions about loot rules or a piece of loot, just ask.", 2)
       elseif (button == "LeftButton") then
          MSOS:ToggleFrame()
