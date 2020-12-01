@@ -424,6 +424,9 @@ function MSOS:HandleNewLoot()
                      cancel = false,
                   }
                }
+               if itemQuality == 2 then
+                  item.mats = true
+               end
                if self.db.profile.prioList[name] then
                   item.prio = self.db.profile.prioList[name].prio
                   if self.db.profile.prioList[name].mats then
@@ -442,7 +445,9 @@ function MSOS:HandleNewLoot()
                   end
                end
                table.insert(self.db.profile.loot, 1, item)
-               self:AnnounceLoot(item)
+               if not item.mats then
+                  self:AnnounceLoot(item)
+               end
             end
          end
       end
