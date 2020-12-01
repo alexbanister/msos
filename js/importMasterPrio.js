@@ -1,7 +1,7 @@
 const fs = require('fs');
 const prioList = require('./rawPrioList.json');
 
-let lua = "local defaultPrio = {\n"
+let lua = "defaultPrio = {\n"
 prioList.forEach(i => {
     lua += `\t["${i.name}"] = {\n`
     lua += `\t\titemId=${i.itemId},\n`
