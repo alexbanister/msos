@@ -290,8 +290,11 @@ function MSOS:createRollsLine(roll, index, i)
       rollLootAward:SetText("Award")
       rollLootAward:SetRelativeWidth(.15)
       rollLootAward:SetHeight(20)
-      if not MSOS:PlayIsEligible(roll.name.value) then
+      if not MSOS:PlayIsEligible(roll.name.value) or MSOS.db.profile.debug then
          rollLootAward:SetDisabled(true)
+      end
+      if MSOS.db.profile.debug then
+         rollLootAward:SetDisabled(false)
       end
       rollLootAward:SetCallback("OnClick", function() 
          MSOS:AwardLoot(roll.name.value)

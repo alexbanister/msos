@@ -13,9 +13,10 @@ local dataobj = ldb:NewDataObject("MSOS", {
       tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Right-Click", "Open Config"))
       tooltip:AddLine(format("|cFFC41F3B%s:|r %s", "Shift + Left-Click", "Post Loot Rules"))
    end,
-   OnClick = function(_, button)
+   OnClick = function(self, button)
       if (button == "LeftButton" and IsShiftKeyDown()) then
-         MSOS:Print("Loot rules")
+         MSOS:SendMsg("Loot rules", 1)
+         MSOS:SendMsg("Put Loot Rules here", 1)
       elseif (button == "LeftButton") then
          MSOS:ToggleFrame()
       elseif (button == "RightButton") then
@@ -74,7 +75,7 @@ MSOS.options = {
 MSOS.defaults = {
    profile = {
       setting = true,
-      debug = true,
+      debug = false,
       icon  = {
          hide = false,
       },
@@ -137,7 +138,7 @@ function MSOS:Print(...)
 end
 
 function MSOS:Debug(...)
-   if self.db.profile.debug then
+   if MSOS.db.profile.debug then
       local hex = "990000";
       local prefix = string.format("|cff%s%s|r", hex:upper(), "MS/OS DEBUG:");	
       DEFAULT_CHAT_FRAME:AddMessage(string.join(" ", prefix, ...));
@@ -219,12 +220,12 @@ end
 
 function MSOS:RollTimer(type, index)
    self:CancelAllTimers()
-   self:ScheduleTimer(function() self:SendMsg("10 Sec Remaining...", 2) end, 20)
-   self:ScheduleTimer(function() self:SendMsg("5", 2) end, 25)
-   self:ScheduleTimer(function() self:SendMsg("4", 2) end, 26)
-   self:ScheduleTimer(function() self:SendMsg("3", 2) end, 27)
-   self:ScheduleTimer(function() self:SendMsg("2", 2) end, 28)
-   self:ScheduleTimer(function() self:SendMsg("1", 2) end, 29)
+   self:ScheduleTimer(function() self:SendMsg("10 Sec Remaining...", 1) end, 20)
+   self:ScheduleTimer(function() self:SendMsg("5", 1) end, 25)
+   self:ScheduleTimer(function() self:SendMsg("4", 1) end, 26)
+   self:ScheduleTimer(function() self:SendMsg("3", 1) end, 27)
+   self:ScheduleTimer(function() self:SendMsg("2", 1) end, 28)
+   self:ScheduleTimer(function() self:SendMsg("1", 1) end, 29)
    self:ScheduleTimer(function() 
       self:SendMsg("Roll Has Ended", 2)
       MSOS:FinishRoll(type, index)
@@ -386,63 +387,63 @@ function MSOS:HandleNewLoot()
    if self.db.profile.lootSource[guid1] == nil then
       for i = 1, GetNumLootItems()  do
          local itemLink =  GetLootSlotLink(i)
-         local item = Item:CreateFromItemLink(itemLink)
+         if itemLink ~= nil then
+            local item = Item:CreateFromItemLink(itemLink)
 
-         local name
-         local itemId
-         local itemIcon
-         local itemLink
-         local itemQuality
-         item:ContinueOnItemLoad(function()
-            name = item:GetItemName() 
-            itemId = item:GetItemID()
-            itemIcon = item:GetItemIcon()
-            itemLink = item:GetItemLink()
-            itemQuality = item:GetItemQuality()
-         end)
-         print("ITEM QUALITY::: ", itemQuality)
-         print("THRESHOLD::: ", GetLootThreshold())
-         if itemQuality >= GetLootThreshold() or self.db.profile.debug then
-            local item = {
-               ["name"] = name,
-               ["lootSlot"] = i,
-               ["itemId"] = itemId,
-               ["itemLink"] = itemLink,
-               ["inList"] = false,
-               ["prio"] = nil,
-               ["mats"] = false,
-               ["special"] = false,
-               ["rollingState"] = "waiting",
-               ["active"] = true,
-               ["awardedTo"] = {},
-               ["rolls"] = {},
-               ["rollButtonStatus"] = {
-                  ms = true,
-                  os = false,
-                  special = true,
-                  mats = true,
-                  cancel = false,
+            local name
+            local itemId
+            local itemIcon
+            local itemLink
+            local itemQuality
+            item:ContinueOnItemLoad(function()
+               name = item:GetItemName() 
+               itemId = item:GetItemID()
+               itemIcon = item:GetItemIcon()
+               itemLink = item:GetItemLink()
+               itemQuality = item:GetItemQuality()
+            end)
+            if itemQuality >= GetLootThreshold() then
+               local item = {
+                  ["name"] = name,
+                  ["lootSlot"] = i,
+                  ["itemId"] = itemId,
+                  ["itemLink"] = itemLink,
+                  ["inList"] = false,
+                  ["prio"] = nil,
+                  ["mats"] = false,
+                  ["special"] = false,
+                  ["rollingState"] = "waiting",
+                  ["active"] = true,
+                  ["awardedTo"] = {},
+                  ["rolls"] = {},
+                  ["rollButtonStatus"] = {
+                     ms = true,
+                     os = false,
+                     special = true,
+                     mats = true,
+                     cancel = false,
+                  }
                }
-            }
-            if self.db.profile.prioList[name] then
-               item.prio = self.db.profile.prioList[name].prio
-               if self.db.profile.prioList[name].mats then
-                  item.mats = true
-                  item.rollButtonStatus.special = false
-                  item.rollButtonStatus.ms = false
+               if self.db.profile.prioList[name] then
+                  item.prio = self.db.profile.prioList[name].prio
+                  if self.db.profile.prioList[name].mats then
+                     item.mats = true
+                     item.rollButtonStatus.special = false
+                     item.rollButtonStatus.ms = false
+                  end
+                  if self.db.profile.prioList[name].special then
+                     item.special = true
+                     item.rollButtonStatus.ms = false
+                  end
+                  item.inList = true
+                  if self.db.profile.prioList[name].special then
+                     item.rollButtonStatus.special = true
+                     item.rollButtonStatus.ms = false
+                  end
                end
-               if self.db.profile.prioList[name].special then
-                  item.special = true
-                  item.rollButtonStatus.ms = false
-               end
-               item.inList = true
-               if self.db.profile.prioList[name].special then
-                  item.rollButtonStatus.special = true
-                  item.rollButtonStatus.ms = false
-               end
+               table.insert(self.db.profile.loot, 1, item)
+               self:AnnounceLoot(item)
             end
-            table.insert(self.db.profile.loot, 1, item)
-            self:AnnounceLoot(item)
          end
       end
       self.db.profile.lootSource[guid1] = true
@@ -450,10 +451,10 @@ function MSOS:HandleNewLoot()
 end
 
 function MSOS:OnOpen()
-   if not self.db.profile.debug then
+   if not MSOS.db.profile.debug then
       local _,masterlooterPartyID = GetLootMethod()
       -- Only print loot if we are the master looter and there is loot
-      if masterlooterPartyID ~= 0 or GetNumLootItems() == 0 or not self.db.profile.debug then
+      if masterlooterPartyID ~= 0 or GetNumLootItems() == 0 then
          return
       end
    end
@@ -476,10 +477,13 @@ function MSOS:AwardLoot(name)
    local winnerIndex = MSOS:PlayIsEligible(name)
    local lootSlot = self.db.profile.loot[self.db.profile.currentRollIndex].lootSlot
    GiveMasterLoot(lootSlot, winnerIndex)
+   local type = self.db.profile.loot[self.db.profile.currentRollIndex].rollingStep
+   self.db.profile.members[name][type] = self.db.profile.members[name][type] +1
    self.db.profile.loot[self.db.profile.currentRollIndex].awardedTo.name = name
    self.db.profile.loot[self.db.profile.currentRollIndex].rollingState = "finished"
    self.db.profile.loot[self.db.profile.currentRollIndex].active = false
    self:SendMsg("Congrats "..name..". You won "..self.db.profile.loot[self.db.profile.currentRollIndex].itemLink, 2)
+   MSOS:LootItemCloseOut()
    render(MSOS.scroll, MSOS.db.profile.loot)
 end
 
@@ -514,7 +518,8 @@ function MSOS:SendMsg(msg, lvl)
       channels = { "PARTY", "PARTY"}
    end
    if self.db.profile.debug then
-      self:Print(msg)
+      -- self:Print(msg)
+      SendChatMessage(msg, channels[lvl])
    else
       SendChatMessage(msg, channels[lvl])
    end
@@ -580,6 +585,10 @@ end
 function MSOS:ResetLoot()
    self.db.profile.loot = {}
    self.db.profile.lootSource = {}
+   self.db.profile.MatsTable = {}
+   self.db.profile.members = {}
+   self.db.profile.lootSource = {}
+   self.db.profile.currentRollIndex = nil
 end 
 
 function MSOS:setupFrame()
