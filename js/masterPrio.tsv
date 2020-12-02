@@ -84,29 +84,29 @@ itemId	name	from	location	slot	type	special	mats	prio
 21503	Belt of the Sand Reaver	Kurinnaxx	AQ20	Armor	Plate			
 21803	Helm of the Holy Avenger	Zone Drop	AQ20	Armor	Plate			
 21805	Polished Obsidian Pauldrons	Zone Drop	AQ20	Armor	Plate			
-20861	Bronze Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20862	Crystal Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20865	Ivory Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20860	Silver Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20858	Stone Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20864	Bone Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20863	Clay Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20859	Gold Scarab	Zone Drop	AQ20	Quest	Quest		TRUE	
-20869	Amber Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-20871	Obsidian Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-20868	Lambent Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-20866	Azure Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
+20861	Bronze Scarab	Zone Drop	AQ20	Quest	Quest			
+20862	Crystal Scarab	Zone Drop	AQ20	Quest	Quest			
+20865	Ivory Scarab	Zone Drop	AQ20	Quest	Quest			
+20860	Silver Scarab	Zone Drop	AQ20	Quest	Quest			
+20858	Stone Scarab	Zone Drop	AQ20	Quest	Quest			
+20864	Bone Scarab	Zone Drop	AQ20	Quest	Quest			
+20863	Clay Scarab	Zone Drop	AQ20	Quest	Quest			
+20859	Gold Scarab	Zone Drop	AQ20	Quest	Quest			
+20869	Amber Idol	Zone Drop	AQ20	Quest	Quest			
+20871	Obsidian Idol	Zone Drop	AQ20	Quest	Quest			
+20868	Lambent Idol	Zone Drop	AQ20	Quest	Quest			
+20866	Azure Idol	Zone Drop	AQ20	Quest	Quest			
 20884	Qiraji Magisterial Ring	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Honored with Cenarion Circle. Awards: |cffa335ee|Hitem:21408::::::::60:|h[Band of Unending Life]|h|r |cffa335ee|Hitem:21414::::::::60:|h[Band of Vaulted Secrets Life]|h|r |cffa335ee|Hitem:21393::::::::60:|h[Signet of Unyielding Strength]|h|r |cffa335ee|Hitem:21396::::::::60:|h[Ring of Eternal Justice]|h|r
 20890	Qiraji Ornate Hilt	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Exalted with Cenarion Circle. Awards: |cffa335ee|Hitem:21413::::::::60:|h[Blade of Vaulted Secrets]|h|r |cffa335ee|Hitem:21410::::::::60:|h[Gavel of Infinite Wisdom]|h|r |cffa335ee|Hitem:21416::::::::60:|h[Kris of Unspoken Names]|h|r  |cffa335ee|Hitem:21407::::::::60:|h[Mace of Unending Life]|h|r
 20886	Qiraji Spiked Hilt	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Exalted with Cenarion Circle. Awards: |cffa335ee|Hitem:21395::::::::60:|h[Blade of Eternal Justice]|h|r |cffa335ee|Hitem:21404::::::::60:|h[Dagger of Veiled Shadows]|h|r |cffa335ee|Hitem:21401::::::::60:|h[Scythe of the Unseen Path]|h|r |cffa335ee|Hitem:21392::::::::60:|h[Sickle of Unyielding Strength]|h|r
 20889	Qiraji Regal Drape	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Revered with Cenarion Circle. Awards: |cffa335ee|Hitem:21397::::::::60:|h[Cape of Eternal Justice]|h|r |cffa335ee|Hitem:21403::::::::60:|h[Cloak of the Unseen Path]|h|r |cffa335ee|Hitem:21409::::::::60:|h[Cloak of Unending Life]|h|r |cffa335ee|Hitem:21418::::::::60:|h[Shroud of Unspoken Names]|h|r
 20885	Qiraji Martial Drape	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Revered with Cenarion Circle. Awards: |cffa335ee|Hitem:21406::::::::60:|h[Cloak of Veiled Shadows]|h|r |cffa335ee|Hitem:21394::::::::60:|h[Drape of Unyielding Strength]|h|r |cffa335ee|Hitem:21415::::::::60:|h[Drape of Vaulted Secrets]|h|r |cffa335ee|Hitem:21412::::::::60:|h[Shroud of Infinite Wisdom]|h|r
-20870	Jasper Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-20873	Alabaster Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
+20870	Jasper Idol	Zone Drop	AQ20	Quest	Quest			
+20873	Alabaster Idol	Zone Drop	AQ20	Quest	Quest			
 20888	Qiraji Ceremonial Ring	Zone Drop	AQ20	Quest	Quest	TRUE		Turn in Requires Honored with Cenarion Circle. Awards: |cffa335ee|Hitem:21405::::::::60:|h[Band of Veiled Shadows]|h|r |cffa335ee|Hitem:21411::::::::60:|h[Ring of Infinite Wisdom]|h|r |cffa335ee|Hitem:21417::::::::60:|h[Ring of Unspoken Names]|h|r |cffa335ee|Hitem:21402::::::::60:|h[Signet of the Unseen Path]|h|r
-20867	Onyx Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-20872	Vermillion Idol	Zone Drop	AQ20	Quest	Quest		TRUE	
-21220	Head of Ossirian the Unscarred	Ossirian the Unscarred	AQ20	Quest	Quest	TRUE		Awards: |cffa335ee|Hitem:21504::::::::60:|h[Charm of the Shifting Sands]|h|r |cffa335ee|Hitem:21507::::::::60:|h[Amulet of the Shifting Sands]|h|r |cffa335ee|Hitem:21505::::::::60:|h[Choker of the Shifting Sands]|h|r |cffa335ee|Hitem:21506::::::::60:|h[Pendant of the Shifting Sands]|h|r
+20867	Onyx Idol	Zone Drop	AQ20	Quest	Quest			
+20872	Vermillion Idol	Zone Drop	AQ20	Quest	Quest			
+21220	Head of Ossirian the Unscarred	Ossirian the Unscarred	AQ20	Quest	Quest			Awards: |cffa335ee|Hitem:21504::::::::60:|h[Charm of the Shifting Sands]|h|r |cffa335ee|Hitem:21507::::::::60:|h[Amulet of the Shifting Sands]|h|r |cffa335ee|Hitem:21505::::::::60:|h[Choker of the Shifting Sands]|h|r |cffa335ee|Hitem:21506::::::::60:|h[Pendant of the Shifting Sands]|h|r
 21485	Buru's Skull Fragment	Buru the Gorger	AQ20	Armor	Shield			
 21452	Staff of the Ruins	Ossirian the Unscarred	AQ20	Weapon	Staff			
 21492	Manslayer of the Qiraji	General Rajaxx	AQ20	Weapon	Sword			
@@ -517,7 +517,7 @@ itemId	name	from	location	slot	type	special	mats	prio
 16954	Judgement Legplates	Ragnaros	MC	Armor	Plate			
 16962	Legplates of Wrath	Ragnaros	MC	Armor	Plate			
 18824	Magma Tempered Boots	Zone Drop	MC	Armor	Plate			Holy Pally
-18861	Flamewaker Legplates	Zone Drop	MC	Armor	Plate			
+18861	Flamewaker Legplates	Zone Drop	MC	Armor	Plate			Tank
 19137	Onslaught Girdle	Ragnaros	MC	Armor	Plate			Fury Warrior / Ret Pally
 19143	Flameguard Gauntlets	Zone Drop	MC	Armor	Plate			Ret Pally/ Fury DPS
 17074	Shadowstrike	Sulfuron Harbinger	MC	Weapon	Polearm			None
@@ -527,7 +527,7 @@ itemId	name	from	location	slot	type	special	mats	prio
 17011	Lava Core	Zone Drop	MC	Reagent	Reagent		TRUE	
 17066	Drillborer Disk	Garr	MC	Armor	Shield			Tank
 17106	Malistar's Defender	Ragnaros	MC	Armor	Shield			Holly Pally
-18842	Staff of Dominance	Golemagg the Incinerator	MC	Weapon	Staff			
+18842	Staff of Dominance	Golemagg the Incinerator	MC	Weapon	Staff			Caster DPS
 17103	Azuresong Mageblade	Golemagg the Incinerator	MC	Weapon	Sword			Caster DPS
 17076	Bonereaver's Edge	Ragnaros	MC	Weapon	Sword			Ret Pally/ 2H Fury
 18822	Obsidian Edged Blade	Zone Drop	MC	Weapon	Sword			Ret Pally/ 2H Fury
