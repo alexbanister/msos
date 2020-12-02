@@ -1,4 +1,4 @@
-## Interface: 11302
+## Interface: 11306
 ## Title: MS/OS Master Loot
 ## Version: 0.8.1
 ## Author: Hlinka

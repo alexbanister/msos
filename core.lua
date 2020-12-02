@@ -232,14 +232,14 @@ end
 
 function MSOS:RollTimer(type, index)
    self:CancelAllTimers()
-   self:ScheduleTimer(function() self:SendMsg("10 Sec Remaining...", 1) end, 20)
+   self:ScheduleTimer(function() self:SendMsg("10 Sec Remaining...", 2) end, 20)
    self:ScheduleTimer(function() self:SendMsg("5", 1) end, 25)
    self:ScheduleTimer(function() self:SendMsg("4", 1) end, 26)
    self:ScheduleTimer(function() self:SendMsg("3", 1) end, 27)
    self:ScheduleTimer(function() self:SendMsg("2", 1) end, 28)
    self:ScheduleTimer(function() self:SendMsg("1", 1) end, 29)
    self:ScheduleTimer(function() 
-      self:SendMsg("Roll Has Ended", 2)
+      -- self:SendMsg("Roll Has Ended", 2)
       MSOS:FinishRoll(type, index)
    end, 30)
 end
@@ -367,13 +367,14 @@ end
 function MSOS:SortRolls(rolls)
    local type = self.db.profile.loot[self.db.profile.currentRollIndex].rollingStep
    table.sort(rolls, function (a, b) return a.roll.value > b.roll.value end )
-   table.sort(rolls, function(a, b)
-      if a[type].value ~= b[type].value then
-          return a[type].value < b[type].value
-      end
-
-      return a.roll.value > b.roll.value
-   end)
+   if self.db.profile.loot[self.db.profile.currentRollIndex].rollingStep ~= special then
+      table.sort(rolls, function(a, b)
+         if a[type].value ~= b[type].value then
+            return a[type].value < b[type].value
+         end
+         return a.roll.value > b.roll.value
+      end)
+   end
    for i = 1, #rolls do 
       rolls[i].position.color = nil
       rolls[i].roll.color = nil
@@ -458,7 +459,7 @@ function MSOS:HandleNewLoot()
                end
                table.insert(self.db.profile.loot, 1, item)
                if not item.mats then
-                  self:AnnounceLoot(item)
+                  self:SendMsg(item.itemLink, 2)
                end
             end
          end
@@ -510,22 +511,25 @@ function MSOS:OnClose()
    MSOS.MainWindow:Hide()
 end
 
-function MSOS:AnnounceLoot(loot)
-   local prefix = ""
-   local prioText = "No Prio, Open roll."
-   local msg = ""
-   if not loot.inList then
-      self:SendMsg(loot.itemLink, 1)
-   elseif not loot.mats then
-      if loot.special then
-         prefix = "[Special Roll] "
-         prioText = prioText.." Does not count toward MS roll"
-      end
-      msg = prefix..prioText
-      self:SendMsg(loot.itemLink, 1)
-      self:SendMsg(msg, 1)
-   end
-end
+-- function MSOS:AnnounceLoot(loot)
+--    local prefix = ""
+--    local prioText = loot.prio
+--    if loot.prio == nil then
+--       prioText = "No Prio, Open roll."
+--    end
+--    local msg = ""
+--    if not loot.inList then
+--       self:SendMsg(loot.itemLink, 1)
+--    elseif not loot.mats then
+--       if loot.special then
+--          prefix = "[Special Roll] "
+--          prioText = prioText.." Does not count toward MS roll"
+--       end
+--       msg = prefix..prioText
+--       self:SendMsg(loot.itemLink, 2)
+--       self:SendMsg(msg, 2)
+--    end
+-- end
 
 function MSOS:SendMsg(msg, lvl)
    local channels
